@@ -8,8 +8,5 @@
 .env/
 .venv/
 
-# Dataset files
-*.csv
-
 # Python cache
 __pycache__/
