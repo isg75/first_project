@@ -1,8 +1,15 @@
+# Jupyter and temp files
 .ipynb_checkpoints/
-.venv/
-.env
-notebooks/.ipynb_checkpoints/
-notebooks/.env
-notebooks/.DS_Store
+*.ipynb_checkpoints/
+*.lock
 .DS_Store
-*.in
+
+# Virtual envs
+.env/
+.venv/
+
+# Dataset files
+*.csv
+
+# Python cache
+__pycache__/
