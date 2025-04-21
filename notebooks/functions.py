@@ -1,4 +1,4 @@
-from functions import split_genres_column
+from .functions import split_genres_column
 import pandas as pd
 
 def split_genres_column(df):
