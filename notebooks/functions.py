@@ -1,20 +1,40 @@
-from .functions import split_genres_column
 import pandas as pd
+from functions import (
+    standardize_column_names,
+    fill_missing_values,
+    convert_date_added,
+    remove_duplicates,
+    split_genres_column,
+    clean_duration_column,
+    extract_main_country,
+    normalize_ratings
+)
 
-def split_genres_column(df):
-    """
-    Splits the 'listed_in' column into a list of genres and stores it in a new 'genres' column.
-    """
-    df['genres'] = df['listed_in'].str.split(', ')
-    return df
+# 🧼 Apply all cleaning and transformation functions to the DataFrame
+df = standardize_column_names(df)      # Normalize column names
+df = fill_missing_values(df)           # Fill or drop missing values
+df = convert_date_added(df)            # Convert 'date_added' to datetime
+df = remove_duplicates(df)             # Remove duplicated titles
+df = split_genres_column(df)           # Create 'genres' column from 'listed_in'
+df = clean_duration_column(df)         # Split duration into int and type
+df = extract_main_country(df)          # Create column for first country listed
+df = normalize_ratings(df)             # Unify rating categories (e.g., 'UR', 'NR' → 'Unrated')
 
-def clean_duration_column(df):
-    """
-    Cleans the 'duration' column into two new columns: 'duration_int' and 'duration_type'.
-    Converts to numeric, handles nulls and standardizes naming.
-    """
-    df[['duration_int', 'duration_type']] = df['duration'].str.extract(r'(\d+)\s*(\w+)')
-    df['duration_int'] = pd.to_numeric(df['duration_int'], errors='coerce')
-    df['duration_type'] = df['duration_type'].replace('Seasons', 'Season')
-    df = df[df['duration_int'].notna()]
-    return df
+
+print("Dataset info:")
+print(df.info())
+
+print("Sample of cleaned data:")
+print(df.head())  
+
+print("Column names:")
+print(df.columns.tolist()) 
+
+print("Sample of 'duration_int' and 'duration_type':")
+print(df[['duration_int', 'duration_type']].sample(5))
+
+print("Top 10 most frequent countries (main_country):")
+print(df['main_country'].value_counts().head(10))
+
+print("Unique ratings after normalization:")
+print(df['rating'].unique())
