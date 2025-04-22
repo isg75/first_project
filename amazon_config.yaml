@@ -1,0 +1,6 @@
+input_data:
+  file: "../data/raw/amazon_prime_titles.csv"
+
+output_data:
+  file: "../data/clean/cleaned_amazon_data_with_platform.csv"
+
