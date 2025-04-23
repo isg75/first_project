@@ -3,3 +3,4 @@ input_data:
 
 output_data:
   file: "../data/clean/cleaned_netflix_titles.csv"
+
