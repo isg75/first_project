@@ -1,5 +1,15 @@
 input_data:
   file: "../data/raw/raw_data_file.csv"
+  file1: "../data/raw/reddit_comments_combined.csv"
+  file2: "../data/raw/all_data_M_2024.csv"
+  file3: "../data/raw/Oecd.csv"
+#  file4:
+
+  
 
 output_data:
   file: "../data/clean/cleaned_data_file.csv"
+  file1: "../data/clean/ai_job_sentiments.csv"
+  file2: "../data/clean/occupation_wages.csv"
+  file3: "../data/clean/country_ai_adoption.csv"
+#  file4:
