@@ -4,7 +4,7 @@ USE aivshuman;
 
 
 DROP TABLE IF EXISTS occupation_growth;
-CREATE TABLE `occupation_growth` (
+CREATE TABLE occupation_growth (
   `occupation_code` VARCHAR(100),
   `occupation_title` VARCHAR(255),
   `employment_2023` FLOAT,
@@ -18,10 +18,10 @@ DROP TABLE IF EXISTS ai_job_sentiment;
 CREATE TABLE `ai_job_sentiment` (
   `comment_id` VARCHAR(255),
   `comment_body` VARCHAR(255),
-  `comment_score` VARCHAR(255),
+  `comment_score` INT,
   `post_title` VARCHAR(255),
   `sentiment_label` VARCHAR(255),
-  `occupation_code` Type,
+  `occupation_code` VARCHAR(100),
   PRIMARY KEY (`comment_id`),
   FOREIGN KEY (`occupation_code`) REFERENCES `occupation_growth`(`occupation_code`)
 );
