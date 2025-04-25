@@ -19,6 +19,7 @@ CREATE TABLE `ai_job_sentiment` (
   `comment_id` VARCHAR(255),
   `comment_body` VARCHAR(255),
   `comment_score` INT,
+  `comment_author` VARCHAR(255),
   `post_title` VARCHAR(255),
   `sentiment_label` VARCHAR(255),
   `occupation_code` VARCHAR(100),
@@ -28,7 +29,7 @@ CREATE TABLE `ai_job_sentiment` (
 
 DROP TABLE IF EXISTS occupation_wages;
 CREATE TABLE `occupation_wages` (
-  `id` INT,
+  `id` INT AUTO_INCREMENT,
   `tot_emp` FLOAT,
   `a_mean` FLOAT,
   `h_mean` FLOAT,
@@ -45,19 +46,6 @@ CREATE TABLE `country` (
   PRIMARY KEY (`country_id`)
 );
 
-
-DROP TABLE IF EXISTS country_ai_adoption;
-CREATE TABLE `country_ai_adoption` (
-  `id` Type,
-  `country` VARCHAR(255),
-  `sector` VARCHAR(255),
-  `time_period` INT,
-  `measure` VARCHAR(255),
-  `observation_value` FLOAT,
-  PRIMARY KEY (`id`),
-  FOREIGN KEY (`country`) REFERENCES `country`(`country_id`)
-);
-
 DROP TABLE IF EXISTS sector;
 CREATE TABLE `sector` (
   `sector_id` INT,
@@ -67,3 +55,15 @@ CREATE TABLE `sector` (
   FOREIGN KEY (`occupation_code`) REFERENCES `occupation_growth`(`occupation_code`)
 );
 
+
+DROP TABLE IF EXISTS country_ai_adoption;
+CREATE TABLE `country_ai_adoption` (
+  `id` INT AUTO_INCREMENT,
+  `country` VARCHAR(100),
+  `sector` VARCHAR(100),
+  `time_period` INT,
+  `measure` VARCHAR(255),
+  `obs_value` FLOAT,
+  PRIMARY KEY (`id`)
+
+);
