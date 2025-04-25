@@ -15,34 +15,34 @@ CREATE TABLE occupation_growth (
 
 -- AI JOB SENTIMENT
 DROP TABLE IF EXISTS ai_job_sentiment;
-CREATE TABLE ai_job_sentiment (
-  comment_id VARCHAR(255) PRIMARY KEY,
-  comment_body TEXT,
-  comment_score INT,
-  post_title VARCHAR(255),
-  sentiment_label VARCHAR(255),
-  occupation_code VARCHAR(100),
-  FOREIGN KEY (occupation_code) REFERENCES occupation_growth(occupation_code)
+
+CREATE TABLE `ai_job_sentiment` (
+  `comment_id` VARCHAR(255),
+  `comment_body` VARCHAR(255),
+  `comment_score` INT,
+  `comment_author` VARCHAR(255),
+  `post_title` VARCHAR(255),
+  `sentiment_label` VARCHAR(255),
+  `occupation_code` VARCHAR(100),
+  PRIMARY KEY (`comment_id`),
+  FOREIGN KEY (`occupation_code`) REFERENCES `occupation_growth`(`occupation_code`)
 );
 
 -- OCCUPATION WAGES
 DROP TABLE IF EXISTS occupation_wages;
-CREATE TABLE occupation_wages (
-  id INT PRIMARY KEY,
-  tot_emp FLOAT,
-  a_mean FLOAT,
-  h_mean FLOAT,
-  naics_title VARCHAR(255),
-  occupation_code VARCHAR(100),
-  FOREIGN KEY (occupation_code) REFERENCES occupation_growth(occupation_code)
+
+CREATE TABLE `occupation_wages` (
+  `id` INT AUTO_INCREMENT,
+  `tot_emp` FLOAT,
+  `a_mean` FLOAT,
+  `h_mean` FLOAT,
+  `sector` VARCHAR(255),
+  `occupation_code` VARCHAR(100),
+  PRIMARY KEY (`id`),
+  FOREIGN KEY (`occupation_code`) REFERENCES `occupation_growth`(`occupation_code`)
+
 );
 
--- COUNTRY TABLE
-DROP TABLE IF EXISTS country;
-CREATE TABLE country (
-  country_id INT PRIMARY KEY,
-  country_name VARCHAR(255)
-);
 
 -- COUNTRY AI ADOPTION
 DROP TABLE IF EXISTS country_ai_adoption;
@@ -64,3 +64,10 @@ CREATE TABLE sector (
   occupation_code VARCHAR(100),
   FOREIGN KEY (occupation_code) REFERENCES occupation_growth(occupation_code)
 );
+-- COUNTRY TABLE
+DROP TABLE IF EXISTS country;
+CREATE TABLE country (
+  country_id INT PRIMARY KEY,
+  country_name VARCHAR(255)
+);
+
