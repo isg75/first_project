@@ -27,7 +27,6 @@ Or is it simply reshaping work, requiring new skills and roles?
 - **`occupation_wages.csv`** – Hourly and annual wage data by occupation  
 - **`country_ai_adoption.csv`** – OECD industry-level AI adoption rates  
 - **`ai_job_sentiments.csv`** – Reddit comments and sentiment labels on AI and jobs  
-- **`analysis.ipynb`** – Full exploratory analysis, cleaning, visualizations, and insights
 
 ---
 
@@ -35,7 +34,7 @@ Or is it simply reshaping work, requiring new skills and roles?
 
 - **Python libraries:** pandas, matplotlib, seaborn, spaCy, wordcloud  
 - **EDA:** Data visualization, descriptive analysis, keyword trends  
-- **NLP:** Lemmatization, sentiment classification, stopword filtering  
+- **NLP:** Lemmatization, sentiment classification, stopword filtering 
 - **Data cleaning:** Column normalization, duplicate removal, missing value imputation
 
 ---
