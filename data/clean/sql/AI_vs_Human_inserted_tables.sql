@@ -33,7 +33,7 @@ CREATE TABLE `occupation_wages` (
   `tot_emp` FLOAT,
   `a_mean` FLOAT,
   `h_mean` FLOAT,
-  `naics_title` VARCHAR(255),
+  `industy` VARCHAR(255),
   `occupation_code` VARCHAR(100),
   PRIMARY KEY (`id`),
   FOREIGN KEY (`occupation_code`) REFERENCES `occupation_growth`(`occupation_code`)
