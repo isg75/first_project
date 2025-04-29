@@ -1,77 +1,73 @@
-# Project overview
-...
+#  Humans vs Machines: Is AI Really Taking Over?
 
-# Installation
+This project explores the impact of artificial intelligence (AI) on the future of human employment. Using employment data, industry AI adoption rates, and public sentiment from social media, we investigate how automation is changing—rather than replacing—the workforce.
 
-1. **Clone the repository**:
+---
 
-```bash
-git clone https://github.com/YourUsername/repository_name.git
-```
+##  Business Problem
 
-2. **Install UV**
+As AI adoption increases, many fear it will replace human workers.  
+But is automation truly leading to widespread unemployment?  
+Or is it simply reshaping work, requiring new skills and roles?
 
-If you're a MacOS/Linux user type:
+---
 
-```bash
-curl -LsSf https://astral.sh/uv/install.sh | sh
-```
+##  Hypotheses
 
-If you're a Windows user open an Anaconda Powershell Prompt and type :
+1. **H1:** Public sentiment on AI is increasingly negative
+2. **H2:** AI-adopting industries show productivity gains but shrinking workforce growth  
+3. **H3:** Automation risk correlates with higher unemployment 
+4. **H4:** Creative roles are less automatable
 
-```bash
-powershell -ExecutionPolicy ByPass -c "irm https://astral.sh/uv/install.ps1 | iex"
-```
+---
 
-3. **Create an environment**
+##  Datasets
 
-```bash
-uv venv 
-```
+- **`occupation_growth.csv`** – Employment percent change (2023–2033) by occupation  
+- **`occupation_wages.csv`** – Hourly and annual wage data by occupation  
+- **`country_ai_adoption.csv`** – OECD industry-level AI adoption rates  
+- **`ai_job_sentiments.csv`** – Reddit comments and sentiment labels on AI and jobs  
 
-3. **Activate the environment**
+---
 
-If you're a MacOS/Linux user type (if you're using a bash shell):
+##  Tools & Techniques
 
-```bash
-source ./venv/bin/activate
-```
+- **Python libraries:** pandas, matplotlib, seaborn, spaCy, wordcloud  
+- **EDA:** Data visualization, descriptive analysis, keyword trends  
+- **NLP:** Lemmatization, sentiment classification, stopword filtering 
+- **Data cleaning:** Column normalization, duplicate removal, missing value imputation
 
-If you're a MacOS/Linux user type (if you're using a csh/tcsh shell):
+---
 
-```bash
-source ./venv/bin/activate.csh
-```
+##  Key Insights
 
-If you're a Windows user type:
+-  **Jobs with high automation risk** are shrinking—even in low-AI industries  
+-  **Creative roles** are growing, showing resilience and lower automation exposure  
+-  **AI-adopting sectors** may boost productivity while slowing job growth  
+-  **Reddit sentiment** is mostly negative, filled with anxiety-driven language like “burden,” “delete,” and “replace”
 
-```bash
-.\venv\Scripts\activate
-```
+---
 
-4. **Install dependencies**:
+##  Learnings
 
-```bash
-uv pip install -r requirements.txt
-```
+- AI is not replacing everyone—it’s **reshaping work**, especially routine jobs  
+- **Clean data** and NLP preprocessing are crucial for accurate sentiment analysis  
+- Public perception often **lags behind** what the data reveals
 
-# Questions 
-...
+---
 
-# Dataset 
-...
 
-## Main dataset issues
 
-- ...
-- ...
-- ...
+##  Getting Started
 
-## Solutions for the dataset issues
-...
+1. Clone the repo  
+2. Open `notebooks/analysis.ipynb`  
+3. Run cells to reproduce all visuals and insights
 
-# Conclussions
-...
+---
 
-# Next steps
-...
+##  Contact
+
+Created by **Esra**, **Ewakise**, and **Theophilus**  
+For questions or collaboration, reach out via GitHub.
+
