@@ -1,0 +1,18 @@
+Subregion_id,Subregion_name,Region,Region_id
+1,Latin America and the Caribbean,Americas,1
+2,Southern Asia,Asia,2
+3,Sub-Saharan Africa,Africa,3
+4,Southern Europe,Europe,4
+5,Western Asia,Asia,2
+6,Australia and New Zealand,Oceania,5
+7,Western Europe,Europe,4
+8,Eastern Europe,Europe,4
+9,South-eastern Asia,Asia,2
+10,Northern America,Americas,1
+11,Eastern Asia,Asia,2
+12,Polynesia,Oceania,5
+13,Northern Europe,Europe,4
+14,Northern Africa,Africa,3
+15,Melanesia,Oceania,5
+16,Micronesia,Oceania,5
+17,Central Asia,Asia,2
