@@ -1,0 +1,199 @@
+Country_id,Country_name,Subregion,Subregion_id
+1,Aruba,Latin America and the Caribbean,1
+2,Afghanistan,Southern Asia,2
+3,Angola,Sub-Saharan Africa,3
+4,Albania,Southern Europe,4
+5,Andorra,Southern Europe,4
+6,United Arab Emirates,Western Asia,5
+7,Argentina,Latin America and the Caribbean,1
+8,Armenia,Western Asia,5
+9,Antigua and Barbuda,Latin America and the Caribbean,1
+10,Australia,Australia and New Zealand,6
+11,Austria,Western Europe,7
+12,Azerbaijan,Western Asia,5
+13,Burundi,Sub-Saharan Africa,3
+14,Belgium,Western Europe,7
+15,Benin,Sub-Saharan Africa,3
+16,Burkina Faso,Sub-Saharan Africa,3
+17,Bangladesh,Southern Asia,2
+18,Bulgaria,Eastern Europe,8
+19,Bahrain,Western Asia,5
+20,Bahamas,Latin America and the Caribbean,1
+21,Bosnia and Herzegovina,Southern Europe,4
+22,Belarus,Eastern Europe,8
+23,Belize,Latin America and the Caribbean,1
+24,Bolivia (Plurinational State of),Latin America and the Caribbean,1
+25,Brazil,Latin America and the Caribbean,1
+26,Barbados,Latin America and the Caribbean,1
+27,Brunei Darussalam,South-eastern Asia,9
+28,Bhutan,Southern Asia,2
+29,Botswana,Sub-Saharan Africa,3
+30,Central African Republic,Sub-Saharan Africa,3
+31,Canada,Northern America,10
+32,Switzerland,Western Europe,7
+33,Chile,Latin America and the Caribbean,1
+34,China,Eastern Asia,11
+35,Côte d’Ivoire,Sub-Saharan Africa,3
+36,Cameroon,Sub-Saharan Africa,3
+37,Democratic Republic of the Congo,Sub-Saharan Africa,3
+38,Congo,Sub-Saharan Africa,3
+39,Cook Islands,Polynesia,12
+40,Colombia,Latin America and the Caribbean,1
+41,Comoros,Sub-Saharan Africa,3
+42,Cabo Verde,Sub-Saharan Africa,3
+43,Costa Rica,Latin America and the Caribbean,1
+44,Cuba,Latin America and the Caribbean,1
+45,Curaçao,Latin America and the Caribbean,1
+46,Cyprus,Western Asia,5
+47,Czechia,Eastern Europe,8
+48,Germany,Western Europe,7
+49,Djibouti,Sub-Saharan Africa,3
+50,Dominica,Latin America and the Caribbean,1
+51,Denmark,Northern Europe,13
+52,Dominican Republic,Latin America and the Caribbean,1
+53,Algeria,Northern Africa,14
+54,Ecuador,Latin America and the Caribbean,1
+55,Egypt,Northern Africa,14
+56,Spain,Southern Europe,4
+57,Estonia,Northern Europe,13
+58,Ethiopia,Sub-Saharan Africa,3
+59,Finland,Northern Europe,13
+60,Fiji,Melanesia,15
+61,France,Western Europe,7
+62,Micronesia (Federated States of),Micronesia,16
+63,Gabon,Sub-Saharan Africa,3
+64,United Kingdom of Great Britain and Northern Ireland,Northern Europe,13
+65,Georgia,Western Asia,5
+66,Ghana,Sub-Saharan Africa,3
+67,Guinea,Sub-Saharan Africa,3
+68,Gambia,Sub-Saharan Africa,3
+69,Guinea-Bissau,Sub-Saharan Africa,3
+70,Equatorial Guinea,Sub-Saharan Africa,3
+71,Greece,Southern Europe,4
+72,Grenada,Latin America and the Caribbean,1
+73,Guatemala,Latin America and the Caribbean,1
+74,Guyana,Latin America and the Caribbean,1
+75,"China, Hong Kong Special Administrative Region",Eastern Asia,11
+76,Honduras,Latin America and the Caribbean,1
+77,Croatia,Southern Europe,4
+78,Haiti,Latin America and the Caribbean,1
+79,Hungary,Eastern Europe,8
+80,Indonesia,South-eastern Asia,9
+81,India,Southern Asia,2
+82,Ireland,Northern Europe,13
+83,Iran (Islamic Republic of),Southern Asia,2
+84,Iraq,Western Asia,5
+85,Iceland,Northern Europe,13
+86,Israel,Western Asia,5
+87,Italy,Southern Europe,4
+88,Jamaica,Latin America and the Caribbean,1
+89,Jordan,Western Asia,5
+90,Japan,Eastern Asia,11
+91,Kazakhstan,Central Asia,17
+92,Kenya,Sub-Saharan Africa,3
+93,Kyrgyzstan,Central Asia,17
+94,Cambodia,South-eastern Asia,9
+95,Kiribati,Micronesia,16
+96,Saint Kitts and Nevis,Latin America and the Caribbean,1
+97,Republic of Korea,Eastern Asia,11
+98,Kuwait,Western Asia,5
+99,Lao People's Democratic Republic,South-eastern Asia,9
+100,Lebanon,Western Asia,5
+101,Liberia,Sub-Saharan Africa,3
+102,Libya,Northern Africa,14
+103,Saint Lucia,Latin America and the Caribbean,1
+104,Liechtenstein,Western Europe,7
+105,Sri Lanka,Southern Asia,2
+106,Lesotho,Sub-Saharan Africa,3
+107,Lithuania,Northern Europe,13
+108,Luxembourg,Western Europe,7
+109,Latvia,Northern Europe,13
+110,"China, Macao Special Administrative Region",Eastern Asia,11
+111,Morocco,Northern Africa,14
+112,Monaco,Western Europe,7
+113,Republic of Moldova,Eastern Europe,8
+114,Madagascar,Sub-Saharan Africa,3
+115,Maldives,Southern Asia,2
+116,Mexico,Latin America and the Caribbean,1
+117,Marshall Islands,Micronesia,16
+118,North Macedonia,Southern Europe,4
+119,Mali,Sub-Saharan Africa,3
+120,Malta,Southern Europe,4
+121,Myanmar,South-eastern Asia,9
+122,Montenegro,Southern Europe,4
+123,Mongolia,Eastern Asia,11
+124,Mozambique,Sub-Saharan Africa,3
+125,Mauritania,Sub-Saharan Africa,3
+126,Mauritius,Sub-Saharan Africa,3
+127,Malawi,Sub-Saharan Africa,3
+128,Malaysia,South-eastern Asia,9
+129,Namibia,Sub-Saharan Africa,3
+130,Niger,Sub-Saharan Africa,3
+131,Nigeria,Sub-Saharan Africa,3
+132,Nicaragua,Latin America and the Caribbean,1
+133,Niue,Polynesia,12
+134,Netherlands (Kingdom of the),Western Europe,7
+135,Norway,Northern Europe,13
+136,Nepal,Southern Asia,2
+137,Nauru,Micronesia,16
+138,New Zealand,Australia and New Zealand,6
+139,Oman,Western Asia,5
+140,Pakistan,Southern Asia,2
+141,Panama,Latin America and the Caribbean,1
+142,Peru,Latin America and the Caribbean,1
+143,Philippines,South-eastern Asia,9
+144,Palau,Micronesia,16
+145,Papua New Guinea,Melanesia,15
+146,Poland,Eastern Europe,8
+147,Portugal,Southern Europe,4
+148,Paraguay,Latin America and the Caribbean,1
+149,French Polynesia,Polynesia,12
+150,Qatar,Western Asia,5
+151,Romania,Eastern Europe,8
+152,Russian Federation,Eastern Europe,8
+153,Rwanda,Sub-Saharan Africa,3
+154,Saudi Arabia,Western Asia,5
+155,Sudan,Northern Africa,14
+156,Senegal,Sub-Saharan Africa,3
+157,Singapore,South-eastern Asia,9
+158,Solomon Islands,Melanesia,15
+159,Sierra Leone,Sub-Saharan Africa,3
+160,El Salvador,Latin America and the Caribbean,1
+161,San Marino,Southern Europe,4
+162,Serbia,Southern Europe,4
+163,South Sudan,Sub-Saharan Africa,3
+164,Suriname,Latin America and the Caribbean,1
+165,Slovakia,Eastern Europe,8
+166,Slovenia,Southern Europe,4
+167,Sweden,Northern Europe,13
+168,Eswatini,Sub-Saharan Africa,3
+169,Seychelles,Sub-Saharan Africa,3
+170,Syrian Arab Republic,Western Asia,5
+171,Chad,Sub-Saharan Africa,3
+172,Togo,Sub-Saharan Africa,3
+173,Thailand,South-eastern Asia,9
+174,Tajikistan,Central Asia,17
+175,Turkmenistan,Central Asia,17
+176,Timor-Leste,South-eastern Asia,9
+177,Tonga,Polynesia,12
+178,Trinidad and Tobago,Latin America and the Caribbean,1
+179,Tunisia,Northern Africa,14
+180,Türkiye,Western Asia,5
+181,Tuvalu,Polynesia,12
+182,United Republic of Tanzania,Sub-Saharan Africa,3
+183,Uganda,Sub-Saharan Africa,3
+184,Ukraine,Eastern Europe,8
+185,Uruguay,Latin America and the Caribbean,1
+186,United States of America,Northern America,10
+187,Uzbekistan,Central Asia,17
+188,Holy See,Southern Europe,4
+189,Saint Vincent and the Grenadines,Latin America and the Caribbean,1
+190,Venezuela (Bolivarian Republic of),Latin America and the Caribbean,1
+191,Viet Nam,South-eastern Asia,9
+192,Vanuatu,Melanesia,15
+193,Samoa,Polynesia,12
+194,Yemen,Western Asia,5
+195,South Africa,Sub-Saharan Africa,3
+196,Zambia,Sub-Saharan Africa,3
+197,Zimbabwe,Sub-Saharan Africa,3
+198,Sark,Northern Europe,13
