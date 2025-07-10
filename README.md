@@ -12,59 +12,6 @@ This end-to-end project involves data modeling, database creation, SQL querying,
 
 ---
 
-# Installation
-
-1. **Clone the repository**:
-
-```bash
-git clone https://github.com/YourUsername/repository_name.git
-```
-
-2. **Install UV**
-
-If you're a MacOS/Linux user type:
-
-```bash
-curl -LsSf https://astral.sh/uv/install.sh | sh
-```
-
-If you're a Windows user open an Anaconda Powershell Prompt and type :
-
-```bash
-powershell -ExecutionPolicy ByPass -c "irm https://astral.sh/uv/install.ps1 | iex"
-```
-
-3. **Create an environment**
-
-```bash
-uv venv 
-```
-
-3. **Activate the environment**
-
-If you're a MacOS/Linux user type (if you're using a bash shell):
-
-```bash
-source ./venv/bin/activate
-```
-
-If you're a MacOS/Linux user type (if you're using a csh/tcsh shell):
-
-```bash
-source ./venv/bin/activate.csh
-```
-
-If you're a Windows user type:
-
-```bash
-.\venv\Scripts\activate
-```
-
-4. **Install dependencies**:
-
-```bash
-uv pip install -r requirements.txt
-```
 
 # Questions 
 
@@ -94,20 +41,34 @@ Remote work—common in tech and AI—has significant impacts on mental health, 
 
 ## Main dataset issues
 
-- ...
-- ...
-- ...
+- The data collected by Global AI Job Market Trends & Salary Insights 2025
+-The DB provided by 'The data collected by Global AI Job Market Trends & Salary Insights 2025' was giving information about jobs, including three separate columns for skills associated with each job. 
+
 
 ## Solutions for the dataset issues
-...
+- To properly normalize the data and hand the many-to-many relationship between jobs and skills, it was necessary to create a bridge table linking jobs to individual skills.
 
 # Insights 
+-High salaries correlate with advance degrees + experience
+-Mental health issues increase with remote job intensity, specially with job-office work.
+-Certain regions show faster AI job growth.
+-Some certifications are more valuable than others.
 
-
-...
 
 # Conclusions and next steps
-...
+
+AI Job Market Insights
+- Data shows a strong correlation between higher salaries and advanced degrees or specialized skills (e.g., Python, SQL, cloud platforms).
+- Remote work is growing, but it comes with increased mental health risks like burnout and isolation.
+
+
+Mental Health Findings
+-Professionals in high-pressure, remote AI jobs report greater stress and work-life imbalance.
+-Preventive strategies (breaks, wellness programs, flexible hours) can improve productivity and morale.
+
+Data-Driven Consulting Value
+-An integrated approach that combines career insights with mental health advice can guide individuals more holistically.
+-This positions the consulting service as not just job-oriented, but human-centered.
 
 # Repository Structure
 
