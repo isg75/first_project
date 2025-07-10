@@ -1,16 +1,16 @@
-industry_type
-Automotive
-Media
-Education
-Consulting
-Healthcare
-Gaming
-Government
-Telecommunications
-Manufacturing
-Energy
-Technology
-Real Estate
-Finance
-Transportation
-Retail
+industry,industry_id
+Automotive,1
+Media,2
+Education,3
+Consulting,4
+Healthcare,5
+Gaming,6
+Government,7
+Telecommunications,8
+Manufacturing,9
+Energy,10
+Technology,11
+Real Estate,12
+Finance,13
+Transportation,14
+Retail,15

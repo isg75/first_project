@@ -1,0 +1,26 @@
+job_title,skill_name,skill_count,avg_salary_usd
+"AI Consultant",TensorFlow,127,118449.67
+"AI Consultant",Hadoop,104,113671.93
+"AI Consultant",MLOps,70,109548.29
+"AI Consultant","Computer Vision",70,112837.77
+"AI Consultant",Python,64,105182.83
+"AI Specialist",TensorFlow,148,112974.67
+"AI Specialist",Hadoop,103,128623.81
+"AI Specialist","Computer Vision",81,136086.40
+"AI Specialist",MLOps,67,119847.16
+"AI Specialist","Data Visualization",63,117202.30
+"Data Analyst",TensorFlow,160,114250.28
+"Data Analyst",Hadoop,100,109987.77
+"Data Analyst","Data Visualization",74,117920.96
+"Data Analyst",MLOps,72,106641.71
+"Data Analyst",Python,71,102695.37
+"Data Engineer",TensorFlow,163,116407.64
+"Data Engineer",Hadoop,96,111299.74
+"Data Engineer",Python,78,125675.36
+"Data Engineer",Azure,68,113264.01
+"Data Engineer",MLOps,61,124034.30
+"Data Scientist",TensorFlow,149,112653.39
+"Data Scientist",Hadoop,98,126471.09
+"Data Scientist","Computer Vision",87,114245.07
+"Data Scientist","Data Visualization",69,109040.51
+"Data Scientist",Python,69,118484.51
