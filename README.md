@@ -1,10 +1,16 @@
 # Project overview
-This project explores the Global AI job market using relational databases and SQL. Our goal is to uncover ..., . This end-to-end project involves data modeling, database creation, SQL querying, insight generation, and Python-based data visualization.
 
-🛠 GitHub Repository: ...
-📋 Trello Board: [Project Tasks & Timeline](https://trello.com/b/vZzROWNR/global-ai-job-market-trends-salary)
-🖼 ERD Diagram: [erd/airline_loyalty_ERD.png](https://drawsql.app/teams/ironhack-34/diagrams/ai-job-dataset)
-Presentation: [ Global AI job market ](https://docs.google.com/presentation/d/10C4iM9QNUbr2kSS1-GjYP2EgXsZBRndRMB3xpewEJeg/edit?slide=id.g36e20e69003_0_5#slide=id.g36e20e69003_0_5)
+This project explores the Global AI job Market and Mental health Issues relational databases and SQL, to create a specialized consulting service that helps individuals enter the data job market. This service combines:
+Job market analysis using data-driven insights into job roles, salaries, experience levels, education, and regions.
+Mental health and wellness advice for remote workers.
+This end-to-end project involves data modeling, database creation, SQL querying, insight generation, and Python-based data visualization.
+
+- 🛠 GitHub Repository: [fist_project](https://github.com/MiguelSoares1/first_project)
+- 📋 Trello Board: [Project Tasks & Timeline](https://trello.com/b/vZzROWNR/global-ai-job-market-trends-salary)
+- 🖼 ERD Diagram: [erd/ai_job_ERD.png](https://drawsql.app/teams/ironhack-34/diagrams/ai-job-dataset) and [health_impact_ERD.png](https://drawsql.app/teams/ironhack-34/diagrams/health-impact)
+- Presentation: [ Global AI job market ](https://docs.google.com/presentation/d/10C4iM9QNUbr2kSS1-GjYP2EgXsZBRndRMB3xpewEJeg/edit?slide=id.g36e20e69003_0_5#slide=id.g36e20e69003_0_5)
+
+---
 
 # Installation
 
@@ -61,15 +67,29 @@ uv pip install -r requirements.txt
 ```
 
 # Questions 
-Business Problem & Hypothesis
-Problem:
-Hypothesis:
+
+**Business Problem & Hypothesis**
+
+>Business Case: AI Career Consultant – Career and Wellness Consulting for the AI Job Market
+
+
+**Problem**
+> Many aspiring AI professionals lack clarity on where to start: what roles exist, required skills, realistic salaries, and career paths.
+Remote work—common in tech and AI—has significant impacts on mental health, including stress, burnout, and isolation, especially for early-career professionals. 
+
+**Hypothesis**
+> 1. Professionals face significant barriers when trying to access AI roles. The roles ask for a variety of different skills and experience.
+> 2. Professionals in AI roles with greater responsibility and high salary expectations face higher levels of stress and emotional exhaustion, especially in more senior roles.
+
 
 
 # Dataset 
-Dataset Name	Description
-Global AI Job Market Trends & Salary Insights 2025 Explore AI job roles, salaries, skills demand, and remote work trends worldwide
-Remote Work Of Health The Post-Pandemic Remote Work Health Impact 2025 dataset presents a comprehensive, global snapshot of how remote, hybrid, and onsite work arrangements are influencing the mental and physical health of employees in the post-pandemic era.
+
+
+| Dataset Name                                          | Description |
+|-------------------------------------------------------|-------------|
+| `Global AI Job Market Trends & Salary Insights 2025 ` | Explore AI job roles, salaries, skills demand, and remote work trends worldwide |
+| `Remote Work Of Health The Post-Pandemic`             | The dataset presents a comprehensive, global snapshot of how remote, hybrid, and onsite work arrangements are influencing the mental and physical health of employees in the post-pandemic era. |
 
 
 ## Main dataset issues
@@ -81,13 +101,17 @@ Remote Work Of Health The Post-Pandemic Remote Work Health Impact 2025 dataset p
 ## Solutions for the dataset issues
 ...
 
-# Conclussions
+# Insights 
+
+
 ...
 
-# Next steps
+# Conclusions and next steps
 ...
 
 # Repository Structure
+
+```
 
 first_project/
 ├── data/                        # Raw and cleaned CSV files
@@ -100,9 +124,24 @@ first_project/
 ├── requirements.txt             # List of libraries and versions used 
 └── requirements-dev.txt         # List of libraries and versions used, without Jupyter
 
+```
 
-👥 Team Members
-Guilherme Haas
+
+##  Tools Used
+
+- MySQL  
+- Python (Pandas, Seaborn, Matplotlib)  
+- Jupyter Notebooks  
+- Git & GitHub  
+- Trello (for task planning)  
+- Draw.io (for ERD)
+- Visual Studio Code IDE & plugins
+  
+---
+
+## 👥 Team Members
+
+__*Guilherme Haas
 Macarena Ruiz
 Miguel Soares
-Sumaiya Parvin
+Sumaiya Parvin*__
