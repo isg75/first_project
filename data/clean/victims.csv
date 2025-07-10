@@ -1,0 +1,13 @@
+Victim_id,Sex,Age
+1,Unknown,Unknown
+2,Unknown,Minor
+3,Unknown,Adult
+4,Female,Minor
+5,Female,Adult
+6,Male,Minor
+7,Male,Adult
+8,Other,Adult
+9,Other,Minor
+10,Female,Unknown
+11,Male,Unknown
+12,Other,Unknown

@@ -1,0 +1,35 @@
+Subregion_name,Age_Group,Victim_Count,Percentage
+"Australia and New Zealand",Adult,171,28.93
+"Australia and New Zealand",Minor,157,26.57
+"Central Asia",Adult,283,30.73
+"Central Asia",Minor,277,30.08
+"Eastern Asia",Adult,233,27.77
+"Eastern Asia",Minor,212,25.27
+"Eastern Europe",Adult,900,28.54
+"Eastern Europe",Minor,837,26.54
+"Latin America and the Caribbean",Adult,1706,25.74
+"Latin America and the Caribbean",Minor,1686,25.44
+Melanesia,Adult,107,30.75
+Melanesia,Minor,112,32.18
+Micronesia,Adult,119,34.10
+Micronesia,Minor,111,31.81
+"Northern Africa",Adult,227,30.07
+"Northern Africa",Minor,228,30.20
+"Northern America",Adult,177,20.46
+"Northern America",Minor,177,20.46
+"Northern Europe",Adult,872,19.69
+"Northern Europe",Minor,817,18.45
+Polynesia,Adult,117,35.45
+Polynesia,Minor,119,36.06
+"South-eastern Asia",Adult,499,25.94
+"South-eastern Asia",Minor,504,26.20
+"Southern Asia",Adult,213,28.44
+"Southern Asia",Minor,206,27.50
+"Southern Europe",Adult,1214,24.78
+"Southern Europe",Minor,1163,23.74
+"Sub-Saharan Africa",Adult,1071,26.64
+"Sub-Saharan Africa",Minor,1036,25.77
+"Western Asia",Adult,1078,25.50
+"Western Asia",Minor,987,23.35
+"Western Europe",Adult,681,15.27
+"Western Europe",Minor,667,14.96
