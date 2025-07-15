@@ -1,77 +1,9 @@
-# Project overview
-...
+AB Testing was group project that me and 3 other colleagues had to complete during our fifth week of the  bootcamp. 
 
-# Installation
+Dataset provided by IRONHACK.
 
-1. **Clone the repository**:
+We did the data cleaning using pandas functions: Then we export it as a CSV.
 
-```bash
-git clone https://github.com/YourUsername/repository_name.git
-```
 
-2. **Install UV**
-
-If you're a MacOS/Linux user type:
-
-```bash
-curl -LsSf https://astral.sh/uv/install.sh | sh
-```
-
-If you're a Windows user open an Anaconda Powershell Prompt and type :
-
-```bash
-powershell -ExecutionPolicy ByPass -c "irm https://astral.sh/uv/install.ps1 | iex"
-```
-
-3. **Create an environment**
-
-```bash
-uv venv 
-```
-
-3. **Activate the environment**
-
-If you're a MacOS/Linux user type (if you're using a bash shell):
-
-```bash
-source ./venv/bin/activate
-```
-
-If you're a MacOS/Linux user type (if you're using a csh/tcsh shell):
-
-```bash
-source ./venv/bin/activate.csh
-```
-
-If you're a Windows user type:
-
-```bash
-.\venv\Scripts\activate
-```
-
-4. **Install dependencies**:
-
-```bash
-uv pip install -r requirements.txt
-```
-
-# Questions 
-...
-
-# Dataset 
-...
-
-## Main dataset issues
-
-- ...
-- ...
-- ...
-
-## Solutions for the dataset issues
-...
-
-# Conclussions
-...
-
-# Next steps
-...
+Afterwards, as part of the project, we created a presentation in which we shared the step that we took to finish it and the results. The presentation can be found here: 
+https://data-ft-june-2025.slack.com/archives/C096CCW1CHW/p1752592025438319
