@@ -1,0 +1,3162 @@
+<?xml version='1.0' encoding='utf-8' ?>
+
+<!-- build 20252.25.0514.2217                               -->
+<workbook original-version='18.1' source-build='2025.2.0 (20252.25.0514.2217)' source-platform='win' version='18.1' xmlns:user='http://www.tableausoftware.com/xml/user'>
+  <document-format-change-manifest>
+    <AnimationOnByDefault />
+    <MarkAnimation />
+    <ObjectModelEncapsulateLegacy />
+    <ObjectModelExtractV2 />
+    <ObjectModelTableType />
+    <SchemaViewerObjectModel />
+    <SheetIdentifierTracking />
+    <_.fcp.VConnDownstreamExtractsWithWarnings.true...VConnDownstreamExtractsWithWarnings />
+    <WindowsPersistSimpleIdentifiers />
+  </document-format-change-manifest>
+  <preferences>
+    <preference name='ui.encoding.shelf.height' value='24' />
+    <preference name='ui.shelf.height' value='26' />
+  </preferences>
+  <style>
+    <style-rule element='worksheet'>
+      <format attr='font-weight' value='bold' />
+      <format attr='font-size' value='14' />
+    </style-rule>
+  </style>
+  <datasources>
+    <datasource caption='result' inline='true' name='federated.1efjumk164go4e1fizgmb09xwo08' version='18.1'>
+      <connection class='federated'>
+        <named-connections>
+          <named-connection caption='result' name='textscan.0f702xi1cta8v91eiyutw08ubxft'>
+            <connection class='textscan' directory='C:/Users/sheri/Desktop/Ironhack/UNIT5/project/vanguard-ab-test/notebooks' filename='result.csv' password='' server='' />
+          </named-connection>
+        </named-connections>
+        <relation connection='textscan.0f702xi1cta8v91eiyutw08ubxft' name='result.csv' table='[result#csv]' type='table'>
+          <columns character-set='UTF-8' header='yes' locale='en_US' separator=','>
+            <column datatype='integer' name='client_id' ordinal='0' />
+            <column datatype='integer' name='backward_count' ordinal='1' />
+            <column datatype='real' name='total_transitions' ordinal='2' />
+            <column datatype='real' name='error_rate' ordinal='3' />
+            <column datatype='real' name='clnt_age' ordinal='4' />
+            <column datatype='string' name='Variation' ordinal='5' />
+          </columns>
+        </relation>
+        <metadata-records>
+          <metadata-record class='capability'>
+            <remote-name />
+            <remote-type>0</remote-type>
+            <parent-name>[result.csv]</parent-name>
+            <remote-alias />
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='character-set'>&quot;UTF-8&quot;</attribute>
+              <attribute datatype='string' name='collation'>&quot;en_US&quot;</attribute>
+              <attribute datatype='string' name='field-delimiter'>&quot;,&quot;</attribute>
+              <attribute datatype='string' name='header-row'>&quot;true&quot;</attribute>
+              <attribute datatype='string' name='locale'>&quot;en_US&quot;</attribute>
+              <attribute datatype='string' name='single-char'>&quot;&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>client_id</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[client_id]</local-name>
+            <parent-name>[result.csv]</parent-name>
+            <remote-alias>client_id</remote-alias>
+            <ordinal>0</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <object-id>[result.csv_391C641F46664607959BF95C27ACFD5F]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>backward_count</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[backward_count]</local-name>
+            <parent-name>[result.csv]</parent-name>
+            <remote-alias>backward_count</remote-alias>
+            <ordinal>1</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <object-id>[result.csv_391C641F46664607959BF95C27ACFD5F]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>total_transitions</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[total_transitions]</local-name>
+            <parent-name>[result.csv]</parent-name>
+            <remote-alias>total_transitions</remote-alias>
+            <ordinal>2</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <object-id>[result.csv_391C641F46664607959BF95C27ACFD5F]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>error_rate</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[error_rate]</local-name>
+            <parent-name>[result.csv]</parent-name>
+            <remote-alias>error_rate</remote-alias>
+            <ordinal>3</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <object-id>[result.csv_391C641F46664607959BF95C27ACFD5F]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>clnt_age</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[clnt_age]</local-name>
+            <parent-name>[result.csv]</parent-name>
+            <remote-alias>clnt_age</remote-alias>
+            <ordinal>4</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <object-id>[result.csv_391C641F46664607959BF95C27ACFD5F]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Variation</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[Variation]</local-name>
+            <parent-name>[result.csv]</parent-name>
+            <remote-alias>Variation</remote-alias>
+            <ordinal>5</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RUS' />
+            <object-id>[result.csv_391C641F46664607959BF95C27ACFD5F]</object-id>
+          </metadata-record>
+        </metadata-records>
+      </connection>
+      <aliases enabled='yes' />
+      <column caption='result.csv' datatype='table' name='[__tableau_internal_object_id__].[result.csv_391C641F46664607959BF95C27ACFD5F]' role='measure' type='quantitative' />
+      <column caption='Backward Count' datatype='integer' name='[backward_count]' role='measure' type='quantitative' />
+      <column caption='Client Id' datatype='integer' name='[client_id]' role='dimension' type='ordinal' />
+      <column caption='Clnt Age' datatype='real' name='[clnt_age]' role='measure' type='quantitative' />
+      <column caption='Error Rate' datatype='real' name='[error_rate]' role='measure' type='quantitative' />
+      <column caption='Total Transitions' datatype='real' name='[total_transitions]' role='measure' type='quantitative' />
+      <extract _.fcp.VConnDownstreamExtractsWithWarnings.true...user-specific='false' count='-1' enabled='true' object-id='' units='records'>
+        <connection access_mode='readonly' author-locale='en_US' class='hyper' dbname='C:/Users/sheri/AppData/Local/Temp/TableauTemp/#TableauTemp_15lhvtu1aq69bk12u6ttt0ipbflc.hyper' default-settings='hyper' schema='Extract' sslmode='' tablename='Extract' update-time='07/21/2025 03:51:21 PM' username='tableau_internal_user'>
+          <relation name='Extract' table='[Extract].[Extract]' type='table' />
+          <metadata-records>
+            <metadata-record class='column'>
+              <remote-name>client_id</remote-name>
+              <remote-type>20</remote-type>
+              <local-name>[client_id]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>client_id</remote-alias>
+              <ordinal>0</ordinal>
+              <family>result.csv</family>
+              <local-type>integer</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>50487</approx-count>
+              <contains-null>true</contains-null>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>backward_count</remote-name>
+              <remote-type>20</remote-type>
+              <local-name>[backward_count]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>backward_count</remote-alias>
+              <ordinal>1</ordinal>
+              <family>result.csv</family>
+              <local-type>integer</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>35</approx-count>
+              <contains-null>true</contains-null>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>total_transitions</remote-name>
+              <remote-type>5</remote-type>
+              <local-name>[total_transitions]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>total_transitions</remote-alias>
+              <ordinal>2</ordinal>
+              <family>result.csv</family>
+              <local-type>real</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>49</approx-count>
+              <contains-null>true</contains-null>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>error_rate</remote-name>
+              <remote-type>5</remote-type>
+              <local-name>[error_rate]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>error_rate</remote-alias>
+              <ordinal>3</ordinal>
+              <family>result.csv</family>
+              <local-type>real</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>135</approx-count>
+              <contains-null>true</contains-null>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>clnt_age</remote-name>
+              <remote-type>5</remote-type>
+              <local-name>[clnt_age]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>clnt_age</remote-alias>
+              <ordinal>4</ordinal>
+              <family>result.csv</family>
+              <local-type>real</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>202</approx-count>
+              <contains-null>true</contains-null>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>Variation</remote-name>
+              <remote-type>129</remote-type>
+              <local-name>[Variation]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>Variation</remote-alias>
+              <ordinal>5</ordinal>
+              <family>result.csv</family>
+              <local-type>string</local-type>
+              <aggregation>Count</aggregation>
+              <approx-count>2</approx-count>
+              <contains-null>true</contains-null>
+              <collation flag='0' name='LEN_RUS' />
+            </metadata-record>
+          </metadata-records>
+        </connection>
+      </extract>
+      <layout dim-ordering='alphabetic' measure-ordering='alphabetic' show-structure='true' />
+      <semantic-values>
+        <semantic-value key='[Country].[Name]' value='&quot;Germany&quot;' />
+      </semantic-values>
+      <object-graph>
+        <objects>
+          <object caption='result.csv' id='result.csv_391C641F46664607959BF95C27ACFD5F'>
+            <properties context=''>
+              <relation connection='textscan.0f702xi1cta8v91eiyutw08ubxft' name='result.csv' table='[result#csv]' type='table'>
+                <columns character-set='UTF-8' header='yes' locale='en_US' separator=','>
+                  <column datatype='integer' name='client_id' ordinal='0' />
+                  <column datatype='integer' name='backward_count' ordinal='1' />
+                  <column datatype='real' name='total_transitions' ordinal='2' />
+                  <column datatype='real' name='error_rate' ordinal='3' />
+                  <column datatype='real' name='clnt_age' ordinal='4' />
+                  <column datatype='string' name='Variation' ordinal='5' />
+                </columns>
+              </relation>
+            </properties>
+            <properties context='extract'>
+              <relation name='Extract' table='[Extract].[Extract]' type='table' />
+            </properties>
+          </object>
+        </objects>
+      </object-graph>
+    </datasource>
+    <datasource caption='age_group_error' inline='true' name='federated.0hdledx1u6r17a18dit3i14ql5n9' version='18.1'>
+      <connection class='federated'>
+        <named-connections>
+          <named-connection caption='age_group_error' name='textscan.0vqgodr04ybps018iy5yf058ji3x'>
+            <connection class='textscan' directory='C:/Users/sheri/Desktop/Ironhack/UNIT5/project/vanguard-ab-test/notebooks' filename='age_group_error.csv' password='' server='' />
+          </named-connection>
+        </named-connections>
+        <relation connection='textscan.0vqgodr04ybps018iy5yf058ji3x' name='age_group_error.csv' table='[age_group_error#csv]' type='table'>
+          <columns character-set='UTF-8' header='yes' locale='en_US' separator=','>
+            <column datatype='string' name='Variation' ordinal='0' />
+            <column datatype='string' name='age_group' ordinal='1' />
+            <column datatype='real' name='error_rate' ordinal='2' />
+          </columns>
+        </relation>
+        <metadata-records>
+          <metadata-record class='capability'>
+            <remote-name />
+            <remote-type>0</remote-type>
+            <parent-name>[age_group_error.csv]</parent-name>
+            <remote-alias />
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='character-set'>&quot;UTF-8&quot;</attribute>
+              <attribute datatype='string' name='collation'>&quot;en_US&quot;</attribute>
+              <attribute datatype='string' name='field-delimiter'>&quot;,&quot;</attribute>
+              <attribute datatype='string' name='header-row'>&quot;true&quot;</attribute>
+              <attribute datatype='string' name='locale'>&quot;en_US&quot;</attribute>
+              <attribute datatype='string' name='single-char'>&quot;&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Variation</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[Variation]</local-name>
+            <parent-name>[age_group_error.csv]</parent-name>
+            <remote-alias>Variation</remote-alias>
+            <ordinal>0</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RUS' />
+            <object-id>[age_group_error.csv_6470A7FB81F9419C9E10B00318AA9037]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>age_group</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[age_group]</local-name>
+            <parent-name>[age_group_error.csv]</parent-name>
+            <remote-alias>age_group</remote-alias>
+            <ordinal>1</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RUS' />
+            <object-id>[age_group_error.csv_6470A7FB81F9419C9E10B00318AA9037]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>error_rate</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[error_rate]</local-name>
+            <parent-name>[age_group_error.csv]</parent-name>
+            <remote-alias>error_rate</remote-alias>
+            <ordinal>2</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <object-id>[age_group_error.csv_6470A7FB81F9419C9E10B00318AA9037]</object-id>
+          </metadata-record>
+        </metadata-records>
+      </connection>
+      <aliases enabled='yes' />
+      <column datatype='string' name='[Variation]' role='dimension' type='nominal' />
+      <column caption='age_group_error.csv' datatype='table' name='[__tableau_internal_object_id__].[age_group_error.csv_6470A7FB81F9419C9E10B00318AA9037]' role='measure' type='quantitative' />
+      <column caption='Age Group' datatype='string' name='[age_group]' role='dimension' type='nominal' />
+      <column caption='Error Rate' datatype='real' name='[error_rate]' role='measure' type='quantitative' />
+      <column-instance column='[Variation]' derivation='None' name='[none:Variation:nk]' pivot='key' type='nominal' />
+      <column-instance column='[age_group]' derivation='None' name='[none:age_group:nk]' pivot='key' type='nominal' />
+      <extract _.fcp.VConnDownstreamExtractsWithWarnings.true...user-specific='false' count='-1' enabled='true' object-id='' units='records'>
+        <connection access_mode='readonly' author-locale='en_US' class='hyper' dbname='C:/Users/sheri/AppData/Local/Temp/TableauTemp/#TableauTemp_0di1n9811f1kw317d1smt120n8o0.hyper' default-settings='hyper' schema='Extract' sslmode='' tablename='Extract' update-time='07/21/2025 03:57:30 PM' username='tableau_internal_user'>
+          <relation name='Extract' table='[Extract].[Extract]' type='table' />
+          <metadata-records>
+            <metadata-record class='column'>
+              <remote-name>Variation</remote-name>
+              <remote-type>129</remote-type>
+              <local-name>[Variation]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>Variation</remote-alias>
+              <ordinal>0</ordinal>
+              <family>age_group_error.csv</family>
+              <local-type>string</local-type>
+              <aggregation>Count</aggregation>
+              <approx-count>2</approx-count>
+              <contains-null>true</contains-null>
+              <collation flag='0' name='LEN_RUS' />
+              <object-id>[age_group_error.csv_6470A7FB81F9419C9E10B00318AA9037]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>age_group</remote-name>
+              <remote-type>129</remote-type>
+              <local-name>[age_group]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>age_group</remote-alias>
+              <ordinal>1</ordinal>
+              <family>age_group_error.csv</family>
+              <local-type>string</local-type>
+              <aggregation>Count</aggregation>
+              <approx-count>7</approx-count>
+              <contains-null>true</contains-null>
+              <collation flag='0' name='LEN_RUS' />
+              <object-id>[age_group_error.csv_6470A7FB81F9419C9E10B00318AA9037]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>error_rate</remote-name>
+              <remote-type>5</remote-type>
+              <local-name>[error_rate]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>error_rate</remote-alias>
+              <ordinal>2</ordinal>
+              <family>age_group_error.csv</family>
+              <local-type>real</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>14</approx-count>
+              <contains-null>true</contains-null>
+              <object-id>[age_group_error.csv_6470A7FB81F9419C9E10B00318AA9037]</object-id>
+            </metadata-record>
+          </metadata-records>
+        </connection>
+      </extract>
+      <layout dim-ordering='alphabetic' measure-ordering='alphabetic' show-structure='true' />
+      <style>
+        <style-rule element='mark'>
+          <encoding attr='color' field='[none:age_group:nk]' type='palette'>
+            <map to='#3896c4'>
+              <bucket>&quot;70-79&quot;</bucket>
+            </map>
+            <map to='#466f9d'>
+              <bucket>&quot;0-30&quot;</bucket>
+            </map>
+            <map to='#9d7660'>
+              <bucket>&quot;80+&quot;</bucket>
+            </map>
+            <map to='#ba7e45'>
+              <bucket>&quot;50-59&quot;</bucket>
+            </map>
+            <map to='#c8133b'>
+              <bucket>&quot;30-39&quot;</bucket>
+            </map>
+            <map to='#e9b87f'>
+              <bucket>&quot;60-69&quot;</bucket>
+            </map>
+            <map to='#feb5a2'>
+              <bucket>&quot;40-49&quot;</bucket>
+            </map>
+          </encoding>
+          <encoding attr='color' field='[none:Variation:nk]' type='palette'>
+            <map to='#4e79a7'>
+              <bucket>&quot;Control&quot;</bucket>
+            </map>
+            <map to='#98d687'>
+              <bucket>&quot;Test&quot;</bucket>
+            </map>
+          </encoding>
+        </style-rule>
+      </style>
+      <semantic-values>
+        <semantic-value key='[Country].[Name]' value='&quot;Germany&quot;' />
+      </semantic-values>
+      <object-graph>
+        <objects>
+          <object caption='age_group_error.csv' id='age_group_error.csv_6470A7FB81F9419C9E10B00318AA9037'>
+            <properties context=''>
+              <relation connection='textscan.0vqgodr04ybps018iy5yf058ji3x' name='age_group_error.csv' table='[age_group_error#csv]' type='table'>
+                <columns character-set='UTF-8' header='yes' locale='en_US' separator=','>
+                  <column datatype='string' name='Variation' ordinal='0' />
+                  <column datatype='string' name='age_group' ordinal='1' />
+                  <column datatype='real' name='error_rate' ordinal='2' />
+                </columns>
+              </relation>
+            </properties>
+            <properties context='extract'>
+              <relation name='Extract' table='[Extract].[Extract]' type='table' />
+            </properties>
+          </object>
+        </objects>
+      </object-graph>
+    </datasource>
+    <datasource caption='primary_clients' inline='true' name='federated.0yq8y9y0243j07121rfmh084obsz' version='18.1'>
+      <connection class='federated'>
+        <named-connections>
+          <named-connection caption='primary_clients' name='textscan.1t5gogy03eu8kj13l4q711shg04e'>
+            <connection class='textscan' directory='C:/Users/sheri/Desktop/Ironhack/UNIT5/project/vanguard-ab-test/data/clean' filename='primary_clients.csv' password='' server='' />
+          </named-connection>
+        </named-connections>
+        <relation connection='textscan.1t5gogy03eu8kj13l4q711shg04e' name='primary_clients.csv' table='[primary_clients#csv]' type='table'>
+          <columns character-set='UTF-8' header='yes' locale='en_US' separator=','>
+            <column datatype='integer' name='client_id' ordinal='0' />
+            <column datatype='integer' name='clnt_tenure_yr' ordinal='1' />
+            <column datatype='integer' name='clnt_tenure_mnth' ordinal='2' />
+            <column datatype='real' name='clnt_age' ordinal='3' />
+            <column datatype='string' name='gendr' ordinal='4' />
+            <column datatype='integer' name='num_accts' ordinal='5' />
+            <column datatype='real' name='bal' ordinal='6' />
+            <column datatype='integer' name='calls_6_mnth' ordinal='7' />
+            <column datatype='integer' name='logons_6_mnth' ordinal='8' />
+          </columns>
+        </relation>
+        <metadata-records>
+          <metadata-record class='capability'>
+            <remote-name />
+            <remote-type>0</remote-type>
+            <parent-name>[primary_clients.csv]</parent-name>
+            <remote-alias />
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='character-set'>&quot;UTF-8&quot;</attribute>
+              <attribute datatype='string' name='collation'>&quot;en_US&quot;</attribute>
+              <attribute datatype='string' name='field-delimiter'>&quot;,&quot;</attribute>
+              <attribute datatype='string' name='header-row'>&quot;true&quot;</attribute>
+              <attribute datatype='string' name='locale'>&quot;en_US&quot;</attribute>
+              <attribute datatype='string' name='single-char'>&quot;&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>client_id</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[client_id]</local-name>
+            <parent-name>[primary_clients.csv]</parent-name>
+            <remote-alias>client_id</remote-alias>
+            <ordinal>0</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <object-id>[primary_clients.csv_85A4DB9604D44B998ADB911C59068A5B]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>clnt_tenure_yr</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[clnt_tenure_yr]</local-name>
+            <parent-name>[primary_clients.csv]</parent-name>
+            <remote-alias>clnt_tenure_yr</remote-alias>
+            <ordinal>1</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <object-id>[primary_clients.csv_85A4DB9604D44B998ADB911C59068A5B]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>clnt_tenure_mnth</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[clnt_tenure_mnth]</local-name>
+            <parent-name>[primary_clients.csv]</parent-name>
+            <remote-alias>clnt_tenure_mnth</remote-alias>
+            <ordinal>2</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <object-id>[primary_clients.csv_85A4DB9604D44B998ADB911C59068A5B]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>clnt_age</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[clnt_age]</local-name>
+            <parent-name>[primary_clients.csv]</parent-name>
+            <remote-alias>clnt_age</remote-alias>
+            <ordinal>3</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <object-id>[primary_clients.csv_85A4DB9604D44B998ADB911C59068A5B]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>gendr</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[gendr]</local-name>
+            <parent-name>[primary_clients.csv]</parent-name>
+            <remote-alias>gendr</remote-alias>
+            <ordinal>4</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RUS' />
+            <object-id>[primary_clients.csv_85A4DB9604D44B998ADB911C59068A5B]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>num_accts</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[num_accts]</local-name>
+            <parent-name>[primary_clients.csv]</parent-name>
+            <remote-alias>num_accts</remote-alias>
+            <ordinal>5</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <object-id>[primary_clients.csv_85A4DB9604D44B998ADB911C59068A5B]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>bal</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[bal]</local-name>
+            <parent-name>[primary_clients.csv]</parent-name>
+            <remote-alias>bal</remote-alias>
+            <ordinal>6</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <object-id>[primary_clients.csv_85A4DB9604D44B998ADB911C59068A5B]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>calls_6_mnth</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[calls_6_mnth]</local-name>
+            <parent-name>[primary_clients.csv]</parent-name>
+            <remote-alias>calls_6_mnth</remote-alias>
+            <ordinal>7</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <object-id>[primary_clients.csv_85A4DB9604D44B998ADB911C59068A5B]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>logons_6_mnth</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[logons_6_mnth]</local-name>
+            <parent-name>[primary_clients.csv]</parent-name>
+            <remote-alias>logons_6_mnth</remote-alias>
+            <ordinal>8</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <object-id>[primary_clients.csv_85A4DB9604D44B998ADB911C59068A5B]</object-id>
+          </metadata-record>
+        </metadata-records>
+      </connection>
+      <aliases enabled='yes' />
+      <column caption='Age_group' datatype='string' name='[Clnt Age (group)]' role='dimension' type='ordinal'>
+        <calculation class='categorical-bin' column='[clnt_age]' new-bin='true'>
+          <bin default-name='false' value='&quot;13-20&quot;'>
+            <value>%null%</value>
+            <value>13.5</value>
+            <value>14.0</value>
+            <value>14.5</value>
+            <value>15.0</value>
+            <value>15.5</value>
+            <value>16.0</value>
+            <value>16.5</value>
+            <value>17.0</value>
+            <value>17.5</value>
+            <value>18.0</value>
+            <value>18.5</value>
+            <value>19.0</value>
+            <value>19.5</value>
+          </bin>
+          <bin default-name='false' value='&quot;20-30&quot;'>
+            <value>20.0</value>
+            <value>20.5</value>
+            <value>21.0</value>
+            <value>21.5</value>
+            <value>22.0</value>
+            <value>22.5</value>
+            <value>23.0</value>
+            <value>23.5</value>
+            <value>24.0</value>
+            <value>24.5</value>
+            <value>25.0</value>
+            <value>25.5</value>
+            <value>26.0</value>
+            <value>26.5</value>
+            <value>27.0</value>
+            <value>27.5</value>
+            <value>28.0</value>
+            <value>28.5</value>
+            <value>29.0</value>
+            <value>29.5</value>
+          </bin>
+          <bin default-name='false' value='&quot;30-40&quot;'>
+            <value>30.0</value>
+            <value>30.5</value>
+            <value>31.0</value>
+            <value>31.5</value>
+            <value>32.0</value>
+            <value>32.5</value>
+            <value>33.0</value>
+            <value>33.5</value>
+            <value>34.0</value>
+            <value>34.5</value>
+            <value>35.0</value>
+            <value>35.5</value>
+            <value>36.0</value>
+            <value>36.5</value>
+            <value>37.0</value>
+            <value>37.5</value>
+            <value>38.0</value>
+            <value>38.5</value>
+            <value>39.0</value>
+            <value>39.5</value>
+          </bin>
+          <bin default-name='false' value='&quot;40-50&quot;'>
+            <value>40.0</value>
+            <value>40.5</value>
+            <value>41.0</value>
+            <value>41.5</value>
+            <value>42.0</value>
+            <value>42.5</value>
+            <value>43.0</value>
+            <value>43.5</value>
+            <value>44.0</value>
+            <value>44.5</value>
+            <value>45.0</value>
+            <value>45.5</value>
+            <value>46.0</value>
+            <value>46.5</value>
+            <value>47.0</value>
+            <value>47.5</value>
+            <value>48.0</value>
+            <value>48.5</value>
+            <value>49.0</value>
+            <value>49.5</value>
+          </bin>
+          <bin default-name='false' value='&quot;50-60&quot;'>
+            <value>50.0</value>
+            <value>50.5</value>
+            <value>51.0</value>
+            <value>51.5</value>
+            <value>52.0</value>
+            <value>52.5</value>
+            <value>53.0</value>
+            <value>53.5</value>
+            <value>54.0</value>
+            <value>54.5</value>
+            <value>55.0</value>
+            <value>55.5</value>
+            <value>56.0</value>
+            <value>56.5</value>
+            <value>57.0</value>
+            <value>57.5</value>
+            <value>58.0</value>
+            <value>58.5</value>
+            <value>59.0</value>
+            <value>59.5</value>
+          </bin>
+          <bin default-name='false' value='&quot;60-70&quot;'>
+            <value>60.0</value>
+            <value>60.5</value>
+            <value>61.0</value>
+            <value>61.5</value>
+            <value>62.0</value>
+            <value>62.5</value>
+            <value>63.0</value>
+            <value>63.5</value>
+            <value>64.0</value>
+            <value>64.5</value>
+            <value>65.0</value>
+            <value>65.5</value>
+            <value>66.0</value>
+            <value>66.5</value>
+            <value>67.0</value>
+            <value>67.5</value>
+            <value>68.0</value>
+            <value>68.5</value>
+            <value>69.0</value>
+            <value>69.5</value>
+          </bin>
+          <bin default-name='false' value='&quot;70-80&quot;'>
+            <value>70.0</value>
+            <value>70.5</value>
+            <value>71.0</value>
+            <value>71.5</value>
+            <value>72.0</value>
+            <value>72.5</value>
+            <value>73.0</value>
+            <value>73.5</value>
+            <value>74.0</value>
+            <value>74.5</value>
+            <value>75.0</value>
+            <value>75.5</value>
+            <value>76.0</value>
+            <value>76.5</value>
+            <value>77.0</value>
+            <value>77.5</value>
+            <value>78.0</value>
+            <value>78.5</value>
+            <value>79.0</value>
+            <value>79.5</value>
+          </bin>
+          <bin default-name='false' value='&quot;80+&quot;'>
+            <value>80.0</value>
+            <value>80.5</value>
+            <value>81.0</value>
+            <value>81.5</value>
+            <value>82.0</value>
+            <value>82.5</value>
+            <value>83.0</value>
+            <value>83.5</value>
+            <value>84.0</value>
+            <value>84.5</value>
+            <value>85.0</value>
+            <value>85.5</value>
+            <value>86.0</value>
+            <value>86.5</value>
+            <value>87.0</value>
+            <value>87.5</value>
+            <value>88.0</value>
+            <value>88.5</value>
+            <value>89.0</value>
+            <value>89.5</value>
+            <value>90.0</value>
+            <value>90.5</value>
+            <value>91.0</value>
+            <value>91.5</value>
+            <value>92.0</value>
+            <value>92.5</value>
+            <value>93.0</value>
+            <value>93.5</value>
+            <value>94.0</value>
+            <value>94.5</value>
+            <value>95.5</value>
+            <value>96.0</value>
+          </bin>
+        </calculation>
+      </column>
+      <column caption='Client_Tenure' datatype='string' name='[Clnt Tenure Mnth (group)]' role='dimension' type='ordinal'>
+        <calculation class='categorical-bin' column='[clnt_tenure_mnth]' new-bin='true'>
+          <bin default-name='false' value='&quot;10-20 years&quot;'>
+            <value>121</value>
+            <value>122</value>
+            <value>123</value>
+            <value>124</value>
+            <value>125</value>
+            <value>126</value>
+            <value>127</value>
+            <value>128</value>
+            <value>129</value>
+            <value>130</value>
+            <value>131</value>
+            <value>132</value>
+            <value>133</value>
+            <value>134</value>
+            <value>135</value>
+            <value>136</value>
+            <value>137</value>
+            <value>138</value>
+            <value>139</value>
+            <value>140</value>
+            <value>141</value>
+            <value>142</value>
+            <value>143</value>
+            <value>144</value>
+            <value>145</value>
+            <value>146</value>
+            <value>147</value>
+            <value>148</value>
+            <value>149</value>
+            <value>150</value>
+            <value>151</value>
+            <value>152</value>
+            <value>153</value>
+            <value>154</value>
+            <value>155</value>
+            <value>156</value>
+            <value>157</value>
+            <value>158</value>
+            <value>159</value>
+            <value>160</value>
+            <value>161</value>
+            <value>162</value>
+            <value>163</value>
+            <value>164</value>
+            <value>165</value>
+            <value>166</value>
+            <value>167</value>
+            <value>168</value>
+            <value>169</value>
+            <value>170</value>
+            <value>171</value>
+            <value>172</value>
+            <value>173</value>
+            <value>174</value>
+            <value>175</value>
+            <value>176</value>
+            <value>177</value>
+            <value>178</value>
+            <value>179</value>
+            <value>180</value>
+            <value>181</value>
+            <value>182</value>
+            <value>183</value>
+            <value>184</value>
+            <value>185</value>
+            <value>186</value>
+            <value>187</value>
+            <value>188</value>
+            <value>189</value>
+            <value>190</value>
+            <value>191</value>
+            <value>192</value>
+            <value>193</value>
+            <value>194</value>
+            <value>195</value>
+            <value>196</value>
+            <value>197</value>
+            <value>198</value>
+            <value>199</value>
+            <value>200</value>
+            <value>201</value>
+            <value>202</value>
+            <value>203</value>
+            <value>204</value>
+            <value>205</value>
+            <value>206</value>
+            <value>207</value>
+            <value>208</value>
+            <value>209</value>
+            <value>210</value>
+            <value>211</value>
+            <value>212</value>
+            <value>213</value>
+            <value>214</value>
+            <value>215</value>
+            <value>216</value>
+            <value>217</value>
+            <value>218</value>
+            <value>219</value>
+            <value>220</value>
+            <value>221</value>
+            <value>222</value>
+            <value>223</value>
+            <value>224</value>
+            <value>225</value>
+            <value>226</value>
+            <value>227</value>
+            <value>228</value>
+            <value>229</value>
+            <value>230</value>
+            <value>231</value>
+            <value>232</value>
+            <value>233</value>
+            <value>234</value>
+            <value>235</value>
+            <value>236</value>
+            <value>237</value>
+            <value>238</value>
+            <value>239</value>
+            <value>240</value>
+          </bin>
+          <bin default-name='false' value='&quot;2-5 years&quot;'>
+            <value>33</value>
+            <value>34</value>
+            <value>35</value>
+            <value>36</value>
+            <value>37</value>
+            <value>38</value>
+            <value>39</value>
+            <value>40</value>
+            <value>41</value>
+            <value>42</value>
+            <value>43</value>
+            <value>44</value>
+            <value>45</value>
+            <value>46</value>
+            <value>47</value>
+            <value>48</value>
+            <value>49</value>
+            <value>50</value>
+            <value>51</value>
+            <value>52</value>
+            <value>53</value>
+            <value>54</value>
+            <value>55</value>
+            <value>56</value>
+            <value>57</value>
+            <value>58</value>
+            <value>59</value>
+          </bin>
+          <bin default-name='false' value='&quot;20+ years&quot;'>
+            <value>241</value>
+            <value>242</value>
+            <value>243</value>
+            <value>244</value>
+            <value>245</value>
+            <value>246</value>
+            <value>247</value>
+            <value>248</value>
+            <value>249</value>
+            <value>250</value>
+            <value>251</value>
+            <value>252</value>
+            <value>253</value>
+            <value>254</value>
+            <value>255</value>
+            <value>256</value>
+            <value>257</value>
+            <value>258</value>
+            <value>259</value>
+            <value>260</value>
+            <value>261</value>
+            <value>262</value>
+            <value>263</value>
+            <value>264</value>
+            <value>265</value>
+            <value>266</value>
+            <value>267</value>
+            <value>268</value>
+            <value>269</value>
+            <value>270</value>
+            <value>271</value>
+            <value>272</value>
+            <value>273</value>
+            <value>274</value>
+            <value>275</value>
+            <value>276</value>
+            <value>277</value>
+            <value>278</value>
+            <value>279</value>
+            <value>280</value>
+            <value>281</value>
+            <value>282</value>
+            <value>283</value>
+            <value>284</value>
+            <value>285</value>
+            <value>286</value>
+            <value>287</value>
+            <value>288</value>
+            <value>289</value>
+            <value>290</value>
+            <value>291</value>
+            <value>292</value>
+            <value>293</value>
+            <value>294</value>
+            <value>295</value>
+            <value>296</value>
+            <value>297</value>
+            <value>298</value>
+            <value>299</value>
+            <value>300</value>
+            <value>301</value>
+            <value>302</value>
+            <value>303</value>
+            <value>304</value>
+            <value>305</value>
+            <value>306</value>
+            <value>307</value>
+            <value>308</value>
+            <value>309</value>
+            <value>310</value>
+            <value>311</value>
+            <value>312</value>
+            <value>313</value>
+            <value>314</value>
+            <value>315</value>
+            <value>316</value>
+            <value>317</value>
+            <value>318</value>
+            <value>319</value>
+            <value>320</value>
+            <value>321</value>
+            <value>322</value>
+            <value>323</value>
+            <value>324</value>
+            <value>325</value>
+            <value>326</value>
+            <value>327</value>
+            <value>328</value>
+            <value>329</value>
+            <value>330</value>
+            <value>331</value>
+            <value>332</value>
+            <value>333</value>
+            <value>334</value>
+            <value>335</value>
+            <value>336</value>
+            <value>337</value>
+            <value>338</value>
+            <value>339</value>
+            <value>340</value>
+            <value>341</value>
+            <value>342</value>
+            <value>343</value>
+            <value>344</value>
+            <value>345</value>
+            <value>346</value>
+            <value>347</value>
+            <value>348</value>
+            <value>349</value>
+            <value>350</value>
+            <value>351</value>
+            <value>352</value>
+            <value>353</value>
+            <value>354</value>
+            <value>355</value>
+            <value>356</value>
+            <value>357</value>
+            <value>358</value>
+            <value>359</value>
+            <value>360</value>
+            <value>361</value>
+            <value>362</value>
+            <value>363</value>
+            <value>364</value>
+            <value>365</value>
+            <value>366</value>
+            <value>367</value>
+            <value>368</value>
+            <value>369</value>
+            <value>370</value>
+            <value>371</value>
+            <value>372</value>
+            <value>373</value>
+            <value>374</value>
+            <value>375</value>
+            <value>376</value>
+            <value>377</value>
+            <value>378</value>
+            <value>379</value>
+            <value>380</value>
+            <value>381</value>
+            <value>382</value>
+            <value>383</value>
+            <value>384</value>
+            <value>385</value>
+            <value>386</value>
+            <value>387</value>
+            <value>388</value>
+            <value>389</value>
+            <value>390</value>
+            <value>391</value>
+            <value>392</value>
+            <value>393</value>
+            <value>394</value>
+            <value>395</value>
+            <value>396</value>
+            <value>397</value>
+            <value>398</value>
+            <value>399</value>
+            <value>400</value>
+            <value>401</value>
+            <value>402</value>
+            <value>403</value>
+            <value>404</value>
+            <value>405</value>
+            <value>406</value>
+            <value>407</value>
+            <value>408</value>
+            <value>409</value>
+            <value>410</value>
+            <value>411</value>
+            <value>412</value>
+            <value>413</value>
+            <value>414</value>
+            <value>415</value>
+            <value>416</value>
+            <value>417</value>
+            <value>418</value>
+            <value>419</value>
+            <value>420</value>
+            <value>421</value>
+            <value>422</value>
+            <value>423</value>
+            <value>424</value>
+            <value>425</value>
+            <value>426</value>
+            <value>427</value>
+            <value>428</value>
+            <value>429</value>
+            <value>430</value>
+            <value>431</value>
+            <value>432</value>
+            <value>433</value>
+            <value>434</value>
+            <value>436</value>
+            <value>439</value>
+            <value>440</value>
+            <value>441</value>
+            <value>442</value>
+            <value>443</value>
+            <value>444</value>
+            <value>445</value>
+            <value>446</value>
+            <value>447</value>
+            <value>448</value>
+            <value>449</value>
+            <value>450</value>
+            <value>451</value>
+            <value>453</value>
+            <value>454</value>
+            <value>455</value>
+            <value>456</value>
+            <value>457</value>
+            <value>459</value>
+            <value>460</value>
+            <value>461</value>
+            <value>462</value>
+            <value>463</value>
+            <value>464</value>
+            <value>465</value>
+            <value>466</value>
+            <value>468</value>
+            <value>469</value>
+            <value>472</value>
+            <value>473</value>
+            <value>475</value>
+            <value>479</value>
+            <value>480</value>
+            <value>481</value>
+            <value>482</value>
+            <value>483</value>
+            <value>484</value>
+            <value>485</value>
+            <value>492</value>
+            <value>504</value>
+            <value>507</value>
+            <value>509</value>
+            <value>511</value>
+            <value>512</value>
+            <value>516</value>
+            <value>526</value>
+            <value>532</value>
+            <value>535</value>
+            <value>539</value>
+            <value>550</value>
+            <value>554</value>
+            <value>561</value>
+            <value>562</value>
+            <value>563</value>
+            <value>564</value>
+            <value>569</value>
+            <value>571</value>
+            <value>576</value>
+            <value>581</value>
+            <value>585</value>
+            <value>586</value>
+            <value>589</value>
+            <value>593</value>
+            <value>596</value>
+            <value>602</value>
+            <value>603</value>
+            <value>608</value>
+            <value>610</value>
+            <value>612</value>
+            <value>613</value>
+            <value>614</value>
+            <value>624</value>
+            <value>631</value>
+            <value>655</value>
+            <value>661</value>
+            <value>667</value>
+            <value>668</value>
+            <value>669</value>
+            <value>749</value>
+          </bin>
+          <bin default-name='false' value='&quot;5-10years&quot;'>
+            <value>60</value>
+            <value>61</value>
+            <value>62</value>
+            <value>63</value>
+            <value>64</value>
+            <value>65</value>
+            <value>66</value>
+            <value>67</value>
+            <value>68</value>
+            <value>69</value>
+            <value>70</value>
+            <value>71</value>
+            <value>72</value>
+            <value>73</value>
+            <value>74</value>
+            <value>75</value>
+            <value>76</value>
+            <value>77</value>
+            <value>78</value>
+            <value>79</value>
+            <value>80</value>
+            <value>81</value>
+            <value>82</value>
+            <value>83</value>
+            <value>84</value>
+            <value>85</value>
+            <value>86</value>
+            <value>87</value>
+            <value>88</value>
+            <value>89</value>
+            <value>90</value>
+            <value>91</value>
+            <value>92</value>
+            <value>93</value>
+            <value>94</value>
+            <value>95</value>
+            <value>96</value>
+            <value>97</value>
+            <value>98</value>
+            <value>99</value>
+            <value>100</value>
+            <value>101</value>
+            <value>102</value>
+            <value>103</value>
+            <value>104</value>
+            <value>105</value>
+            <value>106</value>
+            <value>107</value>
+            <value>108</value>
+            <value>109</value>
+            <value>110</value>
+            <value>111</value>
+            <value>112</value>
+            <value>113</value>
+            <value>114</value>
+            <value>115</value>
+            <value>116</value>
+            <value>117</value>
+            <value>118</value>
+            <value>119</value>
+            <value>120</value>
+          </bin>
+        </calculation>
+      </column>
+      <column caption='primary_clients.csv' datatype='table' name='[__tableau_internal_object_id__].[primary_clients.csv_85A4DB9604D44B998ADB911C59068A5B]' role='measure' type='quantitative' />
+      <column caption='Bal' datatype='real' name='[bal]' role='measure' type='quantitative' />
+      <column caption='Calls 6 Mnth' datatype='integer' name='[calls_6_mnth]' role='measure' type='quantitative' />
+      <column caption='Client Id' datatype='integer' name='[client_id]' role='dimension' type='ordinal' />
+      <column caption='Clnt Age' datatype='real' name='[clnt_age]' role='measure' type='quantitative' />
+      <column caption='Clnt Tenure Mnth' datatype='integer' name='[clnt_tenure_mnth]' role='measure' type='quantitative' />
+      <column caption='Clnt Tenure Yr' datatype='integer' name='[clnt_tenure_yr]' role='dimension' type='quantitative' />
+      <column caption='Gendr' datatype='string' name='[gendr]' role='dimension' type='nominal' />
+      <column caption='Logons 6 Mnth' datatype='integer' name='[logons_6_mnth]' role='measure' type='quantitative' />
+      <column caption='Num Accts' datatype='integer' name='[num_accts]' role='measure' type='quantitative' />
+      <column-instance column='[gendr]' derivation='None' name='[none:gendr:nk]' pivot='key' type='nominal' />
+      <extract _.fcp.VConnDownstreamExtractsWithWarnings.true...user-specific='false' count='-1' enabled='true' object-id='' units='records'>
+        <connection access_mode='readonly' author-locale='en_US' class='hyper' dbname='C:/Users/sheri/AppData/Local/Temp/TableauTemp/#TableauTemp_1nsqk9t0ps3pw410yw8ca1n8xnkc.hyper' default-settings='hyper' schema='Extract' sslmode='' tablename='Extract' update-time='07/22/2025 02:31:38 PM' username='tableau_internal_user'>
+          <relation name='Extract' table='[Extract].[Extract]' type='table' />
+          <metadata-records>
+            <metadata-record class='column'>
+              <remote-name>client_id</remote-name>
+              <remote-type>20</remote-type>
+              <local-name>[client_id]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>client_id</remote-alias>
+              <ordinal>0</ordinal>
+              <family>primary_clients.csv</family>
+              <local-type>integer</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>70595</approx-count>
+              <contains-null>true</contains-null>
+              <object-id>[primary_clients.csv_85A4DB9604D44B998ADB911C59068A5B]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>clnt_tenure_yr</remote-name>
+              <remote-type>20</remote-type>
+              <local-name>[clnt_tenure_yr]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>clnt_tenure_yr</remote-alias>
+              <ordinal>1</ordinal>
+              <family>primary_clients.csv</family>
+              <local-type>integer</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>61</approx-count>
+              <contains-null>true</contains-null>
+              <object-id>[primary_clients.csv_85A4DB9604D44B998ADB911C59068A5B]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>clnt_tenure_mnth</remote-name>
+              <remote-type>20</remote-type>
+              <local-name>[clnt_tenure_mnth]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>clnt_tenure_mnth</remote-alias>
+              <ordinal>2</ordinal>
+              <family>primary_clients.csv</family>
+              <local-type>integer</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>910</approx-count>
+              <contains-null>true</contains-null>
+              <object-id>[primary_clients.csv_85A4DB9604D44B998ADB911C59068A5B]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>clnt_age</remote-name>
+              <remote-type>5</remote-type>
+              <local-name>[clnt_age]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>clnt_age</remote-alias>
+              <ordinal>3</ordinal>
+              <family>primary_clients.csv</family>
+              <local-type>real</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>211</approx-count>
+              <contains-null>true</contains-null>
+              <object-id>[primary_clients.csv_85A4DB9604D44B998ADB911C59068A5B]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>gendr</remote-name>
+              <remote-type>129</remote-type>
+              <local-name>[gendr]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>gendr</remote-alias>
+              <ordinal>4</ordinal>
+              <family>primary_clients.csv</family>
+              <local-type>string</local-type>
+              <aggregation>Count</aggregation>
+              <approx-count>3</approx-count>
+              <contains-null>true</contains-null>
+              <collation flag='0' name='LEN_RUS' />
+              <object-id>[primary_clients.csv_85A4DB9604D44B998ADB911C59068A5B]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>num_accts</remote-name>
+              <remote-type>20</remote-type>
+              <local-name>[num_accts]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>num_accts</remote-alias>
+              <ordinal>5</ordinal>
+              <family>primary_clients.csv</family>
+              <local-type>integer</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>4</approx-count>
+              <contains-null>true</contains-null>
+              <object-id>[primary_clients.csv_85A4DB9604D44B998ADB911C59068A5B]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>bal</remote-name>
+              <remote-type>5</remote-type>
+              <local-name>[bal]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>bal</remote-alias>
+              <ordinal>6</ordinal>
+              <family>primary_clients.csv</family>
+              <local-type>real</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>70595</approx-count>
+              <contains-null>true</contains-null>
+              <object-id>[primary_clients.csv_85A4DB9604D44B998ADB911C59068A5B]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>calls_6_mnth</remote-name>
+              <remote-type>20</remote-type>
+              <local-name>[calls_6_mnth]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>calls_6_mnth</remote-alias>
+              <ordinal>7</ordinal>
+              <family>primary_clients.csv</family>
+              <local-type>integer</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>8</approx-count>
+              <contains-null>true</contains-null>
+              <object-id>[primary_clients.csv_85A4DB9604D44B998ADB911C59068A5B]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>logons_6_mnth</remote-name>
+              <remote-type>20</remote-type>
+              <local-name>[logons_6_mnth]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>logons_6_mnth</remote-alias>
+              <ordinal>8</ordinal>
+              <family>primary_clients.csv</family>
+              <local-type>integer</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>9</approx-count>
+              <contains-null>true</contains-null>
+              <object-id>[primary_clients.csv_85A4DB9604D44B998ADB911C59068A5B]</object-id>
+            </metadata-record>
+          </metadata-records>
+        </connection>
+      </extract>
+      <layout dim-ordering='alphabetic' measure-ordering='alphabetic' show-structure='true' />
+      <style>
+        <style-rule element='mark'>
+          <encoding attr='color' field='[none:gendr:nk]' type='palette'>
+            <map to='#1f77b4'>
+              <bucket>&quot;M&quot;</bucket>
+            </map>
+            <map to='#7f7f7f'>
+              <bucket>&quot;X&quot;</bucket>
+            </map>
+            <map to='#c7c7c7'>
+              <bucket>&quot;U&quot;</bucket>
+            </map>
+            <map to='#e377c2'>
+              <bucket>&quot;F&quot;</bucket>
+            </map>
+          </encoding>
+        </style-rule>
+      </style>
+      <semantic-values>
+        <semantic-value key='[Country].[Name]' value='&quot;Germany&quot;' />
+      </semantic-values>
+      <object-graph>
+        <objects>
+          <object caption='primary_clients.csv' id='primary_clients.csv_85A4DB9604D44B998ADB911C59068A5B'>
+            <properties context=''>
+              <relation connection='textscan.1t5gogy03eu8kj13l4q711shg04e' name='primary_clients.csv' table='[primary_clients#csv]' type='table'>
+                <columns character-set='UTF-8' header='yes' locale='en_US' separator=','>
+                  <column datatype='integer' name='client_id' ordinal='0' />
+                  <column datatype='integer' name='clnt_tenure_yr' ordinal='1' />
+                  <column datatype='integer' name='clnt_tenure_mnth' ordinal='2' />
+                  <column datatype='real' name='clnt_age' ordinal='3' />
+                  <column datatype='string' name='gendr' ordinal='4' />
+                  <column datatype='integer' name='num_accts' ordinal='5' />
+                  <column datatype='real' name='bal' ordinal='6' />
+                  <column datatype='integer' name='calls_6_mnth' ordinal='7' />
+                  <column datatype='integer' name='logons_6_mnth' ordinal='8' />
+                </columns>
+              </relation>
+            </properties>
+            <properties context='extract'>
+              <relation name='Extract' table='[Extract].[Extract]' type='table' />
+            </properties>
+          </object>
+        </objects>
+      </object-graph>
+    </datasource>
+  </datasources>
+  <worksheets>
+    <worksheet name='Average error rate among age group barplot'>
+      <table>
+        <view>
+          <datasources>
+            <datasource caption='age_group_error' name='federated.0hdledx1u6r17a18dit3i14ql5n9' />
+          </datasources>
+          <datasource-dependencies datasource='federated.0hdledx1u6r17a18dit3i14ql5n9'>
+            <column datatype='string' name='[Variation]' role='dimension' type='nominal' />
+            <column caption='Age Group' datatype='string' name='[age_group]' role='dimension' type='nominal' />
+            <column-instance column='[error_rate]' derivation='Avg' name='[avg:error_rate:qk]' pivot='key' type='quantitative' />
+            <column caption='Error Rate' datatype='real' name='[error_rate]' role='measure' type='quantitative' />
+            <column-instance column='[Variation]' derivation='None' name='[none:Variation:nk]' pivot='key' type='nominal' />
+            <column-instance column='[age_group]' derivation='None' name='[none:age_group:nk]' pivot='key' type='nominal' />
+          </datasource-dependencies>
+          <aggregation value='true' />
+        </view>
+        <style>
+          <style-rule element='cell'>
+            <format attr='width' field='[federated.0hdledx1u6r17a18dit3i14ql5n9].[none:Variation:nk]' value='97' />
+          </style-rule>
+        </style>
+        <panes>
+          <pane selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Automatic' />
+            <encodings>
+              <color column='[federated.0hdledx1u6r17a18dit3i14ql5n9].[none:Variation:nk]' />
+            </encodings>
+            <style>
+              <style-rule element='pane'>
+                <format attr='minwidth' value='-1' />
+                <format attr='maxwidth' value='-1' />
+              </style-rule>
+            </style>
+          </pane>
+        </panes>
+        <rows>[federated.0hdledx1u6r17a18dit3i14ql5n9].[avg:error_rate:qk]</rows>
+        <cols>([federated.0hdledx1u6r17a18dit3i14ql5n9].[none:age_group:nk] / [federated.0hdledx1u6r17a18dit3i14ql5n9].[none:Variation:nk])</cols>
+      </table>
+      <simple-id uuid='{E34EB1C0-6C38-4448-9347-C17859D8D9F3}' />
+    </worksheet>
+    <worksheet name='Average error rate by variation barplot'>
+      <table>
+        <view>
+          <datasources>
+            <datasource caption='result' name='federated.1efjumk164go4e1fizgmb09xwo08' />
+          </datasources>
+          <datasource-dependencies datasource='federated.1efjumk164go4e1fizgmb09xwo08'>
+            <column datatype='string' name='[Variation]' role='dimension' type='nominal' />
+            <column-instance column='[error_rate]' derivation='Avg' name='[avg:error_rate:qk]' pivot='key' type='quantitative' />
+            <column caption='Error Rate' datatype='real' name='[error_rate]' role='measure' type='quantitative' />
+            <column-instance column='[Variation]' derivation='None' name='[none:Variation:nk]' pivot='key' type='nominal' />
+          </datasource-dependencies>
+          <aggregation value='true' />
+        </view>
+        <style>
+          <style-rule element='cell'>
+            <format attr='width' field='[federated.1efjumk164go4e1fizgmb09xwo08].[none:Variation:nk]' value='231' />
+          </style-rule>
+        </style>
+        <panes>
+          <pane selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Automatic' />
+            <encodings>
+              <color column='[federated.1efjumk164go4e1fizgmb09xwo08].[none:Variation:nk]' />
+            </encodings>
+            <style>
+              <style-rule element='pane'>
+                <format attr='minwidth' value='-1' />
+                <format attr='maxwidth' value='-1' />
+              </style-rule>
+            </style>
+          </pane>
+        </panes>
+        <rows>[federated.1efjumk164go4e1fizgmb09xwo08].[avg:error_rate:qk]</rows>
+        <cols>[federated.1efjumk164go4e1fizgmb09xwo08].[none:Variation:nk]</cols>
+      </table>
+      <simple-id uuid='{6D053028-7819-4D24-9BDA-BDB56DC7CBF6}' />
+    </worksheet>
+    <worksheet name='Error rate by variation cross tab'>
+      <table>
+        <view>
+          <datasources>
+            <datasource caption='result' name='federated.1efjumk164go4e1fizgmb09xwo08' />
+          </datasources>
+          <datasource-dependencies datasource='federated.1efjumk164go4e1fizgmb09xwo08'>
+            <column datatype='string' name='[Variation]' role='dimension' type='nominal' />
+            <column-instance column='[error_rate]' derivation='Avg' name='[avg:error_rate:qk]' pivot='key' type='quantitative' />
+            <column caption='Error Rate' datatype='real' name='[error_rate]' role='measure' type='quantitative' />
+            <column-instance column='[Variation]' derivation='None' name='[none:Variation:nk]' pivot='key' type='nominal' />
+          </datasource-dependencies>
+          <aggregation value='true' />
+        </view>
+        <style />
+        <panes>
+          <pane selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Automatic' />
+            <encodings>
+              <text column='[federated.1efjumk164go4e1fizgmb09xwo08].[avg:error_rate:qk]' />
+            </encodings>
+            <style>
+              <style-rule element='mark'>
+                <format attr='mark-labels-show' value='true' />
+              </style-rule>
+            </style>
+          </pane>
+        </panes>
+        <rows>[federated.1efjumk164go4e1fizgmb09xwo08].[none:Variation:nk]</rows>
+        <cols />
+      </table>
+      <simple-id uuid='{D4C92C29-A1CF-4C0E-B807-BB5A1812C07A}' />
+    </worksheet>
+    <worksheet name='PrimaryClients_Overview'>
+      <layout-options>
+        <title>
+          <formatted-text>
+            <run bold='true' fontsize='18'>&lt;Sheet Name&gt;</run>
+          </formatted-text>
+        </title>
+      </layout-options>
+      <table>
+        <view>
+          <datasources>
+            <datasource caption='primary_clients' name='federated.0yq8y9y0243j07121rfmh084obsz' />
+          </datasources>
+          <datasource-dependencies datasource='federated.0yq8y9y0243j07121rfmh084obsz'>
+            <column caption='Age_group' datatype='string' name='[Clnt Age (group)]' role='dimension' type='ordinal'>
+              <calculation class='categorical-bin' column='[clnt_age]' new-bin='true'>
+                <bin default-name='false' value='&quot;13-20&quot;'>
+                  <value>%null%</value>
+                  <value>13.5</value>
+                  <value>14.0</value>
+                  <value>14.5</value>
+                  <value>15.0</value>
+                  <value>15.5</value>
+                  <value>16.0</value>
+                  <value>16.5</value>
+                  <value>17.0</value>
+                  <value>17.5</value>
+                  <value>18.0</value>
+                  <value>18.5</value>
+                  <value>19.0</value>
+                  <value>19.5</value>
+                </bin>
+                <bin default-name='false' value='&quot;20-30&quot;'>
+                  <value>20.0</value>
+                  <value>20.5</value>
+                  <value>21.0</value>
+                  <value>21.5</value>
+                  <value>22.0</value>
+                  <value>22.5</value>
+                  <value>23.0</value>
+                  <value>23.5</value>
+                  <value>24.0</value>
+                  <value>24.5</value>
+                  <value>25.0</value>
+                  <value>25.5</value>
+                  <value>26.0</value>
+                  <value>26.5</value>
+                  <value>27.0</value>
+                  <value>27.5</value>
+                  <value>28.0</value>
+                  <value>28.5</value>
+                  <value>29.0</value>
+                  <value>29.5</value>
+                </bin>
+                <bin default-name='false' value='&quot;30-40&quot;'>
+                  <value>30.0</value>
+                  <value>30.5</value>
+                  <value>31.0</value>
+                  <value>31.5</value>
+                  <value>32.0</value>
+                  <value>32.5</value>
+                  <value>33.0</value>
+                  <value>33.5</value>
+                  <value>34.0</value>
+                  <value>34.5</value>
+                  <value>35.0</value>
+                  <value>35.5</value>
+                  <value>36.0</value>
+                  <value>36.5</value>
+                  <value>37.0</value>
+                  <value>37.5</value>
+                  <value>38.0</value>
+                  <value>38.5</value>
+                  <value>39.0</value>
+                  <value>39.5</value>
+                </bin>
+                <bin default-name='false' value='&quot;40-50&quot;'>
+                  <value>40.0</value>
+                  <value>40.5</value>
+                  <value>41.0</value>
+                  <value>41.5</value>
+                  <value>42.0</value>
+                  <value>42.5</value>
+                  <value>43.0</value>
+                  <value>43.5</value>
+                  <value>44.0</value>
+                  <value>44.5</value>
+                  <value>45.0</value>
+                  <value>45.5</value>
+                  <value>46.0</value>
+                  <value>46.5</value>
+                  <value>47.0</value>
+                  <value>47.5</value>
+                  <value>48.0</value>
+                  <value>48.5</value>
+                  <value>49.0</value>
+                  <value>49.5</value>
+                </bin>
+                <bin default-name='false' value='&quot;50-60&quot;'>
+                  <value>50.0</value>
+                  <value>50.5</value>
+                  <value>51.0</value>
+                  <value>51.5</value>
+                  <value>52.0</value>
+                  <value>52.5</value>
+                  <value>53.0</value>
+                  <value>53.5</value>
+                  <value>54.0</value>
+                  <value>54.5</value>
+                  <value>55.0</value>
+                  <value>55.5</value>
+                  <value>56.0</value>
+                  <value>56.5</value>
+                  <value>57.0</value>
+                  <value>57.5</value>
+                  <value>58.0</value>
+                  <value>58.5</value>
+                  <value>59.0</value>
+                  <value>59.5</value>
+                </bin>
+                <bin default-name='false' value='&quot;60-70&quot;'>
+                  <value>60.0</value>
+                  <value>60.5</value>
+                  <value>61.0</value>
+                  <value>61.5</value>
+                  <value>62.0</value>
+                  <value>62.5</value>
+                  <value>63.0</value>
+                  <value>63.5</value>
+                  <value>64.0</value>
+                  <value>64.5</value>
+                  <value>65.0</value>
+                  <value>65.5</value>
+                  <value>66.0</value>
+                  <value>66.5</value>
+                  <value>67.0</value>
+                  <value>67.5</value>
+                  <value>68.0</value>
+                  <value>68.5</value>
+                  <value>69.0</value>
+                  <value>69.5</value>
+                </bin>
+                <bin default-name='false' value='&quot;70-80&quot;'>
+                  <value>70.0</value>
+                  <value>70.5</value>
+                  <value>71.0</value>
+                  <value>71.5</value>
+                  <value>72.0</value>
+                  <value>72.5</value>
+                  <value>73.0</value>
+                  <value>73.5</value>
+                  <value>74.0</value>
+                  <value>74.5</value>
+                  <value>75.0</value>
+                  <value>75.5</value>
+                  <value>76.0</value>
+                  <value>76.5</value>
+                  <value>77.0</value>
+                  <value>77.5</value>
+                  <value>78.0</value>
+                  <value>78.5</value>
+                  <value>79.0</value>
+                  <value>79.5</value>
+                </bin>
+                <bin default-name='false' value='&quot;80+&quot;'>
+                  <value>80.0</value>
+                  <value>80.5</value>
+                  <value>81.0</value>
+                  <value>81.5</value>
+                  <value>82.0</value>
+                  <value>82.5</value>
+                  <value>83.0</value>
+                  <value>83.5</value>
+                  <value>84.0</value>
+                  <value>84.5</value>
+                  <value>85.0</value>
+                  <value>85.5</value>
+                  <value>86.0</value>
+                  <value>86.5</value>
+                  <value>87.0</value>
+                  <value>87.5</value>
+                  <value>88.0</value>
+                  <value>88.5</value>
+                  <value>89.0</value>
+                  <value>89.5</value>
+                  <value>90.0</value>
+                  <value>90.5</value>
+                  <value>91.0</value>
+                  <value>91.5</value>
+                  <value>92.0</value>
+                  <value>92.5</value>
+                  <value>93.0</value>
+                  <value>93.5</value>
+                  <value>94.0</value>
+                  <value>94.5</value>
+                  <value>95.5</value>
+                  <value>96.0</value>
+                </bin>
+              </calculation>
+            </column>
+            <column caption='Client Id' datatype='integer' name='[client_id]' role='dimension' type='ordinal' />
+            <column caption='Clnt Age' datatype='real' name='[clnt_age]' role='measure' type='quantitative' />
+            <column-instance column='[client_id]' derivation='Count' name='[cnt:client_id:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[client_id]' derivation='CountD' name='[ctd:client_id:qk]' pivot='key' type='quantitative' />
+          </datasource-dependencies>
+          <aggregation value='true' />
+        </view>
+        <style>
+          <style-rule element='axis'>
+            <format attr='title' class='0' field='[federated.0yq8y9y0243j07121rfmh084obsz].[ctd:client_id:qk]' scope='rows' value='No.of Clients' />
+          </style-rule>
+        </style>
+        <panes>
+          <pane selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Automatic' />
+            <encodings>
+              <text column='[federated.0yq8y9y0243j07121rfmh084obsz].[cnt:client_id:qk]' />
+            </encodings>
+            <style>
+              <style-rule element='mark'>
+                <format attr='mark-labels-show' value='true' />
+                <format attr='mark-labels-cull' value='true' />
+              </style-rule>
+            </style>
+          </pane>
+        </panes>
+        <rows>[federated.0yq8y9y0243j07121rfmh084obsz].[ctd:client_id:qk]</rows>
+        <cols>[federated.0yq8y9y0243j07121rfmh084obsz].[Clnt Age (group)]</cols>
+      </table>
+      <simple-id uuid='{33A0458A-362F-41A5-B761-60DED6178CD2}' />
+    </worksheet>
+    <worksheet name='Primary_clinets_Tenure'>
+      <layout-options>
+        <title>
+          <formatted-text>
+            <run>Primary Clients Tenure</run>
+          </formatted-text>
+        </title>
+      </layout-options>
+      <table>
+        <view>
+          <datasources>
+            <datasource caption='primary_clients' name='federated.0yq8y9y0243j07121rfmh084obsz' />
+          </datasources>
+          <datasource-dependencies datasource='federated.0yq8y9y0243j07121rfmh084obsz'>
+            <column caption='Age_group' datatype='string' name='[Clnt Age (group)]' role='dimension' type='ordinal'>
+              <calculation class='categorical-bin' column='[clnt_age]' new-bin='true'>
+                <bin default-name='false' value='&quot;13-20&quot;'>
+                  <value>%null%</value>
+                  <value>13.5</value>
+                  <value>14.0</value>
+                  <value>14.5</value>
+                  <value>15.0</value>
+                  <value>15.5</value>
+                  <value>16.0</value>
+                  <value>16.5</value>
+                  <value>17.0</value>
+                  <value>17.5</value>
+                  <value>18.0</value>
+                  <value>18.5</value>
+                  <value>19.0</value>
+                  <value>19.5</value>
+                </bin>
+                <bin default-name='false' value='&quot;20-30&quot;'>
+                  <value>20.0</value>
+                  <value>20.5</value>
+                  <value>21.0</value>
+                  <value>21.5</value>
+                  <value>22.0</value>
+                  <value>22.5</value>
+                  <value>23.0</value>
+                  <value>23.5</value>
+                  <value>24.0</value>
+                  <value>24.5</value>
+                  <value>25.0</value>
+                  <value>25.5</value>
+                  <value>26.0</value>
+                  <value>26.5</value>
+                  <value>27.0</value>
+                  <value>27.5</value>
+                  <value>28.0</value>
+                  <value>28.5</value>
+                  <value>29.0</value>
+                  <value>29.5</value>
+                </bin>
+                <bin default-name='false' value='&quot;30-40&quot;'>
+                  <value>30.0</value>
+                  <value>30.5</value>
+                  <value>31.0</value>
+                  <value>31.5</value>
+                  <value>32.0</value>
+                  <value>32.5</value>
+                  <value>33.0</value>
+                  <value>33.5</value>
+                  <value>34.0</value>
+                  <value>34.5</value>
+                  <value>35.0</value>
+                  <value>35.5</value>
+                  <value>36.0</value>
+                  <value>36.5</value>
+                  <value>37.0</value>
+                  <value>37.5</value>
+                  <value>38.0</value>
+                  <value>38.5</value>
+                  <value>39.0</value>
+                  <value>39.5</value>
+                </bin>
+                <bin default-name='false' value='&quot;40-50&quot;'>
+                  <value>40.0</value>
+                  <value>40.5</value>
+                  <value>41.0</value>
+                  <value>41.5</value>
+                  <value>42.0</value>
+                  <value>42.5</value>
+                  <value>43.0</value>
+                  <value>43.5</value>
+                  <value>44.0</value>
+                  <value>44.5</value>
+                  <value>45.0</value>
+                  <value>45.5</value>
+                  <value>46.0</value>
+                  <value>46.5</value>
+                  <value>47.0</value>
+                  <value>47.5</value>
+                  <value>48.0</value>
+                  <value>48.5</value>
+                  <value>49.0</value>
+                  <value>49.5</value>
+                </bin>
+                <bin default-name='false' value='&quot;50-60&quot;'>
+                  <value>50.0</value>
+                  <value>50.5</value>
+                  <value>51.0</value>
+                  <value>51.5</value>
+                  <value>52.0</value>
+                  <value>52.5</value>
+                  <value>53.0</value>
+                  <value>53.5</value>
+                  <value>54.0</value>
+                  <value>54.5</value>
+                  <value>55.0</value>
+                  <value>55.5</value>
+                  <value>56.0</value>
+                  <value>56.5</value>
+                  <value>57.0</value>
+                  <value>57.5</value>
+                  <value>58.0</value>
+                  <value>58.5</value>
+                  <value>59.0</value>
+                  <value>59.5</value>
+                </bin>
+                <bin default-name='false' value='&quot;60-70&quot;'>
+                  <value>60.0</value>
+                  <value>60.5</value>
+                  <value>61.0</value>
+                  <value>61.5</value>
+                  <value>62.0</value>
+                  <value>62.5</value>
+                  <value>63.0</value>
+                  <value>63.5</value>
+                  <value>64.0</value>
+                  <value>64.5</value>
+                  <value>65.0</value>
+                  <value>65.5</value>
+                  <value>66.0</value>
+                  <value>66.5</value>
+                  <value>67.0</value>
+                  <value>67.5</value>
+                  <value>68.0</value>
+                  <value>68.5</value>
+                  <value>69.0</value>
+                  <value>69.5</value>
+                </bin>
+                <bin default-name='false' value='&quot;70-80&quot;'>
+                  <value>70.0</value>
+                  <value>70.5</value>
+                  <value>71.0</value>
+                  <value>71.5</value>
+                  <value>72.0</value>
+                  <value>72.5</value>
+                  <value>73.0</value>
+                  <value>73.5</value>
+                  <value>74.0</value>
+                  <value>74.5</value>
+                  <value>75.0</value>
+                  <value>75.5</value>
+                  <value>76.0</value>
+                  <value>76.5</value>
+                  <value>77.0</value>
+                  <value>77.5</value>
+                  <value>78.0</value>
+                  <value>78.5</value>
+                  <value>79.0</value>
+                  <value>79.5</value>
+                </bin>
+                <bin default-name='false' value='&quot;80+&quot;'>
+                  <value>80.0</value>
+                  <value>80.5</value>
+                  <value>81.0</value>
+                  <value>81.5</value>
+                  <value>82.0</value>
+                  <value>82.5</value>
+                  <value>83.0</value>
+                  <value>83.5</value>
+                  <value>84.0</value>
+                  <value>84.5</value>
+                  <value>85.0</value>
+                  <value>85.5</value>
+                  <value>86.0</value>
+                  <value>86.5</value>
+                  <value>87.0</value>
+                  <value>87.5</value>
+                  <value>88.0</value>
+                  <value>88.5</value>
+                  <value>89.0</value>
+                  <value>89.5</value>
+                  <value>90.0</value>
+                  <value>90.5</value>
+                  <value>91.0</value>
+                  <value>91.5</value>
+                  <value>92.0</value>
+                  <value>92.5</value>
+                  <value>93.0</value>
+                  <value>93.5</value>
+                  <value>94.0</value>
+                  <value>94.5</value>
+                  <value>95.5</value>
+                  <value>96.0</value>
+                </bin>
+              </calculation>
+            </column>
+            <column caption='Client_Tenure' datatype='string' name='[Clnt Tenure Mnth (group)]' role='dimension' type='ordinal'>
+              <calculation class='categorical-bin' column='[clnt_tenure_mnth]' new-bin='true'>
+                <bin default-name='false' value='&quot;10-20 years&quot;'>
+                  <value>121</value>
+                  <value>122</value>
+                  <value>123</value>
+                  <value>124</value>
+                  <value>125</value>
+                  <value>126</value>
+                  <value>127</value>
+                  <value>128</value>
+                  <value>129</value>
+                  <value>130</value>
+                  <value>131</value>
+                  <value>132</value>
+                  <value>133</value>
+                  <value>134</value>
+                  <value>135</value>
+                  <value>136</value>
+                  <value>137</value>
+                  <value>138</value>
+                  <value>139</value>
+                  <value>140</value>
+                  <value>141</value>
+                  <value>142</value>
+                  <value>143</value>
+                  <value>144</value>
+                  <value>145</value>
+                  <value>146</value>
+                  <value>147</value>
+                  <value>148</value>
+                  <value>149</value>
+                  <value>150</value>
+                  <value>151</value>
+                  <value>152</value>
+                  <value>153</value>
+                  <value>154</value>
+                  <value>155</value>
+                  <value>156</value>
+                  <value>157</value>
+                  <value>158</value>
+                  <value>159</value>
+                  <value>160</value>
+                  <value>161</value>
+                  <value>162</value>
+                  <value>163</value>
+                  <value>164</value>
+                  <value>165</value>
+                  <value>166</value>
+                  <value>167</value>
+                  <value>168</value>
+                  <value>169</value>
+                  <value>170</value>
+                  <value>171</value>
+                  <value>172</value>
+                  <value>173</value>
+                  <value>174</value>
+                  <value>175</value>
+                  <value>176</value>
+                  <value>177</value>
+                  <value>178</value>
+                  <value>179</value>
+                  <value>180</value>
+                  <value>181</value>
+                  <value>182</value>
+                  <value>183</value>
+                  <value>184</value>
+                  <value>185</value>
+                  <value>186</value>
+                  <value>187</value>
+                  <value>188</value>
+                  <value>189</value>
+                  <value>190</value>
+                  <value>191</value>
+                  <value>192</value>
+                  <value>193</value>
+                  <value>194</value>
+                  <value>195</value>
+                  <value>196</value>
+                  <value>197</value>
+                  <value>198</value>
+                  <value>199</value>
+                  <value>200</value>
+                  <value>201</value>
+                  <value>202</value>
+                  <value>203</value>
+                  <value>204</value>
+                  <value>205</value>
+                  <value>206</value>
+                  <value>207</value>
+                  <value>208</value>
+                  <value>209</value>
+                  <value>210</value>
+                  <value>211</value>
+                  <value>212</value>
+                  <value>213</value>
+                  <value>214</value>
+                  <value>215</value>
+                  <value>216</value>
+                  <value>217</value>
+                  <value>218</value>
+                  <value>219</value>
+                  <value>220</value>
+                  <value>221</value>
+                  <value>222</value>
+                  <value>223</value>
+                  <value>224</value>
+                  <value>225</value>
+                  <value>226</value>
+                  <value>227</value>
+                  <value>228</value>
+                  <value>229</value>
+                  <value>230</value>
+                  <value>231</value>
+                  <value>232</value>
+                  <value>233</value>
+                  <value>234</value>
+                  <value>235</value>
+                  <value>236</value>
+                  <value>237</value>
+                  <value>238</value>
+                  <value>239</value>
+                  <value>240</value>
+                </bin>
+                <bin default-name='false' value='&quot;2-5 years&quot;'>
+                  <value>33</value>
+                  <value>34</value>
+                  <value>35</value>
+                  <value>36</value>
+                  <value>37</value>
+                  <value>38</value>
+                  <value>39</value>
+                  <value>40</value>
+                  <value>41</value>
+                  <value>42</value>
+                  <value>43</value>
+                  <value>44</value>
+                  <value>45</value>
+                  <value>46</value>
+                  <value>47</value>
+                  <value>48</value>
+                  <value>49</value>
+                  <value>50</value>
+                  <value>51</value>
+                  <value>52</value>
+                  <value>53</value>
+                  <value>54</value>
+                  <value>55</value>
+                  <value>56</value>
+                  <value>57</value>
+                  <value>58</value>
+                  <value>59</value>
+                </bin>
+                <bin default-name='false' value='&quot;20+ years&quot;'>
+                  <value>241</value>
+                  <value>242</value>
+                  <value>243</value>
+                  <value>244</value>
+                  <value>245</value>
+                  <value>246</value>
+                  <value>247</value>
+                  <value>248</value>
+                  <value>249</value>
+                  <value>250</value>
+                  <value>251</value>
+                  <value>252</value>
+                  <value>253</value>
+                  <value>254</value>
+                  <value>255</value>
+                  <value>256</value>
+                  <value>257</value>
+                  <value>258</value>
+                  <value>259</value>
+                  <value>260</value>
+                  <value>261</value>
+                  <value>262</value>
+                  <value>263</value>
+                  <value>264</value>
+                  <value>265</value>
+                  <value>266</value>
+                  <value>267</value>
+                  <value>268</value>
+                  <value>269</value>
+                  <value>270</value>
+                  <value>271</value>
+                  <value>272</value>
+                  <value>273</value>
+                  <value>274</value>
+                  <value>275</value>
+                  <value>276</value>
+                  <value>277</value>
+                  <value>278</value>
+                  <value>279</value>
+                  <value>280</value>
+                  <value>281</value>
+                  <value>282</value>
+                  <value>283</value>
+                  <value>284</value>
+                  <value>285</value>
+                  <value>286</value>
+                  <value>287</value>
+                  <value>288</value>
+                  <value>289</value>
+                  <value>290</value>
+                  <value>291</value>
+                  <value>292</value>
+                  <value>293</value>
+                  <value>294</value>
+                  <value>295</value>
+                  <value>296</value>
+                  <value>297</value>
+                  <value>298</value>
+                  <value>299</value>
+                  <value>300</value>
+                  <value>301</value>
+                  <value>302</value>
+                  <value>303</value>
+                  <value>304</value>
+                  <value>305</value>
+                  <value>306</value>
+                  <value>307</value>
+                  <value>308</value>
+                  <value>309</value>
+                  <value>310</value>
+                  <value>311</value>
+                  <value>312</value>
+                  <value>313</value>
+                  <value>314</value>
+                  <value>315</value>
+                  <value>316</value>
+                  <value>317</value>
+                  <value>318</value>
+                  <value>319</value>
+                  <value>320</value>
+                  <value>321</value>
+                  <value>322</value>
+                  <value>323</value>
+                  <value>324</value>
+                  <value>325</value>
+                  <value>326</value>
+                  <value>327</value>
+                  <value>328</value>
+                  <value>329</value>
+                  <value>330</value>
+                  <value>331</value>
+                  <value>332</value>
+                  <value>333</value>
+                  <value>334</value>
+                  <value>335</value>
+                  <value>336</value>
+                  <value>337</value>
+                  <value>338</value>
+                  <value>339</value>
+                  <value>340</value>
+                  <value>341</value>
+                  <value>342</value>
+                  <value>343</value>
+                  <value>344</value>
+                  <value>345</value>
+                  <value>346</value>
+                  <value>347</value>
+                  <value>348</value>
+                  <value>349</value>
+                  <value>350</value>
+                  <value>351</value>
+                  <value>352</value>
+                  <value>353</value>
+                  <value>354</value>
+                  <value>355</value>
+                  <value>356</value>
+                  <value>357</value>
+                  <value>358</value>
+                  <value>359</value>
+                  <value>360</value>
+                  <value>361</value>
+                  <value>362</value>
+                  <value>363</value>
+                  <value>364</value>
+                  <value>365</value>
+                  <value>366</value>
+                  <value>367</value>
+                  <value>368</value>
+                  <value>369</value>
+                  <value>370</value>
+                  <value>371</value>
+                  <value>372</value>
+                  <value>373</value>
+                  <value>374</value>
+                  <value>375</value>
+                  <value>376</value>
+                  <value>377</value>
+                  <value>378</value>
+                  <value>379</value>
+                  <value>380</value>
+                  <value>381</value>
+                  <value>382</value>
+                  <value>383</value>
+                  <value>384</value>
+                  <value>385</value>
+                  <value>386</value>
+                  <value>387</value>
+                  <value>388</value>
+                  <value>389</value>
+                  <value>390</value>
+                  <value>391</value>
+                  <value>392</value>
+                  <value>393</value>
+                  <value>394</value>
+                  <value>395</value>
+                  <value>396</value>
+                  <value>397</value>
+                  <value>398</value>
+                  <value>399</value>
+                  <value>400</value>
+                  <value>401</value>
+                  <value>402</value>
+                  <value>403</value>
+                  <value>404</value>
+                  <value>405</value>
+                  <value>406</value>
+                  <value>407</value>
+                  <value>408</value>
+                  <value>409</value>
+                  <value>410</value>
+                  <value>411</value>
+                  <value>412</value>
+                  <value>413</value>
+                  <value>414</value>
+                  <value>415</value>
+                  <value>416</value>
+                  <value>417</value>
+                  <value>418</value>
+                  <value>419</value>
+                  <value>420</value>
+                  <value>421</value>
+                  <value>422</value>
+                  <value>423</value>
+                  <value>424</value>
+                  <value>425</value>
+                  <value>426</value>
+                  <value>427</value>
+                  <value>428</value>
+                  <value>429</value>
+                  <value>430</value>
+                  <value>431</value>
+                  <value>432</value>
+                  <value>433</value>
+                  <value>434</value>
+                  <value>436</value>
+                  <value>439</value>
+                  <value>440</value>
+                  <value>441</value>
+                  <value>442</value>
+                  <value>443</value>
+                  <value>444</value>
+                  <value>445</value>
+                  <value>446</value>
+                  <value>447</value>
+                  <value>448</value>
+                  <value>449</value>
+                  <value>450</value>
+                  <value>451</value>
+                  <value>453</value>
+                  <value>454</value>
+                  <value>455</value>
+                  <value>456</value>
+                  <value>457</value>
+                  <value>459</value>
+                  <value>460</value>
+                  <value>461</value>
+                  <value>462</value>
+                  <value>463</value>
+                  <value>464</value>
+                  <value>465</value>
+                  <value>466</value>
+                  <value>468</value>
+                  <value>469</value>
+                  <value>472</value>
+                  <value>473</value>
+                  <value>475</value>
+                  <value>479</value>
+                  <value>480</value>
+                  <value>481</value>
+                  <value>482</value>
+                  <value>483</value>
+                  <value>484</value>
+                  <value>485</value>
+                  <value>492</value>
+                  <value>504</value>
+                  <value>507</value>
+                  <value>509</value>
+                  <value>511</value>
+                  <value>512</value>
+                  <value>516</value>
+                  <value>526</value>
+                  <value>532</value>
+                  <value>535</value>
+                  <value>539</value>
+                  <value>550</value>
+                  <value>554</value>
+                  <value>561</value>
+                  <value>562</value>
+                  <value>563</value>
+                  <value>564</value>
+                  <value>569</value>
+                  <value>571</value>
+                  <value>576</value>
+                  <value>581</value>
+                  <value>585</value>
+                  <value>586</value>
+                  <value>589</value>
+                  <value>593</value>
+                  <value>596</value>
+                  <value>602</value>
+                  <value>603</value>
+                  <value>608</value>
+                  <value>610</value>
+                  <value>612</value>
+                  <value>613</value>
+                  <value>614</value>
+                  <value>624</value>
+                  <value>631</value>
+                  <value>655</value>
+                  <value>661</value>
+                  <value>667</value>
+                  <value>668</value>
+                  <value>669</value>
+                  <value>749</value>
+                </bin>
+                <bin default-name='false' value='&quot;5-10years&quot;'>
+                  <value>60</value>
+                  <value>61</value>
+                  <value>62</value>
+                  <value>63</value>
+                  <value>64</value>
+                  <value>65</value>
+                  <value>66</value>
+                  <value>67</value>
+                  <value>68</value>
+                  <value>69</value>
+                  <value>70</value>
+                  <value>71</value>
+                  <value>72</value>
+                  <value>73</value>
+                  <value>74</value>
+                  <value>75</value>
+                  <value>76</value>
+                  <value>77</value>
+                  <value>78</value>
+                  <value>79</value>
+                  <value>80</value>
+                  <value>81</value>
+                  <value>82</value>
+                  <value>83</value>
+                  <value>84</value>
+                  <value>85</value>
+                  <value>86</value>
+                  <value>87</value>
+                  <value>88</value>
+                  <value>89</value>
+                  <value>90</value>
+                  <value>91</value>
+                  <value>92</value>
+                  <value>93</value>
+                  <value>94</value>
+                  <value>95</value>
+                  <value>96</value>
+                  <value>97</value>
+                  <value>98</value>
+                  <value>99</value>
+                  <value>100</value>
+                  <value>101</value>
+                  <value>102</value>
+                  <value>103</value>
+                  <value>104</value>
+                  <value>105</value>
+                  <value>106</value>
+                  <value>107</value>
+                  <value>108</value>
+                  <value>109</value>
+                  <value>110</value>
+                  <value>111</value>
+                  <value>112</value>
+                  <value>113</value>
+                  <value>114</value>
+                  <value>115</value>
+                  <value>116</value>
+                  <value>117</value>
+                  <value>118</value>
+                  <value>119</value>
+                  <value>120</value>
+                </bin>
+              </calculation>
+            </column>
+            <column caption='Client Id' datatype='integer' name='[client_id]' role='dimension' type='ordinal' />
+            <column caption='Clnt Age' datatype='real' name='[clnt_age]' role='measure' type='quantitative' />
+            <column caption='Clnt Tenure Mnth' datatype='integer' name='[clnt_tenure_mnth]' role='measure' type='quantitative' />
+            <column-instance column='[client_id]' derivation='Count' name='[cnt:client_id:qk]' pivot='key' type='quantitative' />
+          </datasource-dependencies>
+          <aggregation value='true' />
+        </view>
+        <style />
+        <panes>
+          <pane id='2' selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Automatic' />
+            <encodings>
+              <color column='[federated.0yq8y9y0243j07121rfmh084obsz].[Clnt Age (group)]' />
+            </encodings>
+          </pane>
+        </panes>
+        <rows>[federated.0yq8y9y0243j07121rfmh084obsz].[cnt:client_id:qk]</rows>
+        <cols>[federated.0yq8y9y0243j07121rfmh084obsz].[Clnt Tenure Mnth (group)]</cols>
+      </table>
+      <simple-id uuid='{3D349B5F-3F87-4AA9-84FB-F51E25729641}' />
+    </worksheet>
+  </worksheets>
+  <windows saved-dpi-scale-factor='1.25' source-height='89'>
+    <window class='worksheet' maximized='true' name='PrimaryClients_Overview'>
+      <cards>
+        <edge name='left'>
+          <strip size='160'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='2147483647'>
+            <card type='columns' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='rows' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='title' />
+          </strip>
+        </edge>
+      </cards>
+      <viewpoint>
+        <zoom type='entire-view' />
+        <highlight>
+          <color-one-way>
+            <field>[federated.0yq8y9y0243j07121rfmh084obsz].[Clnt Age (group)]</field>
+            <field>[federated.0yq8y9y0243j07121rfmh084obsz].[none:client_id:ok]</field>
+          </color-one-way>
+        </highlight>
+      </viewpoint>
+      <simple-id uuid='{D83FE3F9-5701-45C9-B100-D90E6D5557E6}' />
+    </window>
+    <window class='worksheet' name='Primary_clinets_Tenure'>
+      <cards>
+        <edge name='left'>
+          <strip size='160'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='2147483647'>
+            <card type='columns' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='rows' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='title' />
+          </strip>
+        </edge>
+        <edge name='right'>
+          <strip size='160'>
+            <card pane-specification-id='2' param='[federated.0yq8y9y0243j07121rfmh084obsz].[Clnt Age (group)]' type='color' />
+          </strip>
+        </edge>
+      </cards>
+      <viewpoint>
+        <zoom type='entire-view' />
+        <highlight>
+          <color-one-way>
+            <field>[federated.0yq8y9y0243j07121rfmh084obsz].[Clnt Age (group)]</field>
+            <field>[federated.0yq8y9y0243j07121rfmh084obsz].[Clnt Tenure Mnth (group)]</field>
+            <field>[federated.0yq8y9y0243j07121rfmh084obsz].[none:client_id:ok]</field>
+          </color-one-way>
+        </highlight>
+      </viewpoint>
+      <simple-id uuid='{19D94368-3686-4E98-B6F1-36E91CB89C43}' />
+    </window>
+    <window class='worksheet' name='Error rate by variation cross tab'>
+      <cards>
+        <edge name='left'>
+          <strip size='160'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='2147483647'>
+            <card type='columns' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='rows' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='title' />
+          </strip>
+        </edge>
+      </cards>
+      <simple-id uuid='{811E9A3A-0C02-45DE-ACB5-6F791DE26927}' />
+    </window>
+    <window class='worksheet' name='Average error rate by variation barplot'>
+      <cards>
+        <edge name='left'>
+          <strip size='160'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='2147483647'>
+            <card type='columns' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='rows' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='title' />
+          </strip>
+        </edge>
+        <edge name='right'>
+          <strip size='160'>
+            <card pane-specification-id='0' param='[federated.1efjumk164go4e1fizgmb09xwo08].[none:Variation:nk]' type='color' />
+          </strip>
+        </edge>
+      </cards>
+      <viewpoint>
+        <zoom type='entire-view' />
+        <highlight>
+          <color-one-way>
+            <field>[federated.1efjumk164go4e1fizgmb09xwo08].[none:Variation:nk]</field>
+          </color-one-way>
+        </highlight>
+      </viewpoint>
+      <simple-id uuid='{627790D6-DB4D-4B7C-84F9-6A52DDD68869}' />
+    </window>
+    <window class='worksheet' name='Average error rate among age group barplot'>
+      <cards>
+        <edge name='left'>
+          <strip size='160'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='2147483647'>
+            <card type='columns' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='rows' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='title' />
+          </strip>
+        </edge>
+        <edge name='right'>
+          <strip size='160'>
+            <card pane-specification-id='0' param='[federated.0hdledx1u6r17a18dit3i14ql5n9].[none:Variation:nk]' type='color' />
+          </strip>
+        </edge>
+      </cards>
+      <viewpoint>
+        <zoom type='entire-view' />
+        <highlight>
+          <color-one-way>
+            <field>[federated.0hdledx1u6r17a18dit3i14ql5n9].[none:Variation:nk]</field>
+            <field>[federated.0hdledx1u6r17a18dit3i14ql5n9].[none:age_group:nk]</field>
+            <field>[federated.1efjumk164go4e1fizgmb09xwo08].[none:Clnt Age (bin):ok]</field>
+          </color-one-way>
+        </highlight>
+      </viewpoint>
+      <simple-id uuid='{A0BA2A39-9D01-4B1B-812D-407E36B2166D}' />
+    </window>
+  </windows>
+  <thumbnails>
+    <thumbnail height='192' name='Average error rate among age group barplot' width='192'>
+      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
+      TkSuQmCC
+    </thumbnail>
+    <thumbnail height='192' name='Average error rate by variation barplot' width='192'>
+      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
+    </thumbnail>
+    <thumbnail height='88' name='Error rate by variation cross tab' width='192'>
+      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
+      SfP/hhfNMOYBEz4AAAAASUVORK5CYII=
+    </thumbnail>
+    <thumbnail height='192' name='PrimaryClients_Overview' width='192'>
+      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
+    </thumbnail>
+    <thumbnail height='192' name='Primary_clinets_Tenure' width='192'>
+      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
+      AAAASUVORK5CYII=
+    </thumbnail>
+  </thumbnails>
+</workbook>
