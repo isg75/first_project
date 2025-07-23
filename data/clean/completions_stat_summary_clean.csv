@@ -1,0 +1,3 @@
+Metric_Type,Control_Rate (%),Test_Rate (%),Observed_Diff (%),Required_Diff_5%_Lift,Z_Statistic,P_Value_One_Sided,Meets_5%_Threshold,Conclusion
+Completion Rate (0 errors),29.2452,29.905,0.6599,1.4623,-2.0788,0.9812,No,Fail to reject the null hypothesis: Test does NOT show cost-effective improvement.
+Completion Rate (Confirmed),59.2288,65.1966,5.9678,2.9614,7.3403,0.0,Yes,Reject the null hypothesis: Test shows cost-effective improvement (lift > 5%).

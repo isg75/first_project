@@ -1,0 +1,576 @@
+<?xml version='1.0' encoding='utf-8' ?>
+
+<!-- build 20252.25.0514.2217                               -->
+<workbook original-version='18.1' source-build='2025.2.0 (20252.25.0514.2217)' source-platform='win' version='18.1' xmlns:user='http://www.tableausoftware.com/xml/user'>
+  <document-format-change-manifest>
+    <AnimationOnByDefault />
+    <MarkAnimation />
+    <ObjectModelEncapsulateLegacy />
+    <ObjectModelExtractV2 />
+    <ObjectModelTableType />
+    <SchemaViewerObjectModel />
+    <SheetIdentifierTracking />
+    <_.fcp.VConnDownstreamExtractsWithWarnings.true...VConnDownstreamExtractsWithWarnings />
+    <WindowsPersistSimpleIdentifiers />
+  </document-format-change-manifest>
+  <preferences>
+    <preference name='ui.encoding.shelf.height' value='24' />
+    <preference name='ui.shelf.height' value='26' />
+  </preferences>
+  <datasources>
+    <datasource caption='completions_stat_summary_clean' inline='true' name='federated.0nfnpza04ig16111nz5ez048raqi' version='18.1'>
+      <connection class='federated'>
+        <named-connections>
+          <named-connection caption='completions_stat_summary_clean' name='textscan.0skjgum1vkum4i132c7z91alnknf'>
+            <connection class='textscan' directory='C:/Users/Brenda Villaverde/Desktop/Ironhack_Brenda Villaverde_DAFT 2025/Data Analytics/Week_5/Day_1/vanguard-ab-test/data/clean' filename='completions_stat_summary_clean.csv' password='' server='' />
+          </named-connection>
+        </named-connections>
+        <relation connection='textscan.0skjgum1vkum4i132c7z91alnknf' name='completions_stat_summary_clean.csv' table='[completions_stat_summary_clean#csv]' type='table'>
+          <columns character-set='UTF-8' header='yes' locale='es_MX' separator=','>
+            <column datatype='string' name='Metric_Type' ordinal='0' />
+            <column datatype='real' name='Control_Rate (%)' ordinal='1' />
+            <column datatype='real' name='Test_Rate (%)' ordinal='2' />
+            <column datatype='real' name='Observed_Diff (%)' ordinal='3' />
+            <column datatype='real' name='Required_Diff_5%_Lift' ordinal='4' />
+            <column datatype='real' name='Z_Statistic' ordinal='5' />
+            <column datatype='real' name='P_Value_One_Sided' ordinal='6' />
+            <column datatype='string' name='Meets_5%_Threshold' ordinal='7' />
+            <column datatype='string' name='Conclusion' ordinal='8' />
+          </columns>
+        </relation>
+        <metadata-records>
+          <metadata-record class='capability'>
+            <remote-name />
+            <remote-type>0</remote-type>
+            <parent-name>[completions_stat_summary_clean.csv]</parent-name>
+            <remote-alias />
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='character-set'>&quot;UTF-8&quot;</attribute>
+              <attribute datatype='string' name='collation'>&quot;es&quot;</attribute>
+              <attribute datatype='string' name='field-delimiter'>&quot;,&quot;</attribute>
+              <attribute datatype='string' name='header-row'>&quot;true&quot;</attribute>
+              <attribute datatype='string' name='locale'>&quot;es_MX&quot;</attribute>
+              <attribute datatype='string' name='single-char'>&quot;&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Metric_Type</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[Metric_Type]</local-name>
+            <parent-name>[completions_stat_summary_clean.csv]</parent-name>
+            <remote-alias>Metric_Type</remote-alias>
+            <ordinal>0</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LES_RES' />
+            <object-id>[completions_stat_summary_clean.csv_EE506D1DF2D54A4A98F0C0AE789DF3C3]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Control_Rate (%)</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[Control_Rate (%)]</local-name>
+            <parent-name>[completions_stat_summary_clean.csv]</parent-name>
+            <remote-alias>Control_Rate (%)</remote-alias>
+            <ordinal>1</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <object-id>[completions_stat_summary_clean.csv_EE506D1DF2D54A4A98F0C0AE789DF3C3]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Test_Rate (%)</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[Test_Rate (%)]</local-name>
+            <parent-name>[completions_stat_summary_clean.csv]</parent-name>
+            <remote-alias>Test_Rate (%)</remote-alias>
+            <ordinal>2</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <object-id>[completions_stat_summary_clean.csv_EE506D1DF2D54A4A98F0C0AE789DF3C3]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Observed_Diff (%)</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[Observed_Diff (%)]</local-name>
+            <parent-name>[completions_stat_summary_clean.csv]</parent-name>
+            <remote-alias>Observed_Diff (%)</remote-alias>
+            <ordinal>3</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <object-id>[completions_stat_summary_clean.csv_EE506D1DF2D54A4A98F0C0AE789DF3C3]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Required_Diff_5%_Lift</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[Required_Diff_5%_Lift]</local-name>
+            <parent-name>[completions_stat_summary_clean.csv]</parent-name>
+            <remote-alias>Required_Diff_5%_Lift</remote-alias>
+            <ordinal>4</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <object-id>[completions_stat_summary_clean.csv_EE506D1DF2D54A4A98F0C0AE789DF3C3]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Z_Statistic</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[Z_Statistic]</local-name>
+            <parent-name>[completions_stat_summary_clean.csv]</parent-name>
+            <remote-alias>Z_Statistic</remote-alias>
+            <ordinal>5</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <object-id>[completions_stat_summary_clean.csv_EE506D1DF2D54A4A98F0C0AE789DF3C3]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>P_Value_One_Sided</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[P_Value_One_Sided]</local-name>
+            <parent-name>[completions_stat_summary_clean.csv]</parent-name>
+            <remote-alias>P_Value_One_Sided</remote-alias>
+            <ordinal>6</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <object-id>[completions_stat_summary_clean.csv_EE506D1DF2D54A4A98F0C0AE789DF3C3]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Meets_5%_Threshold</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[Meets_5%_Threshold]</local-name>
+            <parent-name>[completions_stat_summary_clean.csv]</parent-name>
+            <remote-alias>Meets_5%_Threshold</remote-alias>
+            <ordinal>7</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LES_RES' />
+            <object-id>[completions_stat_summary_clean.csv_EE506D1DF2D54A4A98F0C0AE789DF3C3]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Conclusion</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[Conclusion]</local-name>
+            <parent-name>[completions_stat_summary_clean.csv]</parent-name>
+            <remote-alias>Conclusion</remote-alias>
+            <ordinal>8</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LES_RES' />
+            <object-id>[completions_stat_summary_clean.csv_EE506D1DF2D54A4A98F0C0AE789DF3C3]</object-id>
+          </metadata-record>
+        </metadata-records>
+      </connection>
+      <aliases enabled='yes' />
+      <column caption='Control Rate (%)' datatype='real' name='[Control_Rate (%)]' role='measure' type='quantitative' />
+      <column caption='Meets 5% Threshold' datatype='string' name='[Meets_5%_Threshold]' role='dimension' type='nominal' />
+      <column caption='Metric Type' datatype='string' name='[Metric_Type]' role='dimension' type='nominal' />
+      <column caption='Observed Diff (%)' datatype='real' name='[Observed_Diff (%)]' role='measure' type='quantitative' />
+      <column caption='P Value One Sided' datatype='real' name='[P_Value_One_Sided]' role='measure' type='quantitative' />
+      <column caption='Required Diff 5% Lift' datatype='real' name='[Required_Diff_5%_Lift]' role='measure' type='quantitative' />
+      <column caption='Test Rate (%)' datatype='real' name='[Test_Rate (%)]' role='measure' type='quantitative' />
+      <column caption='Z Statistic' datatype='real' name='[Z_Statistic]' role='measure' type='quantitative' />
+      <column caption='completions_stat_summary_clean.csv' datatype='table' name='[__tableau_internal_object_id__].[completions_stat_summary_clean.csv_EE506D1DF2D54A4A98F0C0AE789DF3C3]' role='measure' type='quantitative' />
+      <column-instance column='[Metric_Type]' derivation='None' name='[none:Metric_Type:nk]' pivot='key' type='nominal' />
+      <extract _.fcp.VConnDownstreamExtractsWithWarnings.true...user-specific='false' count='-1' enabled='true' object-id='' units='records'>
+        <connection access_mode='readonly' author-locale='en_US' class='hyper' dbname='C:/Users/Brenda Villaverde/AppData/Local/Temp/TableauTemp/#TableauTemp_14i913r119i50g1chdzot0hadx5h.hyper' default-settings='hyper' schema='Extract' sslmode='' tablename='Extract' update-time='07/22/2025 03:02:47 PM' username='tableau_internal_user'>
+          <relation name='Extract' table='[Extract].[Extract]' type='table' />
+          <metadata-records>
+            <metadata-record class='column'>
+              <remote-name>Metric_Type</remote-name>
+              <remote-type>129</remote-type>
+              <local-name>[Metric_Type]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>Metric_Type</remote-alias>
+              <ordinal>0</ordinal>
+              <family>completions_stat_summary_clean.csv</family>
+              <local-type>string</local-type>
+              <aggregation>Count</aggregation>
+              <approx-count>2</approx-count>
+              <contains-null>true</contains-null>
+              <collation flag='0' name='LES_RES' />
+              <object-id>[completions_stat_summary_clean.csv_EE506D1DF2D54A4A98F0C0AE789DF3C3]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>Control_Rate (%)</remote-name>
+              <remote-type>5</remote-type>
+              <local-name>[Control_Rate (%)]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>Control_Rate (%)</remote-alias>
+              <ordinal>1</ordinal>
+              <family>completions_stat_summary_clean.csv</family>
+              <local-type>real</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>2</approx-count>
+              <contains-null>true</contains-null>
+              <object-id>[completions_stat_summary_clean.csv_EE506D1DF2D54A4A98F0C0AE789DF3C3]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>Test_Rate (%)</remote-name>
+              <remote-type>5</remote-type>
+              <local-name>[Test_Rate (%)]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>Test_Rate (%)</remote-alias>
+              <ordinal>2</ordinal>
+              <family>completions_stat_summary_clean.csv</family>
+              <local-type>real</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>2</approx-count>
+              <contains-null>true</contains-null>
+              <object-id>[completions_stat_summary_clean.csv_EE506D1DF2D54A4A98F0C0AE789DF3C3]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>Observed_Diff (%)</remote-name>
+              <remote-type>5</remote-type>
+              <local-name>[Observed_Diff (%)]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>Observed_Diff (%)</remote-alias>
+              <ordinal>3</ordinal>
+              <family>completions_stat_summary_clean.csv</family>
+              <local-type>real</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>2</approx-count>
+              <contains-null>true</contains-null>
+              <object-id>[completions_stat_summary_clean.csv_EE506D1DF2D54A4A98F0C0AE789DF3C3]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>Required_Diff_5%_Lift</remote-name>
+              <remote-type>5</remote-type>
+              <local-name>[Required_Diff_5%_Lift]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>Required_Diff_5%_Lift</remote-alias>
+              <ordinal>4</ordinal>
+              <family>completions_stat_summary_clean.csv</family>
+              <local-type>real</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>2</approx-count>
+              <contains-null>true</contains-null>
+              <object-id>[completions_stat_summary_clean.csv_EE506D1DF2D54A4A98F0C0AE789DF3C3]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>Z_Statistic</remote-name>
+              <remote-type>5</remote-type>
+              <local-name>[Z_Statistic]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>Z_Statistic</remote-alias>
+              <ordinal>5</ordinal>
+              <family>completions_stat_summary_clean.csv</family>
+              <local-type>real</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>2</approx-count>
+              <contains-null>true</contains-null>
+              <object-id>[completions_stat_summary_clean.csv_EE506D1DF2D54A4A98F0C0AE789DF3C3]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>P_Value_One_Sided</remote-name>
+              <remote-type>5</remote-type>
+              <local-name>[P_Value_One_Sided]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>P_Value_One_Sided</remote-alias>
+              <ordinal>6</ordinal>
+              <family>completions_stat_summary_clean.csv</family>
+              <local-type>real</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>2</approx-count>
+              <contains-null>true</contains-null>
+              <object-id>[completions_stat_summary_clean.csv_EE506D1DF2D54A4A98F0C0AE789DF3C3]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>Meets_5%_Threshold</remote-name>
+              <remote-type>129</remote-type>
+              <local-name>[Meets_5%_Threshold]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>Meets_5%_Threshold</remote-alias>
+              <ordinal>7</ordinal>
+              <family>completions_stat_summary_clean.csv</family>
+              <local-type>string</local-type>
+              <aggregation>Count</aggregation>
+              <approx-count>2</approx-count>
+              <contains-null>true</contains-null>
+              <collation flag='0' name='LES_RES' />
+              <object-id>[completions_stat_summary_clean.csv_EE506D1DF2D54A4A98F0C0AE789DF3C3]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>Conclusion</remote-name>
+              <remote-type>129</remote-type>
+              <local-name>[Conclusion]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>Conclusion</remote-alias>
+              <ordinal>8</ordinal>
+              <family>completions_stat_summary_clean.csv</family>
+              <local-type>string</local-type>
+              <aggregation>Count</aggregation>
+              <approx-count>2</approx-count>
+              <contains-null>true</contains-null>
+              <collation flag='0' name='LES_RES' />
+              <object-id>[completions_stat_summary_clean.csv_EE506D1DF2D54A4A98F0C0AE789DF3C3]</object-id>
+            </metadata-record>
+          </metadata-records>
+        </connection>
+      </extract>
+      <layout dim-ordering='alphabetic' measure-ordering='alphabetic' show-structure='true' />
+      <style>
+        <style-rule element='mark'>
+          <encoding attr='color' field='[none:Metric_Type:nk]' type='palette'>
+            <map to='#2c5985'>
+              <bucket>&quot;Completion Rate (0 errors)&quot;</bucket>
+            </map>
+            <map to='#bce4d8'>
+              <bucket>&quot;Completion Rate (Confirmed)&quot;</bucket>
+            </map>
+          </encoding>
+        </style-rule>
+      </style>
+      <semantic-values>
+        <semantic-value key='[Country].[Name]' value='&quot;Spain&quot;' />
+      </semantic-values>
+      <object-graph>
+        <objects>
+          <object caption='completions_stat_summary_clean.csv' id='completions_stat_summary_clean.csv_EE506D1DF2D54A4A98F0C0AE789DF3C3'>
+            <properties context=''>
+              <relation connection='textscan.0skjgum1vkum4i132c7z91alnknf' name='completions_stat_summary_clean.csv' table='[completions_stat_summary_clean#csv]' type='table'>
+                <columns character-set='UTF-8' header='yes' locale='es_MX' separator=','>
+                  <column datatype='string' name='Metric_Type' ordinal='0' />
+                  <column datatype='real' name='Control_Rate (%)' ordinal='1' />
+                  <column datatype='real' name='Test_Rate (%)' ordinal='2' />
+                  <column datatype='real' name='Observed_Diff (%)' ordinal='3' />
+                  <column datatype='real' name='Required_Diff_5%_Lift' ordinal='4' />
+                  <column datatype='real' name='Z_Statistic' ordinal='5' />
+                  <column datatype='real' name='P_Value_One_Sided' ordinal='6' />
+                  <column datatype='string' name='Meets_5%_Threshold' ordinal='7' />
+                  <column datatype='string' name='Conclusion' ordinal='8' />
+                </columns>
+              </relation>
+            </properties>
+            <properties context='extract'>
+              <relation name='Extract' table='[Extract].[Extract]' type='table' />
+            </properties>
+          </object>
+        </objects>
+      </object-graph>
+    </datasource>
+  </datasources>
+  <worksheets>
+    <worksheet name='Sheet 1'>
+      <table>
+        <view>
+          <datasources>
+            <datasource caption='completions_stat_summary_clean' name='federated.0nfnpza04ig16111nz5ez048raqi' />
+          </datasources>
+          <datasource-dependencies datasource='federated.0nfnpza04ig16111nz5ez048raqi'>
+            <column caption='Control Rate (%)' datatype='real' name='[Control_Rate (%)]' role='measure' type='quantitative' />
+            <column caption='Metric Type' datatype='string' name='[Metric_Type]' role='dimension' type='nominal' />
+            <column caption='Test Rate (%)' datatype='real' name='[Test_Rate (%)]' role='measure' type='quantitative' />
+            <column-instance column='[Metric_Type]' derivation='None' name='[none:Metric_Type:nk]' pivot='key' type='nominal' />
+            <column-instance column='[Control_Rate (%)]' derivation='Sum' name='[sum:Control_Rate (%):qk]' pivot='key' type='quantitative' />
+            <column-instance column='[Test_Rate (%)]' derivation='Sum' name='[sum:Test_Rate (%):qk]' pivot='key' type='quantitative' />
+          </datasource-dependencies>
+          <filter class='categorical' column='[federated.0nfnpza04ig16111nz5ez048raqi].[:Measure Names]'>
+            <groupfilter function='union' user:op='manual'>
+              <groupfilter function='member' level='[:Measure Names]' member='&quot;[federated.0nfnpza04ig16111nz5ez048raqi].[sum:Control_Rate (\%):qk]&quot;' />
+              <groupfilter function='member' level='[:Measure Names]' member='&quot;[federated.0nfnpza04ig16111nz5ez048raqi].[sum:Test_Rate (\%):qk]&quot;' />
+            </groupfilter>
+          </filter>
+          <filter class='categorical' column='[federated.0nfnpza04ig16111nz5ez048raqi].[none:Metric_Type:nk]'>
+            <groupfilter function='except' user:ui-domain='relevant' user:ui-enumeration='exclusive' user:ui-marker='enumerate'>
+              <groupfilter function='level-members' level='[none:Metric_Type:nk]' />
+              <groupfilter function='empty-level' member='[none:Metric_Type:nk]' />
+            </groupfilter>
+          </filter>
+          <slices>
+            <column>[federated.0nfnpza04ig16111nz5ez048raqi].[none:Metric_Type:nk]</column>
+            <column>[federated.0nfnpza04ig16111nz5ez048raqi].[:Measure Names]</column>
+          </slices>
+          <aggregation value='true' />
+        </view>
+        <style>
+          <style-rule element='cell'>
+            <format attr='width' field='[federated.0nfnpza04ig16111nz5ez048raqi].[:Measure Names]' value='172' />
+          </style-rule>
+        </style>
+        <panes>
+          <pane selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Automatic' />
+            <encodings>
+              <color column='[federated.0nfnpza04ig16111nz5ez048raqi].[none:Metric_Type:nk]' />
+            </encodings>
+            <style>
+              <style-rule element='pane'>
+                <format attr='minwidth' value='-1' />
+                <format attr='maxwidth' value='-1' />
+              </style-rule>
+            </style>
+          </pane>
+        </panes>
+        <rows>[federated.0nfnpza04ig16111nz5ez048raqi].[Multiple Values]</rows>
+        <cols>([federated.0nfnpza04ig16111nz5ez048raqi].[none:Metric_Type:nk] / [federated.0nfnpza04ig16111nz5ez048raqi].[:Measure Names])</cols>
+      </table>
+      <simple-id uuid='{54650D6D-AE8B-4D8F-8000-4A7084B4C882}' />
+    </worksheet>
+  </worksheets>
+  <windows saved-dpi-scale-factor='1.25' source-height='37'>
+    <window class='worksheet' maximized='true' name='Sheet 1'>
+      <cards>
+        <edge name='left'>
+          <strip size='160'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+            <card type='measures' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='2147483647'>
+            <card type='columns' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='rows' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='title' />
+          </strip>
+        </edge>
+        <edge name='right'>
+          <strip size='160'>
+            <card pane-specification-id='0' param='[federated.0nfnpza04ig16111nz5ez048raqi].[none:Metric_Type:nk]' type='color' />
+          </strip>
+        </edge>
+      </cards>
+      <viewpoint>
+        <highlight>
+          <color-one-way>
+            <field>[federated.0nfnpza04ig16111nz5ez048raqi].[none:Metric_Type:nk]</field>
+          </color-one-way>
+        </highlight>
+      </viewpoint>
+      <simple-id uuid='{B25217FA-90EC-4A51-AC72-197C2DC4FF7A}' />
+    </window>
+  </windows>
+  <thumbnails>
+    <thumbnail height='192' name='Sheet 1' width='192'>
+      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
+    </thumbnail>
+  </thumbnails>
+</workbook>
