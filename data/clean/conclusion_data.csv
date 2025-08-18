@@ -1,0 +1,10 @@
+district,rating,reviews,density,income,Review Leaders,Suitability
+ciutat vella,4.4,95564.0,255,13634,"El Nacional Barcelona (4.4), Cerveceria Catalana (4.4)",Good fallback option
+gràcia,3.9,40480.0,319,19553,"L'Ovella Negra | Marina (4.2), Pacha Barcelona (3.2)",Good fallback option
+horta-guinardo,4.2,153775.0,164,16455,"Arenas de Barcelona (4.2), Salamanca (4.0)",Good fallback option
+l'eixample,4.5,87427.0,380,20652,"Colom Restaurant (4.7), Hard Rock Cafè (4.4)",High potential
+les corts,4.5,11045.0,163,25042,"Sartoria Panatieri (4.3), Mandarin Oriental, Barcelona (4.6)","High income, but quieter"
+nou barris,4.2,46401.0,266,12537,"Xiringuito Escribà (4.2), Xiroi (4.2)",Good fallback option
+sant andreu,4.4,5352.0,122,10687,"Blu Bar (4.4), Tierra Burrito Bar (4.4)",Good fallback option
+sants-montjuic,4.4,57398.0,255,15717,"7 Portes (4.2), La Selva Barcelona | Còrsega (4.7)",Good fallback option
+sarrià-sant gervasi,4.4,22728.0,212,28539,"Botafumeiro (4.4), Parking Pizza | Passeig Sant Joan (4.4)","High income, but quieter"
