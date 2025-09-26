@@ -6,3 +6,6 @@ notebooks/.env
 notebooks/.DS_Store
 .DS_Store
 *.in
+# Ignorar caches de Python
+__pycache__/
+*.pyc
