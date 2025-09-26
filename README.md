@@ -1,5 +1,8 @@
 # Project overview
-...
+
+This project is about analyzing a board games dataset to uncover trends and build useful tools for players and enthusiasts. The data was cleaned, organized, and stored in a SQL database to make querying more efficient. Using Python, we developed a filtering-based recommendation engine that helps users discover games based on factors like ratings, playtime, number of players and complexity. In addition, we created visual charts showcasing the top-rated, most-played, and most-wishlisted board games, providing a clear picture of what games are popular and engaging. Overall, this project combines data engineering, analysis, and visualization to deliver practical insights and recommendations.
+
+URL - presentation: https://docs.google.com/presentation/d/1pBzKzOzYKCxy7n_QEZRLTVhZnCo_pdmCDucYisod0L8/edit?usp=sharing
 
 # Installation
 
