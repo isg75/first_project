@@ -6,3 +6,5 @@ notebooks/.env
 notebooks/.DS_Store
 .DS_Store
 *.in
+notebooks/__pycache__/clean_string_content_regex.cpython-313.pyc
+.virtual_documents/
