@@ -1,0 +1,17 @@
+crime_type,total_count
+theft,11233
+local,3813
+injury,1966
+damage,1307
+drugs,1133
+bike,940
+from_car,587
+agg_assault,500
+threat,420
+graffiti,381
+robbery,173
+burglary,137
+street_robbery,102
+car,63
+fire,43
+arson,12

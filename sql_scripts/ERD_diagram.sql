@@ -1,0 +1,41 @@
+CREATE TABLE IF NOT EXISTS `Population` (
+	`postal_code` INTEGER NOT NULL,
+	`district` VARCHAR(255) NOT NULL,
+	`total` INTEGER NOT NULL,
+	`age_6_under_6` INTEGER NOT NULL,
+	`age_15_to_18` INTEGER NOT NULL,
+	`age_18_to_27` INTEGER NOT NULL,
+	`age_45_to_55` INTEGER NOT NULL,
+	`age_55_to_65` INTEGER NOT NULL,
+	`age_65_plus` INTEGER NOT NULL,
+	`female_total` INTEGER NOT NULL,
+	PRIMARY KEY(`postal_code`)
+);
+
+
+CREATE TABLE IF NOT EXISTS `Crimes` (
+	`Crime_Fact_ID` VARCHAR(1000) NOT NULL UNIQUE,
+	`district_ID` VARCHAR(1000) NOT NULL,
+	`year` INTEGER NOT NULL,
+	`injury` VARCHAR(1000) NOT NULL,
+	`theft` VARCHAR(1000) NOT NULL,
+	`arson` VARCHAR(1000) NOT NULL,
+	`drugs` VARCHAR(1000) NOT NULL,
+	PRIMARY KEY(`Crime_Fact_ID`)
+);
+
+
+CREATE TABLE IF NOT EXISTS `Location` (
+	`district_ID` VARCHAR(1000) NOT NULL,
+	`Region` VARCHAR(1000) NOT NULL,
+	`postal_code` INTEGER NOT NULL AUTO_INCREMENT UNIQUE,
+	PRIMARY KEY(`district_ID`)
+);
+
+
+ALTER TABLE `Location`
+ADD FOREIGN KEY(`postal_code`) REFERENCES `Population`(`postal_code`)
+ON UPDATE NO ACTION ON DELETE NO ACTION;
+ALTER TABLE `Crimes`
+ADD FOREIGN KEY(`district_ID`) REFERENCES `Location`(`district_ID`)
+ON UPDATE NO ACTION ON DELETE NO ACTION;
