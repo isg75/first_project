@@ -1,77 +1,150 @@
-# Project overview
-...
+# **🎲 Board Games Analysis & Recommendation Engine**
 
-# Installation
+## **Project Overview**
 
-1. **Clone the repository**:
+This project analyzes a **board games dataset** to uncover trends and build useful tools for players and enthusiasts.
 
-```bash
-git clone https://github.com/YourUsername/repository_name.git
-```
+* The data was **cleaned, organized, and stored in a SQL database** for efficient querying.
 
-2. **Install UV**
+* A **filtering-based recommendation engine** (Python \+ Streamlit) helps users discover games based on:
 
-If you're a MacOS/Linux user type:
+  * Ratings
 
-```bash
-curl -LsSf https://astral.sh/uv/install.sh | sh
-```
+  * Playtime
 
-If you're a Windows user open an Anaconda Powershell Prompt and type :
+  * Number of players
 
-```bash
-powershell -ExecutionPolicy ByPass -c "irm https://astral.sh/uv/install.ps1 | iex"
-```
+  * Complexity
 
-3. **Create an environment**
+* Visual charts highlight:
 
-```bash
-uv venv 
-```
+  * Top-rated games
 
-3. **Activate the environment**
+  * Most-played games
 
-If you're a MacOS/Linux user type (if you're using a bash shell):
+  * Most-wishlisted games
 
-```bash
-source ./venv/bin/activate
-```
+Overall, this project combines **data engineering, analysis, and visualization** to deliver practical insights and personalized recommendations.
 
-If you're a MacOS/Linux user type (if you're using a csh/tcsh shell):
+📑 **Presentation**: [Board Game Database](https://docs.google.com/presentation/d/1pBzKzOzYKCxy7n_QEZRLTVhZnCo_pdmCDucYisod0L8/edit?usp=sharing)
 
-```bash
-source ./venv/bin/activate.csh
-```
+---
 
-If you're a Windows user type:
+## **Data Sources**
 
-```bash
-.\venv\Scripts\activate
-```
+* **Board Game CSV file**: Dataset with \~2000 rows
 
-4. **Install dependencies**:
+* **YAML configuration**: Used to dynamically manage file paths and input/output references
 
-```bash
-uv pip install -r requirements.txt
-```
+---
 
-# Questions 
-...
+## **Figures**
 
-# Dataset 
-...
+* **ER Diagram**: A visual representation of the database logical structure
 
-## Main dataset issues
+---
 
-- ...
-- ...
-- ...
+## **Libraries Used**
 
-## Solutions for the dataset issues
-...
+* pandas
 
-# Conclussions
-...
+* streamlit
 
-# Next steps
-...
+* seaborn
+
+* matplotlib
+
+* PyYAML
+
+---
+
+## **Jupyter Notebooks**
+
+### **`code_recommendation_engine.ipynb`**
+
+* Load the database
+
+* Drop irrelevant columns and clean `age` column
+
+* Export cleaned database to CSV
+
+* Build recommendation engine based on:
+
+  * Minimum age
+
+  * Number of players
+
+  * Level of complexity
+
+  * Playing time
+
+* Order results by average rating
+
+### **`code_for_graphs.ipynb`**
+
+Exploratory Data Analysis (EDA) with visualizations:
+
+* Top 10 most played games
+
+* Top 10 trending/wishlisted games
+
+* Top 10 rated games
+
+* Correlation matrix
+
+### **`importing_csv_sql.ipynb`**
+
+* Create and import tables based on the ER diagram
+
+---
+
+## **SQL Scripts**
+
+* **boardsgames\_schema\_V2.sql**: Defines table creation, primary keys, and foreign key relationships
+
+* Data imported using the SQL Data Import Wizard
+
+---
+
+## **App**
+
+* **app.py**: Contains the Streamlit app with the recommendation engine
+
+Run locally with:
+
+`streamlit run app.py`
+
+---
+
+## **How to Run the Project**
+
+**Clone the repository**
+
+ `git clone <repo_url>`
+
+`cd <repo_name>`
+
+**Create a virtual environment (recommended)**
+
+ `python -m venv venv`
+
+`source venv/bin/activate   # Mac/Linux`
+
+`venv\Scripts\activate      # Windows`
+
+**Install dependencies**
+
+ `pip install -r requirements.txt`
+
+**Run the Streamlit app**
+
+ `streamlit run app.py`
+
+Open the **localhost URL** in your browser to interact with the app.
+
+---
+
+## **Contributors**
+
+Julia • Ricardo • Mauricio • Priyanka
+

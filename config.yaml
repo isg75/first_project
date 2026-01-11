@@ -1,5 +1,6 @@
 input_data:
-  file: "../data/raw/raw_data_file.csv"
+  file: "../data/raw/boardgames_df_raw.csv"
 
 output_data:
-  file: "../data/clean/cleaned_data_file.csv"
+  file: "../data/clean/boardgames_df_cleaned.csv"
+
