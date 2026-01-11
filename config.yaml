@@ -1,5 +1,5 @@
 input_data:
-  file: "../data/raw/raw_data_file.csv"
+  file: "../data/raw/merged_table_alexandra.csv"
 
 output_data:
-  file: "../data/clean/cleaned_data_file.csv"
+  file: "../data/clean/cleaned_data_main.csv"
