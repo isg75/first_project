@@ -6,3 +6,5 @@ notebooks/.env
 notebooks/.DS_Store
 .DS_Store
 *.in
+.virtual_documents/
+anaconda_projects/
