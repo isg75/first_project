@@ -1,5 +1,16 @@
 input_data:
-  file: "../data/raw/raw_data_file.csv"
+  file1: "../data/raw/raw_data_Jobs_NYC_Postings.csv"
+  file2: "../data/raw/raw_data_Jobs_NYC_Postings_2.csv"
 
 output_data:
-  file: "../data/clean/cleaned_data_file.csv"
+  file1: "../data/clean/cleaned_data_file_nyc_postings.csv"
+  file2: "../data/clean/cleaned_data_file_data_analyst.csv"
+  file3: "../data/clean/cleaned_data_file_keywords.csv"
+  file4: "../data/clean/cleaned_data_file_overlap.csv"
+  fig1: "../figures/figure1.jpeg"
+  fig2: "../figures/figure2.jpeg"
+  fig3: "../figures/figure3.jpeg"
+  fig4: "../figures/figure4.jpeg"
+  fig5: "../figures/figure5.jpeg"
+  fig6: "../figures/figure6.jpeg"
+  fig7: "../figures/figure7.jpeg"
