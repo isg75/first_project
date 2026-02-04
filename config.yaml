@@ -1,5 +1,8 @@
 input_data:
-  file: "../data/raw/raw_data_file.csv"
+  marathon_data: "../data/raw/Berlin_Marathon_data_1974_2019.csv"
+  marathon_winners: "../data/raw/berlin_marathon_winners_1974_2024.csv"
 
 output_data:
-  file: "../data/clean/cleaned_data_file.csv"
+  cleaned_data: "../data/clean/cleaned_marathon.csv"
+  cleaned_winners: "../data/clean/cleaned_marathon_winners.csv"
+
