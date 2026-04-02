@@ -1,0 +1,27 @@
+Source des données
+
+Dataset : UCDP/PRIO Armed Conflict Dataset
+
+URL : https://ucdp.uu.se/downloads/ucdpprio/
+
+Produit par : Uppsala Conflict Data Program et Peace Research Institute Oslo
+
+Définition des conflits : https://ucdp.uu.se/definition/
+
+Opérations effectuées
+
+Filtrer les observations pour 2005–2024.
+
+Garder les conflits actifs selon UCDP (≥ 25 battle-related deaths par an).
+
+Extraire les variables country (location) et year.
+
+Agréger les données en country–year :
+
+1 ligne = 1 pays + 1 année avec au moins un conflit actif.
+
+Adapter les noms de pays pour correspondre à la liste fournie.
+
+Supprimer les pays sans conflit sur la période.
+
+Ajouter une colonne Source = UCDP.

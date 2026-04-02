@@ -1,0 +1,13 @@
+conflict_name,primary_country,region,conflict_type,start_year,end_year,food_insecurity_rate,gdp_change
+Afghanistan War,Afghanistan,Asia,Interstate War,2001,2021,17.83835990390915,-27.618718060711945
+DRC Conflict,Democratic Republic of the Congo,Africa,Civil War,1996,2026,17.868771544626195,-27.41081677461851
+Iraq War,Iraq,Asia,Interstate War,2003,2011,17.96430848724714,-27.618442172383467
+Israel-Hamas War,Israel,Asia,Asymmetric War,2023,2026,26.801587719298247,-72.49282675438596
+Israel-Hamas War,Palestine (Gaza),Asia,Asymmetric War,2023,2026,26.860392749244713,-72.6095295640915
+Israel-Iran War,Iran,Asia,Interstate War,2025,2026,17.853018418201515,-27.074526543878658
+Israel-Iran War,Israel,Asia,Interstate War,2025,2026,17.95847200535356,-27.594728976132053
+Russia-Ukraine War,Russian Federation,Europe,Interstate War,2022,2026,17.86236220472441,-27.26141513560805
+Russia-Ukraine War,Ukraine,Europe,Interstate War,2022,2026,17.81190093708166,-27.60616019634092
+Syrian Civil War,Syria,Asia,Civil War,2011,2026,27.00145298190753,-27.5875396470851
+Tigray Conflict,Ethiopia,Africa,Civil War,2020,2022,17.945096516529844,-27.61086310184158
+Yemen Civil War,Yemen,Asia,Civil War,2015,2026,27.069035572249227,-27.238203711886875

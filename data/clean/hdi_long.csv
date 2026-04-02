@@ -1,0 +1,1553 @@
+year,country,un_region,hdi
+1990,Afghanistan,Asia,0.284
+1990,Albania,Europe,0.649
+1990,Algeria,Africa,0.593
+1990,Andorra,Europe,0.815
+1990,Angola,Africa,0.38
+1990,Antigua and Barbuda,Latin America and the Caribbean,0.808
+1990,Argentina,Latin America and the Caribbean,0.724
+1990,Armenia,Asia,0.658
+1990,Australia,Oceania,0.864
+1990,Austria,Europe,0.823
+1990,Azerbaijan,Asia,0.635
+1990,Bahamas,Latin America and the Caribbean,0.76
+1990,Bahrain,Asia,0.733
+1990,Bangladesh,Asia,0.399
+1990,Barbados,Latin America and the Caribbean,0.728
+1990,Belarus,Europe,0.708
+1990,Belgium,Europe,0.814
+1990,Belize,Latin America and the Caribbean,0.609
+1990,Benin,Africa,0.35
+1990,Bhutan,Asia,0.582
+1990,Bolivia (Plurinational State of),Latin America and the Caribbean,0.546
+1990,Bosnia and Herzegovina,Europe,0.656
+1990,Botswana,Africa,0.587
+1990,Brazil,Latin America and the Caribbean,0.62
+1990,Brunei Darussalam,Asia,0.779
+1990,Bulgaria,Europe,0.698
+1990,Burkina Faso,Africa,0.296
+1990,Burundi,Africa,0.285
+1990,Cabo Verde,Africa,0.59
+1990,Cambodia,Asia,0.379
+1990,Cameroon,Africa,0.44
+1990,Canada,Northern America,0.861
+1990,Central African Republic,Africa,0.333
+1990,Chad,Africa,0.292
+1990,Chile,Latin America and the Caribbean,0.705
+1990,China,Asia,0.482
+1990,Colombia,Latin America and the Caribbean,0.614
+1990,Comoros,Africa,0.458
+1990,Congo,Africa,0.541
+1990,Costa Rica,Latin America and the Caribbean,0.659
+1990,Croatia,Europe,0.764
+1990,Cuba,Latin America and the Caribbean,0.684
+1990,Cyprus,Asia,0.733
+1990,Czechia,Europe,0.748
+1990,Côte d'Ivoire,Africa,0.425
+1990,Democratic People's Republic of Korea,Asia,0.5989361702127659
+1990,Democratic Republic of the Congo,Africa,0.377
+1990,Denmark,Europe,0.839
+1990,Djibouti,Africa,0.33
+1990,Dominica,Latin America and the Caribbean,0.721
+1990,Dominican Republic,Latin America and the Caribbean,0.579
+1990,Ecuador,Latin America and the Caribbean,0.645
+1990,Egypt,Africa,0.567
+1990,El Salvador,Latin America and the Caribbean,0.519
+1990,Equatorial Guinea,Africa,0.511
+1990,Eritrea,Africa,0.458
+1990,Estonia,Europe,0.741
+1990,Ethiopia,Africa,0.286
+1990,Fiji,Oceania,0.63
+1990,Finland,Europe,0.811
+1990,France,Europe,0.79
+1990,Gabon,Africa,0.599
+1990,Gambia,Africa,0.323
+1990,Georgia,Asia,0.694
+1990,Germany,Europe,0.828
+1990,Ghana,Africa,0.445
+1990,Greece,Europe,0.762
+1990,Grenada,Latin America and the Caribbean,0.779
+1990,Guatemala,Latin America and the Caribbean,0.49
+1990,Guinea,Africa,0.27
+1990,Guinea-Bissau,Africa,0.441
+1990,Guyana,Latin America and the Caribbean,0.496
+1990,Haiti,Latin America and the Caribbean,0.441
+1990,Honduras,Latin America and the Caribbean,0.513
+1990,Hungary,Europe,0.721
+1990,Iceland,Europe,0.834
+1990,India,Asia,0.434
+1990,Indonesia,Asia,0.526
+1990,Iran (Islamic Republic of),Asia,0.613
+1990,Iraq,Asia,0.497
+1990,Ireland,Europe,0.743
+1990,Israel,Asia,0.781
+1990,Italy,Europe,0.78
+1990,Jamaica,Latin America and the Caribbean,0.664
+1990,Japan,Asia,0.846
+1990,Jordan,Asia,0.622
+1990,Kazakhstan,Asia,0.672
+1990,Kenya,Africa,0.48
+1990,Kiribati,Oceania,0.547
+1990,Kuwait,Asia,0.698
+1990,Kyrgyzstan,Asia,0.637
+1990,Lao People's Democratic Republic,Asia,0.408
+1990,Latvia,Europe,0.732
+1990,Lebanon,Asia,0.749
+1990,Lesotho,Africa,0.479
+1990,Liberia,Africa,0.434
+1990,Libya,Africa,0.724
+1990,Liechtenstein,Europe,0.871
+1990,Lithuania,Europe,0.74
+1990,Luxembourg,Europe,0.793
+1990,Madagascar,Africa,0.438
+1990,Malawi,Africa,0.299
+1990,Malaysia,Asia,0.649
+1990,Maldives,Asia,0.635
+1990,Mali,Africa,0.236
+1990,Malta,Europe,0.726
+1990,Marshall Islands,Oceania,0.688
+1990,Mauritania,Africa,0.397
+1990,Mauritius,Africa,0.62
+1990,Mexico,Latin America and the Caribbean,0.666
+1990,Micronesia (Federated States of),Oceania,0.637
+1990,Monaco,Europe,0.7663095238095239
+1990,Mongolia,Asia,0.579
+1990,Montenegro,Europe,0.806
+1990,Morocco,Africa,0.448
+1990,Mozambique,Africa,0.239
+1990,Myanmar,Asia,0.333
+1990,Namibia,Africa,0.595
+1990,Nauru,Oceania,0.559
+1990,Nepal,Asia,0.395
+1990,Netherlands,Europe,0.847
+1990,New Zealand,Oceania,0.812
+1990,Nicaragua,Latin America and the Caribbean,0.487
+1990,Niger,Africa,0.212
+1990,Nigeria,Africa,0.488
+1990,Norway,Europe,0.845
+1990,Oman,Asia,0.702
+1990,Pakistan,Asia,0.394
+1990,Palau,Oceania,0.747
+1990,Panama,Latin America and the Caribbean,0.672
+1990,Papua New Guinea,Oceania,0.394
+1990,Paraguay,Latin America and the Caribbean,0.604
+1990,Peru,Latin America and the Caribbean,0.62
+1990,Philippines,Asia,0.598
+1990,Poland,Europe,0.715
+1990,Portugal,Europe,0.703
+1990,Qatar,Asia,0.764
+1990,Republic of Korea,Asia,0.731
+1990,Republic of Moldova,Europe,0.688
+1990,Romania,Europe,0.709
+1990,Russian Federation,Europe,0.741
+1990,Rwanda,Africa,0.32
+1990,Saint Kitts and Nevis,Latin America and the Caribbean,0.79
+1990,Saint Lucia,Latin America and the Caribbean,0.666
+1990,Saint Vincent and the Grenadines,Latin America and the Caribbean,0.691
+1990,Samoa,Oceania,0.672
+1990,San Marino,Europe,0.841
+1990,Sao Tome and Principe,Africa,0.48
+1990,Saudi Arabia,Asia,0.699
+1990,Senegal,Africa,0.371
+1990,Serbia,Europe,0.689
+1990,Seychelles,Africa,0.755
+1990,Sierra Leone,Africa,0.314
+1990,Singapore,Asia,0.78
+1990,Slovakia,Europe,0.761
+1990,Slovenia,Europe,0.823
+1990,Solomon Islands,Oceania,0.488
+1990,Somalia,Africa,0.38
+1990,South Africa,Africa,0.635
+1990,South Sudan,Africa,0.406
+1990,Spain,Europe,0.762
+1990,Sri Lanka,Asia,0.641
+1990,State of Palestine,Asia,0.688
+1990,Sudan,Africa,0.322
+1990,Suriname,Latin America and the Caribbean,0.696
+1990,Swaziland,Africa,0.546
+1990,Sweden,Europe,0.808
+1990,Switzerland,Europe,0.85
+1990,Syrian Arab Republic,Asia,0.563
+1990,Tajikistan,Asia,0.616
+1990,Thailand,Asia,0.581
+1990,The former Yugoslav Republic of Macedonia,Europe,0.676
+1990,Timor-Leste,Asia,0.495
+1990,Togo,Africa,0.399
+1990,Tonga,Oceania,0.64
+1990,Trinidad and Tobago,Latin America and the Caribbean,0.656
+1990,Tunisia,Africa,0.566
+1990,Turkey,Asia,0.598
+1990,Turkmenistan,Asia,0.699
+1990,Tuvalu,Oceania,0.564
+1990,Uganda,Africa,0.329
+1990,Ukraine,Europe,0.731
+1990,United Arab Emirates,Asia,0.717
+1990,United Kingdom,Europe,0.804
+1990,United Republic of Tanzania,Africa,0.366
+1990,United States,Northern America,0.875
+1990,Uruguay,Latin America and the Caribbean,0.702
+1990,Uzbekistan,Asia,0.603
+1990,Vanuatu,Oceania,0.578
+1990,Venezuela (Bolivarian Republic of),Latin America and the Caribbean,0.657
+1990,Viet Nam,Asia,0.492
+1990,Yemen,Asia,0.357
+1990,Zambia,Africa,0.417
+1990,Zimbabwe,Africa,0.479
+2000,Afghanistan,Asia,0.34
+2000,Albania,Europe,0.678
+2000,Algeria,Africa,0.652
+2000,Andorra,Europe,0.815
+2000,Angola,Africa,0.38
+2000,Antigua and Barbuda,Latin America and the Caribbean,0.808
+2000,Argentina,Latin America and the Caribbean,0.78
+2000,Armenia,Asia,0.656
+2000,Australia,Oceania,0.896
+2000,Austria,Europe,0.87
+2000,Azerbaijan,Asia,0.635
+2000,Bahamas,Latin America and the Caribbean,0.788
+2000,Bahrain,Asia,0.775
+2000,Bangladesh,Asia,0.491
+2000,Barbados,Latin America and the Caribbean,0.76
+2000,Belarus,Europe,0.708
+2000,Belgium,Europe,0.884
+2000,Belize,Latin America and the Caribbean,0.657
+2000,Benin,Africa,0.412
+2000,Bhutan,Asia,0.582
+2000,Bolivia (Plurinational State of),Latin America and the Caribbean,0.625
+2000,Bosnia and Herzegovina,Europe,0.656
+2000,Botswana,Africa,0.581
+2000,Brazil,Latin America and the Caribbean,0.668
+2000,Brunei Darussalam,Asia,0.789
+2000,Bulgaria,Europe,0.723
+2000,Burkina Faso,Africa,0.296
+2000,Burundi,Africa,0.298
+2000,Cabo Verde,Africa,0.59
+2000,Cambodia,Asia,0.431
+2000,Cameroon,Africa,0.426
+2000,Canada,Northern America,0.89
+2000,Central African Republic,Africa,0.319
+2000,Chad,Africa,0.292
+2000,Chile,Latin America and the Caribbean,0.763
+2000,China,Asia,0.586
+2000,Colombia,Latin America and the Caribbean,0.672
+2000,Comoros,Africa,0.458
+2000,Congo,Africa,0.509
+2000,Costa Rica,Latin America and the Caribbean,0.709
+2000,Croatia,Europe,0.764
+2000,Cuba,Latin America and the Caribbean,0.694
+2000,Cyprus,Asia,0.797
+2000,Czechia,Europe,0.81
+2000,Côte d'Ivoire,Africa,0.454
+2000,Democratic People's Republic of Korea,Asia,0.6408723404255319
+2000,Democratic Republic of the Congo,Africa,0.376
+2000,Denmark,Europe,0.89
+2000,Djibouti,Africa,0.33
+2000,Dominica,Latin America and the Caribbean,0.721
+2000,Dominican Republic,Latin America and the Caribbean,0.646
+2000,Ecuador,Latin America and the Caribbean,0.684
+2000,Egypt,Africa,0.629
+2000,El Salvador,Latin America and the Caribbean,0.609
+2000,Equatorial Guinea,Africa,0.511
+2000,Eritrea,Africa,0.458
+2000,Estonia,Europe,0.798
+2000,Ethiopia,Africa,0.286
+2000,Fiji,Oceania,0.669
+2000,Finland,Europe,0.887
+2000,France,Europe,0.844
+2000,Gabon,Africa,0.626
+2000,Gambia,Africa,0.392
+2000,Georgia,Asia,0.694
+2000,Germany,Europe,0.89
+2000,Ghana,Africa,0.5
+2000,Greece,Europe,0.818
+2000,Grenada,Latin America and the Caribbean,0.779
+2000,Guatemala,Latin America and the Caribbean,0.551
+2000,Guinea,Africa,0.345
+2000,Guinea-Bissau,Africa,0.441
+2000,Guyana,Latin America and the Caribbean,0.57
+2000,Haiti,Latin America and the Caribbean,0.485
+2000,Honduras,Latin America and the Caribbean,0.553
+2000,Hungary,Europe,0.773
+2000,Iceland,Europe,0.895
+2000,India,Asia,0.49
+2000,Indonesia,Asia,0.597
+2000,Iran (Islamic Republic of),Asia,0.692
+2000,Iraq,Asia,0.583
+2000,Ireland,Europe,0.851
+2000,Israel,Asia,0.835
+2000,Italy,Europe,0.842
+2000,Jamaica,Latin America and the Caribbean,0.657
+2000,Japan,Asia,0.883
+2000,Jordan,Asia,0.681
+2000,Kazakhstan,Asia,0.68
+2000,Kenya,Africa,0.487
+2000,Kiribati,Oceania,0.547
+2000,Kuwait,Asia,0.78
+2000,Kyrgyzstan,Asia,0.617
+2000,Lao People's Democratic Republic,Asia,0.473
+2000,Latvia,Europe,0.761
+2000,Lebanon,Asia,0.749
+2000,Lesotho,Africa,0.456
+2000,Liberia,Africa,0.434
+2000,Libya,Africa,0.746
+2000,Liechtenstein,Europe,0.871
+2000,Lithuania,Europe,0.769
+2000,Luxembourg,Europe,0.864
+2000,Madagascar,Africa,0.438
+2000,Malawi,Africa,0.378
+2000,Malaysia,Asia,0.726
+2000,Maldives,Asia,0.635
+2000,Mali,Africa,0.315
+2000,Malta,Europe,0.779
+2000,Marshall Islands,Oceania,0.688
+2000,Mauritania,Africa,0.461
+2000,Mauritius,Africa,0.682
+2000,Mexico,Latin America and the Caribbean,0.709
+2000,Micronesia (Federated States of),Oceania,0.637
+2000,Monaco,Europe,0.8035476190476191
+2000,Mongolia,Asia,0.595
+2000,Montenegro,Europe,0.806
+2000,Morocco,Africa,0.525
+2000,Mozambique,Africa,0.303
+2000,Myanmar,Asia,0.407
+2000,Namibia,Africa,0.549
+2000,Nauru,Oceania,0.559
+2000,Nepal,Asia,0.461
+2000,Netherlands,Europe,0.892
+2000,New Zealand,Oceania,0.894
+2000,Nicaragua,Latin America and the Caribbean,0.563
+2000,Niger,Africa,0.26
+2000,Nigeria,Africa,0.488
+2000,Norway,Europe,0.914
+2000,Oman,Asia,0.702
+2000,Pakistan,Asia,0.434
+2000,Palau,Oceania,0.747
+2000,Panama,Latin America and the Caribbean,0.722
+2000,Papua New Guinea,Oceania,0.456
+2000,Paraguay,Latin America and the Caribbean,0.656
+2000,Peru,Latin America and the Caribbean,0.675
+2000,Philippines,Asia,0.635
+2000,Poland,Europe,0.794
+2000,Portugal,Europe,0.793
+2000,Qatar,Asia,0.793
+2000,Republic of Korea,Asia,0.824
+2000,Republic of Moldova,Europe,0.655
+2000,Romania,Europe,0.721
+2000,Russian Federation,Europe,0.733
+2000,Rwanda,Africa,0.328
+2000,Saint Kitts and Nevis,Latin America and the Caribbean,0.79
+2000,Saint Lucia,Latin America and the Caribbean,0.692
+2000,Saint Vincent and the Grenadines,Latin America and the Caribbean,0.691
+2000,Samoa,Oceania,0.672
+2000,San Marino,Europe,0.875
+2000,Sao Tome and Principe,Africa,0.498
+2000,Saudi Arabia,Asia,0.746
+2000,Senegal,Africa,0.388
+2000,Serbia,Europe,0.689
+2000,Seychelles,Africa,0.755
+2000,Sierra Leone,Africa,0.319
+2000,Singapore,Asia,0.863
+2000,Slovakia,Europe,0.761
+2000,Slovenia,Europe,0.823
+2000,Solomon Islands,Oceania,0.488
+2000,Somalia,Africa,0.38
+2000,South Africa,Africa,0.633
+2000,South Sudan,Africa,0.406
+2000,Spain,Europe,0.828
+2000,Sri Lanka,Asia,0.689
+2000,State of Palestine,Asia,0.688
+2000,Sudan,Africa,0.42
+2000,Suriname,Latin America and the Caribbean,0.696
+2000,Swaziland,Africa,0.465
+2000,Sweden,Europe,0.903
+2000,Switzerland,Europe,0.885
+2000,Syrian Arab Republic,Asia,0.587
+2000,Tajikistan,Asia,0.548
+2000,Thailand,Asia,0.663
+2000,The former Yugoslav Republic of Macedonia,Europe,0.676
+2000,Timor-Leste,Asia,0.495
+2000,Togo,Africa,0.436
+2000,Tonga,Oceania,0.679
+2000,Trinidad and Tobago,Latin America and the Caribbean,0.708
+2000,Tunisia,Africa,0.651
+2000,Turkey,Asia,0.669
+2000,Turkmenistan,Asia,0.699
+2000,Tuvalu,Oceania,0.599
+2000,Uganda,Africa,0.392
+2000,Ukraine,Europe,0.698
+2000,United Arab Emirates,Asia,0.79
+2000,United Kingdom,Europe,0.863
+2000,United Republic of Tanzania,Africa,0.396
+2000,United States,Northern America,0.894
+2000,Uruguay,Latin America and the Caribbean,0.754
+2000,Uzbekistan,Asia,0.603
+2000,Vanuatu,Oceania,0.578
+2000,Venezuela (Bolivarian Republic of),Latin America and the Caribbean,0.699
+2000,Viet Nam,Asia,0.599
+2000,Yemen,Asia,0.434
+2000,Zambia,Africa,0.418
+2000,Zimbabwe,Africa,0.426
+2010,Afghanistan,Asia,0.449
+2010,Albania,Europe,0.766
+2010,Algeria,Africa,0.721
+2010,Andorra,Europe,0.863
+2010,Angola,Africa,0.516
+2010,Antigua and Barbuda,Latin America and the Caribbean,0.808
+2010,Argentina,Latin America and the Caribbean,0.834
+2010,Armenia,Asia,0.739
+2010,Australia,Oceania,0.924
+2010,Austria,Europe,0.903
+2010,Azerbaijan,Asia,0.733
+2010,Bahamas,Latin America and the Caribbean,0.8
+2010,Bahrain,Asia,0.807
+2010,Bangladesh,Asia,0.558
+2010,Barbados,Latin America and the Caribbean,0.792
+2010,Belarus,Europe,0.79
+2010,Belgium,Europe,0.913
+2010,Belize,Latin America and the Caribbean,0.72
+2010,Benin,Africa,0.481
+2010,Bhutan,Asia,0.582
+2010,Bolivia (Plurinational State of),Latin America and the Caribbean,0.661
+2010,Bosnia and Herzegovina,Europe,0.718
+2010,Botswana,Africa,0.652
+2010,Brazil,Latin America and the Caribbean,0.722
+2010,Brunei Darussalam,Asia,0.825
+2010,Bulgaria,Europe,0.79
+2010,Burkina Faso,Africa,0.372
+2010,Burundi,Africa,0.404
+2010,Cabo Verde,Africa,0.649
+2010,Cambodia,Asia,0.542
+2010,Cameroon,Africa,0.515
+2010,Canada,Northern America,0.911
+2010,Central African Republic,Africa,0.357
+2010,Chad,Africa,0.364
+2010,Chile,Latin America and the Caribbean,0.813
+2010,China,Asia,0.698
+2010,Colombia,Latin America and the Caribbean,0.732
+2010,Comoros,Africa,0.524
+2010,Congo,Africa,0.581
+2010,Costa Rica,Latin America and the Caribbean,0.769
+2010,Croatia,Europe,0.824
+2010,Cuba,Latin America and the Caribbean,0.779
+2010,Cyprus,Asia,0.859
+2010,Czechia,Europe,0.872
+2010,Côte d'Ivoire,Africa,0.47
+2010,Democratic People's Republic of Korea,Asia,0.7038723404255319
+2010,Democratic Republic of the Congo,Africa,0.424
+2010,Denmark,Europe,0.913
+2010,Djibouti,Africa,0.422
+2010,Dominica,Latin America and the Caribbean,0.735
+2010,Dominican Republic,Latin America and the Caribbean,0.707
+2010,Ecuador,Latin America and the Caribbean,0.736
+2010,Egypt,Africa,0.667
+2010,El Salvador,Latin America and the Caribbean,0.657
+2010,Equatorial Guinea,Africa,0.609
+2010,Eritrea,Africa,0.458
+2010,Estonia,Europe,0.864
+2010,Ethiopia,Africa,0.409
+2010,Fiji,Oceania,0.699
+2010,Finland,Europe,0.912
+2010,France,Europe,0.88
+2010,Gabon,Africa,0.656
+2010,Gambia,Africa,0.449
+2010,Georgia,Asia,0.763
+2010,Germany,Europe,0.929
+2010,Ghana,Africa,0.571
+2010,Greece,Europe,0.874
+2010,Grenada,Latin America and the Caribbean,0.779
+2010,Guatemala,Latin America and the Caribbean,0.613
+2010,Guinea,Africa,0.415
+2010,Guinea-Bissau,Africa,0.441
+2010,Guyana,Latin America and the Caribbean,0.65
+2010,Haiti,Latin America and the Caribbean,0.449
+2010,Honduras,Latin America and the Caribbean,0.596
+2010,Hungary,Europe,0.829
+2010,Iceland,Europe,0.927
+2010,India,Asia,0.572
+2010,Indonesia,Asia,0.667
+2010,Iran (Islamic Republic of),Asia,0.756
+2010,Iraq,Asia,0.629
+2010,Ireland,Europe,0.908
+2010,Israel,Asia,0.887
+2010,Italy,Europe,0.88
+2010,Jamaica,Latin America and the Caribbean,0.711
+2010,Japan,Asia,0.903
+2010,Jordan,Asia,0.727
+2010,Kazakhstan,Asia,0.766
+2010,Kenya,Africa,0.545
+2010,Kiribati,Oceania,0.584
+2010,Kuwait,Asia,0.811
+2010,Kyrgyzstan,Asia,0.661
+2010,Lao People's Democratic Republic,Asia,0.557
+2010,Latvia,Europe,0.827
+2010,Lebanon,Asia,0.749
+2010,Lesotho,Africa,0.47
+2010,Liberia,Africa,0.46
+2010,Libya,Africa,0.774
+2010,Liechtenstein,Europe,0.916
+2010,Lithuania,Europe,0.846
+2010,Luxembourg,Europe,0.912
+2010,Madagascar,Africa,0.488
+2010,Malawi,Africa,0.461
+2010,Malaysia,Asia,0.768
+2010,Maldives,Asia,0.692
+2010,Mali,Africa,0.406
+2010,Malta,Europe,0.862
+2010,Marshall Islands,Oceania,0.688
+2010,Mauritania,Africa,0.508
+2010,Mauritius,Africa,0.755
+2010,Mexico,Latin America and the Caribbean,0.747
+2010,Micronesia (Federated States of),Oceania,0.644
+2010,Monaco,Europe,0.8553333333333333
+2010,Mongolia,Asia,0.7
+2010,Montenegro,Europe,0.806
+2010,Morocco,Africa,0.604
+2010,Mozambique,Africa,0.407
+2010,Myanmar,Asia,0.506
+2010,Namibia,Africa,0.584
+2010,Nauru,Oceania,0.559
+2010,Nepal,Asia,0.543
+2010,Netherlands,Europe,0.917
+2010,New Zealand,Oceania,0.924
+2010,Nicaragua,Latin America and the Caribbean,0.611
+2010,Niger,Africa,0.336
+2010,Nigeria,Africa,0.488
+2010,Norway,Europe,0.938
+2010,Oman,Asia,0.798
+2010,Pakistan,Asia,0.496
+2010,Palau,Oceania,0.775
+2010,Panama,Latin America and the Caribbean,0.775
+2010,Papua New Guinea,Oceania,0.497
+2010,Paraguay,Latin America and the Caribbean,0.7
+2010,Peru,Latin America and the Caribbean,0.725
+2010,Philippines,Asia,0.673
+2010,Poland,Europe,0.845
+2010,Portugal,Europe,0.831
+2010,Qatar,Asia,0.829
+2010,Republic of Korea,Asia,0.89
+2010,Republic of Moldova,Europe,0.716
+2010,Romania,Europe,0.813
+2010,Russian Federation,Europe,0.797
+2010,Rwanda,Africa,0.485
+2010,Saint Kitts and Nevis,Latin America and the Caribbean,0.79
+2010,Saint Lucia,Latin America and the Caribbean,0.731
+2010,Saint Vincent and the Grenadines,Latin America and the Caribbean,0.756
+2010,Samoa,Oceania,0.704
+2010,San Marino,Europe,0.901
+2010,Sao Tome and Principe,Africa,0.553
+2010,Saudi Arabia,Asia,0.805
+2010,Senegal,Africa,0.47
+2010,Serbia,Europe,0.768
+2010,Seychelles,Africa,0.774
+2010,Sierra Leone,Africa,0.416
+2010,Singapore,Asia,0.921
+2010,Slovakia,Europe,0.841
+2010,Slovenia,Europe,0.89
+2010,Solomon Islands,Oceania,0.553
+2010,Somalia,Africa,0.38
+2010,South Africa,Africa,0.675
+2010,South Sudan,Africa,0.406
+2010,Spain,Europe,0.868
+2010,Sri Lanka,Asia,0.735
+2010,State of Palestine,Asia,0.688
+2010,Sudan,Africa,0.489
+2010,Suriname,Latin America and the Caribbean,0.696
+2010,Swaziland,Africa,0.498
+2010,Sweden,Europe,0.91
+2010,Switzerland,Europe,0.94
+2010,Syrian Arab Republic,Asia,0.661
+2010,Tajikistan,Asia,0.631
+2010,Thailand,Asia,0.743
+2010,The former Yugoslav Republic of Macedonia,Europe,0.746
+2010,Timor-Leste,Asia,0.639
+2010,Togo,Africa,0.469
+2010,Tonga,Oceania,0.709
+2010,Trinidad and Tobago,Latin America and the Caribbean,0.785
+2010,Tunisia,Africa,0.713
+2010,Turkey,Asia,0.75
+2010,Turkmenistan,Asia,0.699
+2010,Tuvalu,Oceania,0.623
+2010,Uganda,Africa,0.5
+2010,Ukraine,Europe,0.766
+2010,United Arab Emirates,Asia,0.828
+2010,United Kingdom,Europe,0.913
+2010,United Republic of Tanzania,Africa,0.493
+2010,United States,Northern America,0.916
+2010,Uruguay,Latin America and the Caribbean,0.785
+2010,Uzbekistan,Asia,0.675
+2010,Vanuatu,Oceania,0.578
+2010,Venezuela (Bolivarian Republic of),Latin America and the Caribbean,0.759
+2010,Viet Nam,Asia,0.676
+2010,Yemen,Asia,0.496
+2010,Zambia,Africa,0.528
+2010,Zimbabwe,Africa,0.481
+2015,Afghanistan,Asia,0.479
+2015,Albania,Europe,0.797
+2015,Algeria,Africa,0.736
+2015,Andorra,Europe,0.856
+2015,Angola,Africa,0.591
+2015,Antigua and Barbuda,Latin America and the Caribbean,0.818
+2015,Argentina,Latin America and the Caribbean,0.85
+2015,Armenia,Asia,0.769
+2015,Australia,Oceania,0.933
+2015,Austria,Europe,0.91
+2015,Azerbaijan,Asia,0.751
+2015,Bahamas,Latin America and the Caribbean,0.807
+2015,Bahrain,Asia,0.859
+2015,Bangladesh,Asia,0.604
+2015,Barbados,Latin America and the Caribbean,0.798
+2015,Belarus,Europe,0.809
+2015,Belgium,Europe,0.924
+2015,Belize,Latin America and the Caribbean,0.714
+2015,Benin,Africa,0.509
+2015,Bhutan,Asia,0.625
+2015,Bolivia (Plurinational State of),Latin America and the Caribbean,0.688
+2015,Bosnia and Herzegovina,Europe,0.757
+2015,Botswana,Africa,0.688
+2015,Brazil,Latin America and the Caribbean,0.752
+2015,Brunei Darussalam,Asia,0.832
+2015,Bulgaria,Europe,0.809
+2015,Burkina Faso,Africa,0.413
+2015,Burundi,Africa,0.42
+2015,Cabo Verde,Africa,0.658
+2015,Cambodia,Asia,0.564
+2015,Cameroon,Africa,0.562
+2015,Canada,Northern America,0.927
+2015,Central African Republic,Africa,0.367
+2015,Chad,Africa,0.388
+2015,Chile,Latin America and the Caribbean,0.846
+2015,China,Asia,0.741
+2015,Colombia,Latin America and the Caribbean,0.758
+2015,Comoros,Africa,0.556
+2015,Congo,Africa,0.61
+2015,Costa Rica,Latin America and the Caribbean,0.792
+2015,Croatia,Europe,0.844
+2015,Cuba,Latin America and the Caribbean,0.765
+2015,Cyprus,Asia,0.874
+2015,Czechia,Europe,0.891
+2015,Côte d'Ivoire,Africa,0.501
+2015,Democratic People's Republic of Korea,Asia,0.7273617021276596
+2015,Democratic Republic of the Congo,Africa,0.457
+2015,Denmark,Europe,0.936
+2015,Djibouti,Africa,0.473
+2015,Dominica,Latin America and the Caribbean,0.719
+2015,Dominican Republic,Latin America and the Caribbean,0.739
+2015,Ecuador,Latin America and the Caribbean,0.764
+2015,Egypt,Africa,0.695
+2015,El Salvador,Latin America and the Caribbean,0.663
+2015,Equatorial Guinea,Africa,0.648
+2015,Eritrea,Africa,0.473
+2015,Estonia,Europe,0.883
+2015,Ethiopia,Africa,0.455
+2015,Fiji,Oceania,0.716
+2015,Finland,Europe,0.93
+2015,France,Europe,0.893
+2015,Gabon,Africa,0.692
+2015,Gambia,Africa,0.467
+2015,Georgia,Asia,0.798
+2015,Germany,Europe,0.941
+2015,Ghana,Africa,0.586
+2015,Greece,Europe,0.881
+2015,Grenada,Latin America and the Caribbean,0.786
+2015,Guatemala,Latin America and the Caribbean,0.629
+2015,Guinea,Africa,0.449
+2015,Guinea-Bissau,Africa,0.47
+2015,Guyana,Latin America and the Caribbean,0.686
+2015,Haiti,Latin America and the Caribbean,0.549
+2015,Honduras,Latin America and the Caribbean,0.61
+2015,Hungary,Europe,0.839
+2015,Iceland,Europe,0.948
+2015,India,Asia,0.619
+2015,Indonesia,Asia,0.698
+2015,Iran (Islamic Republic of),Asia,0.782
+2015,Iraq,Asia,0.656
+2015,Ireland,Europe,0.924
+2015,Israel,Asia,0.899
+2015,Italy,Europe,0.881
+2015,Jamaica,Latin America and the Caribbean,0.712
+2015,Japan,Asia,0.913
+2015,Jordan,Asia,0.738
+2015,Kazakhstan,Asia,0.799
+2015,Kenya,Africa,0.575
+2015,Kiribati,Oceania,0.625
+2015,Kuwait,Asia,0.829
+2015,Kyrgyzstan,Asia,0.689
+2015,Lao People's Democratic Republic,Asia,0.604
+2015,Latvia,Europe,0.853
+2015,Lebanon,Asia,0.756
+2015,Lesotho,Africa,0.508
+2015,Liberia,Africa,0.472
+2015,Libya,Africa,0.749
+2015,Liechtenstein,Europe,0.926
+2015,Lithuania,Europe,0.865
+2015,Luxembourg,Europe,0.914
+2015,Madagascar,Africa,0.499
+2015,Malawi,Africa,0.498
+2015,Malaysia,Asia,0.792
+2015,Maldives,Asia,0.728
+2015,Mali,Africa,0.409
+2015,Malta,Europe,0.887
+2015,Marshall Islands,Oceania,0.688
+2015,Mauritania,Africa,0.536
+2015,Mauritius,Africa,0.791
+2015,Mexico,Latin America and the Caribbean,0.769
+2015,Micronesia (Federated States of),Oceania,0.642
+2015,Monaco,Europe,0.8708571428571429
+2015,Mongolia,Asia,0.739
+2015,Montenegro,Europe,0.827
+2015,Morocco,Africa,0.656
+2015,Mozambique,Africa,0.445
+2015,Myanmar,Asia,0.557
+2015,Namibia,Africa,0.627
+2015,Nauru,Oceania,0.642
+2015,Nepal,Asia,0.568
+2015,Netherlands,Europe,0.932
+2015,New Zealand,Oceania,0.933
+2015,Nicaragua,Latin America and the Caribbean,0.644
+2015,Niger,Africa,0.367
+2015,Nigeria,Africa,0.52
+2015,Norway,Europe,0.952
+2015,Oman,Asia,0.824
+2015,Pakistan,Asia,0.525
+2015,Palau,Oceania,0.782
+2015,Panama,Latin America and the Caribbean,0.802
+2015,Papua New Guinea,Oceania,0.54
+2015,Paraguay,Latin America and the Caribbean,0.738
+2015,Peru,Latin America and the Caribbean,0.758
+2015,Philippines,Asia,0.696
+2015,Poland,Europe,0.869
+2015,Portugal,Europe,0.85
+2015,Qatar,Asia,0.852
+2015,Republic of Korea,Asia,0.908
+2015,Republic of Moldova,Europe,0.749
+2015,Romania,Europe,0.813
+2015,Russian Federation,Europe,0.823
+2015,Rwanda,Africa,0.509
+2015,Saint Kitts and Nevis,Latin America and the Caribbean,0.829
+2015,Saint Lucia,Latin America and the Caribbean,0.736
+2015,Saint Vincent and the Grenadines,Latin America and the Caribbean,0.777
+2015,Samoa,Oceania,0.71
+2015,San Marino,Europe,0.872
+2015,Sao Tome and Principe,Africa,0.595
+2015,Saudi Arabia,Asia,0.842
+2015,Senegal,Africa,0.501
+2015,Serbia,Europe,0.794
+2015,Seychelles,Africa,0.797
+2015,Sierra Leone,Africa,0.438
+2015,Singapore,Asia,0.935
+2015,Slovakia,Europe,0.852
+2015,Slovenia,Europe,0.903
+2015,Solomon Islands,Oceania,0.562
+2015,Somalia,Africa,0.38
+2015,South Africa,Africa,0.721
+2015,South Sudan,Africa,0.381
+2015,Spain,Europe,0.889
+2015,Sri Lanka,Asia,0.76
+2015,State of Palestine,Asia,0.71
+2015,Sudan,Africa,0.514
+2015,Suriname,Latin America and the Caribbean,0.707
+2015,Swaziland,Africa,0.577
+2015,Sweden,Europe,0.937
+2015,Switzerland,Europe,0.952
+2015,Syrian Arab Republic,Asia,0.552
+2015,Tajikistan,Asia,0.651
+2015,Thailand,Asia,0.789
+2015,The former Yugoslav Republic of Macedonia,Europe,0.777
+2015,Timor-Leste,Asia,0.621
+2015,Togo,Africa,0.51
+2015,Tonga,Oceania,0.723
+2015,Trinidad and Tobago,Latin America and the Caribbean,0.812
+2015,Tunisia,Africa,0.724
+2015,Turkey,Asia,0.821
+2015,Turkmenistan,Asia,0.725
+2015,Tuvalu,Oceania,0.656
+2015,Uganda,Africa,0.525
+2015,Ukraine,Europe,0.764
+2015,United Arab Emirates,Asia,0.86
+2015,United Kingdom,Europe,0.923
+2015,United Republic of Tanzania,Africa,0.507
+2015,United States,Northern America,0.924
+2015,Uruguay,Latin America and the Caribbean,0.807
+2015,Uzbekistan,Asia,0.701
+2015,Vanuatu,Oceania,0.592
+2015,Venezuela (Bolivarian Republic of),Latin America and the Caribbean,0.766
+2015,Viet Nam,Asia,0.697
+2015,Yemen,Asia,0.455
+2015,Zambia,Africa,0.563
+2015,Zimbabwe,Africa,0.544
+2019,Afghanistan,Asia,0.492
+2019,Albania,Europe,0.8
+2019,Algeria,Africa,0.742
+2019,Andorra,Europe,0.865
+2019,Angola,Africa,0.597
+2019,Antigua and Barbuda,Latin America and the Caribbean,0.831
+2019,Argentina,Latin America and the Caribbean,0.853
+2019,Armenia,Asia,0.789
+2019,Australia,Oceania,0.941
+2019,Austria,Europe,0.92
+2019,Azerbaijan,Asia,0.762
+2019,Bahamas,Latin America and the Caribbean,0.802
+2019,Bahrain,Asia,0.888
+2019,Bangladesh,Asia,0.646
+2019,Barbados,Latin America and the Caribbean,0.806
+2019,Belarus,Europe,0.81
+2019,Belgium,Europe,0.936
+2019,Belize,Latin America and the Caribbean,0.718
+2019,Benin,Africa,0.506
+2019,Bhutan,Asia,0.668
+2019,Bolivia (Plurinational State of),Latin America and the Caribbean,0.715
+2019,Bosnia and Herzegovina,Europe,0.78
+2019,Botswana,Africa,0.703
+2019,Brazil,Latin America and the Caribbean,0.764
+2019,Brunei Darussalam,Asia,0.827
+2019,Bulgaria,Europe,0.813
+2019,Burkina Faso,Africa,0.446
+2019,Burundi,Africa,0.423
+2019,Cabo Verde,Africa,0.667
+2019,Cambodia,Asia,0.596
+2019,Cameroon,Africa,0.586
+2019,Canada,Northern America,0.932
+2019,Central African Republic,Africa,0.391
+2019,Chad,Africa,0.398
+2019,Chile,Latin America and the Caribbean,0.859
+2019,China,Asia,0.775
+2019,Colombia,Latin America and the Caribbean,0.768
+2019,Comoros,Africa,0.584
+2019,Congo,Africa,0.596
+2019,Costa Rica,Latin America and the Caribbean,0.811
+2019,Croatia,Europe,0.866
+2019,Cuba,Latin America and the Caribbean,0.766
+2019,Cyprus,Asia,0.901
+2019,Czechia,Europe,0.896
+2019,Côte d'Ivoire,Africa,0.529
+2019,Democratic People's Republic of Korea,Asia,0.7453191489361702
+2019,Democratic Republic of the Congo,Africa,0.476
+2019,Denmark,Europe,0.946
+2019,Djibouti,Africa,0.508
+2019,Dominica,Latin America and the Caribbean,0.745
+2019,Dominican Republic,Latin America and the Caribbean,0.765
+2019,Ecuador,Latin America and the Caribbean,0.758
+2019,Egypt,Africa,0.724
+2019,El Salvador,Latin America and the Caribbean,0.676
+2019,Equatorial Guinea,Africa,0.653
+2019,Eritrea,Africa,0.487
+2019,Estonia,Europe,0.893
+2019,Ethiopia,Africa,0.485
+2019,Fiji,Oceania,0.73
+2019,Finland,Europe,0.939
+2019,France,Europe,0.905
+2019,Gabon,Africa,0.702
+2019,Gambia,Africa,0.492
+2019,Georgia,Asia,0.816
+2019,Germany,Europe,0.951
+2019,Ghana,Africa,0.599
+2019,Greece,Europe,0.89
+2019,Grenada,Latin America and the Caribbean,0.79
+2019,Guatemala,Latin America and the Caribbean,0.645
+2019,Guinea,Africa,0.47
+2019,Guinea-Bissau,Africa,0.488
+2019,Guyana,Latin America and the Caribbean,0.711
+2019,Haiti,Latin America and the Caribbean,0.559
+2019,Honduras,Latin America and the Caribbean,0.629
+2019,Hungary,Europe,0.854
+2019,Iceland,Europe,0.958
+2019,India,Asia,0.638
+2019,Indonesia,Asia,0.718
+2019,Iran (Islamic Republic of),Asia,0.785
+2019,Iraq,Asia,0.678
+2019,Ireland,Europe,0.942
+2019,Israel,Asia,0.909
+2019,Italy,Europe,0.899
+2019,Jamaica,Latin America and the Caribbean,0.712
+2019,Japan,Asia,0.918
+2019,Jordan,Asia,0.744
+2019,Kazakhstan,Asia,0.81
+2019,Kenya,Africa,0.604
+2019,Kiribati,Oceania,0.636
+2019,Kuwait,Asia,0.838
+2019,Kyrgyzstan,Asia,0.699
+2019,Lao People's Democratic Republic,Asia,0.617
+2019,Latvia,Europe,0.873
+2019,Lebanon,Asia,0.76
+2019,Lesotho,Africa,0.528
+2019,Liberia,Africa,0.485
+2019,Libya,Africa,0.756
+2019,Liechtenstein,Europe,0.94
+2019,Lithuania,Europe,0.886
+2019,Luxembourg,Europe,0.925
+2019,Madagascar,Africa,0.498
+2019,Malawi,Africa,0.514
+2019,Malaysia,Asia,0.805
+2019,Maldives,Asia,0.753
+2019,Mali,Africa,0.421
+2019,Malta,Europe,0.905
+2019,Marshall Islands,Oceania,0.722
+2019,Mauritania,Africa,0.552
+2019,Mauritius,Africa,0.806
+2019,Mexico,Latin America and the Caribbean,0.781
+2019,Micronesia (Federated States of),Oceania,0.64
+2019,Monaco,Europe,0.882952380952381
+2019,Mongolia,Asia,0.749
+2019,Montenegro,Europe,0.841
+2019,Morocco,Africa,0.684
+2019,Mozambique,Africa,0.465
+2019,Myanmar,Asia,0.608
+2019,Namibia,Africa,0.638
+2019,Nauru,Oceania,0.68
+2019,Nepal,Asia,0.598
+2019,Netherlands,Europe,0.941
+2019,New Zealand,Oceania,0.937
+2019,Nicaragua,Latin America and the Caribbean,0.661
+2019,Niger,Africa,0.39
+2019,Nigeria,Africa,0.537
+2019,Norway,Europe,0.961
+2019,Oman,Asia,0.841
+2019,Pakistan,Asia,0.537
+2019,Palau,Oceania,0.792
+2019,Panama,Latin America and the Caribbean,0.82
+2019,Papua New Guinea,Oceania,0.562
+2019,Paraguay,Latin America and the Caribbean,0.746
+2019,Peru,Latin America and the Caribbean,0.774
+2019,Philippines,Asia,0.714
+2019,Poland,Europe,0.88
+2019,Portugal,Europe,0.864
+2019,Qatar,Asia,0.869
+2019,Republic of Korea,Asia,0.922
+2019,Republic of Moldova,Europe,0.773
+2019,Romania,Europe,0.834
+2019,Russian Federation,Europe,0.839
+2019,Rwanda,Africa,0.531
+2019,Saint Kitts and Nevis,Latin America and the Caribbean,0.838
+2019,Saint Lucia,Latin America and the Caribbean,0.733
+2019,Saint Vincent and the Grenadines,Latin America and the Caribbean,0.789
+2019,Samoa,Oceania,0.712
+2019,San Marino,Europe,0.861
+2019,Sao Tome and Principe,Africa,0.608
+2019,Saudi Arabia,Asia,0.862
+2019,Senegal,Africa,0.514
+2019,Serbia,Europe,0.812
+2019,Seychelles,Africa,0.808
+2019,Sierra Leone,Africa,0.457
+2019,Singapore,Asia,0.945
+2019,Slovakia,Europe,0.863
+2019,Slovenia,Europe,0.918
+2019,Solomon Islands,Oceania,0.568
+2019,Somalia,Africa,0.38
+2019,South Africa,Africa,0.741
+2019,South Sudan,Africa,0.391
+2019,Spain,Europe,0.904
+2019,Sri Lanka,Asia,0.775
+2019,State of Palestine,Asia,0.739
+2019,Sudan,Africa,0.521
+2019,Suriname,Latin America and the Caribbean,0.71
+2019,Swaziland,Africa,0.623
+2019,Sweden,Europe,0.947
+2019,Switzerland,Europe,0.96
+2019,Syrian Arab Republic,Asia,0.564
+2019,Tajikistan,Asia,0.668
+2019,Thailand,Asia,0.801
+2019,The former Yugoslav Republic of Macedonia,Europe,0.787
+2019,Timor-Leste,Asia,0.627
+2019,Togo,Africa,0.536
+2019,Tonga,Oceania,0.74
+2019,Trinidad and Tobago,Latin America and the Caribbean,0.813
+2019,Tunisia,Africa,0.74
+2019,Turkey,Asia,0.842
+2019,Turkmenistan,Asia,0.732
+2019,Tuvalu,Oceania,0.654
+2019,Uganda,Africa,0.544
+2019,Ukraine,Europe,0.774
+2019,United Arab Emirates,Asia,0.933
+2019,United Kingdom,Europe,0.933
+2019,United Republic of Tanzania,Africa,0.533
+2019,United States,Northern America,0.933
+2019,Uruguay,Latin America and the Caribbean,0.818
+2019,Uzbekistan,Asia,0.725
+2019,Vanuatu,Oceania,0.614
+2019,Venezuela (Bolivarian Republic of),Latin America and the Caribbean,0.72
+2019,Viet Nam,Asia,0.717
+2019,Yemen,Asia,0.43
+2019,Zambia,Africa,0.574
+2019,Zimbabwe,Africa,0.56
+2020,Afghanistan,Asia,0.488
+2020,Albania,Europe,0.784
+2020,Algeria,Africa,0.73
+2020,Andorra,Europe,0.843
+2020,Angola,Africa,0.594
+2020,Antigua and Barbuda,Latin America and the Caribbean,0.82
+2020,Argentina,Latin America and the Caribbean,0.841
+2020,Armenia,Asia,0.769
+2020,Australia,Oceania,0.948
+2020,Austria,Europe,0.916
+2020,Azerbaijan,Asia,0.722
+2020,Bahamas,Latin America and the Caribbean,0.798
+2020,Bahrain,Asia,0.884
+2020,Bangladesh,Asia,0.657
+2020,Barbados,Latin America and the Caribbean,0.803
+2020,Belarus,Europe,0.8
+2020,Belgium,Europe,0.93
+2020,Belize,Latin America and the Caribbean,0.705
+2020,Benin,Africa,0.501
+2020,Bhutan,Asia,0.675
+2020,Bolivia (Plurinational State of),Latin America and the Caribbean,0.691
+2020,Bosnia and Herzegovina,Europe,0.776
+2020,Botswana,Africa,0.701
+2020,Brazil,Latin America and the Caribbean,0.758
+2020,Brunei Darussalam,Asia,0.827
+2020,Bulgaria,Europe,0.802
+2020,Burkina Faso,Africa,0.446
+2020,Burundi,Africa,0.419
+2020,Cabo Verde,Africa,0.649
+2020,Cambodia,Asia,0.596
+2020,Cameroon,Africa,0.585
+2020,Canada,Northern America,0.928
+2020,Central African Republic,Africa,0.389
+2020,Chad,Africa,0.396
+2020,Chile,Latin America and the Caribbean,0.849
+2020,China,Asia,0.781
+2020,Colombia,Latin America and the Caribbean,0.756
+2020,Comoros,Africa,0.588
+2020,Congo,Africa,0.598
+2020,Costa Rica,Latin America and the Caribbean,0.811
+2020,Croatia,Europe,0.86
+2020,Cuba,Latin America and the Caribbean,0.759
+2020,Cyprus,Asia,0.9
+2020,Czechia,Europe,0.891
+2020,Côte d'Ivoire,Africa,0.53
+2020,Democratic People's Republic of Korea,Asia,0.7401914893617022
+2020,Democratic Republic of the Congo,Africa,0.477
+2020,Denmark,Europe,0.946
+2020,Djibouti,Africa,0.512
+2020,Dominica,Latin America and the Caribbean,0.738
+2020,Dominican Republic,Latin America and the Caribbean,0.76
+2020,Ecuador,Latin America and the Caribbean,0.734
+2020,Egypt,Africa,0.729
+2020,El Salvador,Latin America and the Caribbean,0.666
+2020,Equatorial Guinea,Africa,0.65
+2020,Eritrea,Africa,0.49
+2020,Estonia,Europe,0.891
+2020,Ethiopia,Africa,0.489
+2020,Fiji,Oceania,0.722
+2020,Finland,Europe,0.939
+2020,France,Europe,0.9
+2020,Gabon,Africa,0.704
+2020,Gambia,Africa,0.492
+2020,Georgia,Asia,0.807
+2020,Germany,Europe,0.948
+2020,Ghana,Africa,0.601
+2020,Greece,Europe,0.887
+2020,Grenada,Latin America and the Caribbean,0.786
+2020,Guatemala,Latin America and the Caribbean,0.638
+2020,Guinea,Africa,0.471
+2020,Guinea-Bissau,Africa,0.482
+2020,Guyana,Latin America and the Caribbean,0.727
+2020,Haiti,Latin America and the Caribbean,0.557
+2020,Honduras,Latin America and the Caribbean,0.621
+2020,Hungary,Europe,0.849
+2020,Iceland,Europe,0.955
+2020,India,Asia,0.638
+2020,Indonesia,Asia,0.712
+2020,Iran (Islamic Republic of),Asia,0.779
+2020,Iraq,Asia,0.661
+2020,Ireland,Europe,0.945
+2020,Israel,Asia,0.906
+2020,Italy,Europe,0.892
+2020,Jamaica,Latin America and the Caribbean,0.707
+2020,Japan,Asia,0.917
+2020,Jordan,Asia,0.74
+2020,Kazakhstan,Asia,0.806
+2020,Kenya,Africa,0.599
+2020,Kiribati,Oceania,0.629
+2020,Kuwait,Asia,0.826
+2020,Kyrgyzstan,Asia,0.691
+2020,Lao People's Democratic Republic,Asia,0.616
+2020,Latvia,Europe,0.873
+2020,Lebanon,Asia,0.742
+2020,Lesotho,Africa,0.53
+2020,Liberia,Africa,0.483
+2020,Libya,Africa,0.737
+2020,Liechtenstein,Europe,0.933
+2020,Lithuania,Europe,0.88
+2020,Luxembourg,Europe,0.921
+2020,Madagascar,Africa,0.486
+2020,Malawi,Africa,0.512
+2020,Malaysia,Asia,0.802
+2020,Maldives,Asia,0.737
+2020,Mali,Africa,0.407
+2020,Malta,Europe,0.901
+2020,Marshall Islands,Oceania,0.727
+2020,Mauritania,Africa,0.539
+2020,Mauritius,Africa,0.792
+2020,Mexico,Latin America and the Caribbean,0.757
+2020,Micronesia (Federated States of),Oceania,0.636
+2020,Monaco,Europe,0.8764761904761904
+2020,Mongolia,Asia,0.74
+2020,Montenegro,Europe,0.832
+2020,Morocco,Africa,0.683
+2020,Mozambique,Africa,0.467
+2020,Myanmar,Asia,0.615
+2020,Namibia,Africa,0.634
+2020,Nauru,Oceania,0.689
+2020,Nepal,Asia,0.593
+2020,Netherlands,Europe,0.938
+2020,New Zealand,Oceania,0.935
+2020,Nicaragua,Latin America and the Caribbean,0.652
+2020,Niger,Africa,0.391
+2020,Nigeria,Africa,0.539
+2020,Norway,Europe,0.963
+2020,Oman,Asia,0.823
+2020,Pakistan,Asia,0.536
+2020,Palau,Oceania,0.794
+2020,Panama,Latin America and the Caribbean,0.809
+2020,Papua New Guinea,Oceania,0.567
+2020,Paraguay,Latin America and the Caribbean,0.742
+2020,Peru,Latin America and the Caribbean,0.758
+2020,Philippines,Asia,0.705
+2020,Poland,Europe,0.874
+2020,Portugal,Europe,0.861
+2020,Qatar,Asia,0.863
+2020,Republic of Korea,Asia,0.922
+2020,Republic of Moldova,Europe,0.765
+2020,Romania,Europe,0.828
+2020,Russian Federation,Europe,0.826
+2020,Rwanda,Africa,0.535
+2020,Saint Kitts and Nevis,Latin America and the Caribbean,0.832
+2020,Saint Lucia,Latin America and the Caribbean,0.724
+2020,Saint Vincent and the Grenadines,Latin America and the Caribbean,0.785
+2020,Samoa,Oceania,0.712
+2020,San Marino,Europe,0.844
+2020,Sao Tome and Principe,Africa,0.609
+2020,Saudi Arabia,Asia,0.861
+2020,Senegal,Africa,0.514
+2020,Serbia,Europe,0.806
+2020,Seychelles,Africa,0.799
+2020,Sierra Leone,Africa,0.453
+2020,Singapore,Asia,0.942
+2020,Slovakia,Europe,0.86
+2020,Slovenia,Europe,0.91
+2020,Solomon Islands,Oceania,0.566
+2020,Somalia,Africa,0.38
+2020,South Africa,Africa,0.722
+2020,South Sudan,Africa,0.386
+2020,Spain,Europe,0.894
+2020,Sri Lanka,Asia,0.777
+2020,State of Palestine,Asia,0.715
+2020,Sudan,Africa,0.518
+2020,Suriname,Latin America and the Caribbean,0.702
+2020,Swaziland,Africa,0.622
+2020,Sweden,Europe,0.944
+2020,Switzerland,Europe,0.957
+2020,Syrian Arab Republic,Asia,0.561
+2020,Tajikistan,Asia,0.656
+2020,Thailand,Asia,0.8
+2020,The former Yugoslav Republic of Macedonia,Europe,0.766
+2020,Timor-Leste,Asia,0.633
+2020,Togo,Africa,0.54
+2020,Tonga,Oceania,0.742
+2020,Trinidad and Tobago,Latin America and the Caribbean,0.815
+2020,Tunisia,Africa,0.734
+2020,Turkey,Asia,0.835
+2020,Turkmenistan,Asia,0.731
+2020,Tuvalu,Oceania,0.655
+2020,Uganda,Africa,0.545
+2020,Ukraine,Europe,0.762
+2020,United Arab Emirates,Asia,0.93
+2020,United Kingdom,Europe,0.92
+2020,United Republic of Tanzania,Africa,0.535
+2020,United States,Northern America,0.923
+2020,Uruguay,Latin America and the Caribbean,0.82
+2020,Uzbekistan,Asia,0.716
+2020,Vanuatu,Oceania,0.612
+2020,Venezuela (Bolivarian Republic of),Latin America and the Caribbean,0.691
+2020,Viet Nam,Asia,0.726
+2020,Yemen,Asia,0.43
+2020,Zambia,Africa,0.569
+2020,Zimbabwe,Africa,0.554
+2021,Afghanistan,Asia,0.473
+2021,Albania,Europe,0.785
+2021,Algeria,Africa,0.74
+2021,Andorra,Europe,0.855
+2021,Angola,Africa,0.59
+2021,Antigua and Barbuda,Latin America and the Caribbean,0.819
+2021,Argentina,Latin America and the Caribbean,0.844
+2021,Armenia,Asia,0.774
+2021,Australia,Oceania,0.949
+2021,Austria,Europe,0.92
+2021,Azerbaijan,Asia,0.738
+2021,Bahamas,Latin America and the Caribbean,0.799
+2021,Bahrain,Asia,0.884
+2021,Bangladesh,Asia,0.662
+2021,Barbados,Latin America and the Caribbean,0.803
+2021,Belarus,Europe,0.801
+2021,Belgium,Europe,0.938
+2021,Belize,Latin America and the Caribbean,0.698
+2021,Benin,Africa,0.502
+2021,Bhutan,Asia,0.677
+2021,Bolivia (Plurinational State of),Latin America and the Caribbean,0.691
+2021,Bosnia and Herzegovina,Europe,0.776
+2021,Botswana,Africa,0.68
+2021,Brazil,Latin America and the Caribbean,0.756
+2021,Brunei Darussalam,Asia,0.824
+2021,Bulgaria,Europe,0.796
+2021,Burkina Faso,Africa,0.445
+2021,Burundi,Africa,0.419
+2021,Cabo Verde,Africa,0.65
+2021,Cambodia,Asia,0.596
+2021,Cameroon,Africa,0.581
+2021,Canada,Northern America,0.934
+2021,Central African Republic,Africa,0.387
+2021,Chad,Africa,0.393
+2021,Chile,Latin America and the Caribbean,0.856
+2021,China,Asia,0.785
+2021,Colombia,Latin America and the Caribbean,0.752
+2021,Comoros,Africa,0.585
+2021,Congo,Africa,0.598
+2021,Costa Rica,Latin America and the Caribbean,0.804
+2021,Croatia,Europe,0.867
+2021,Cuba,Latin America and the Caribbean,0.742
+2021,Cyprus,Asia,0.901
+2021,Czechia,Europe,0.891
+2021,Côte d'Ivoire,Africa,0.53
+2021,Democratic People's Republic of Korea,Asia,0.7390425531914894
+2021,Democratic Republic of the Congo,Africa,0.475
+2021,Denmark,Europe,0.947
+2021,Djibouti,Africa,0.512
+2021,Dominica,Latin America and the Caribbean,0.737
+2021,Dominican Republic,Latin America and the Caribbean,0.756
+2021,Ecuador,Latin America and the Caribbean,0.746
+2021,Egypt,Africa,0.726
+2021,El Salvador,Latin America and the Caribbean,0.669
+2021,Equatorial Guinea,Africa,0.647
+2021,Eritrea,Africa,0.49
+2021,Estonia,Europe,0.89
+2021,Ethiopia,Africa,0.489
+2021,Fiji,Oceania,0.715
+2021,Finland,Europe,0.941
+2021,France,Europe,0.906
+2021,Gabon,Africa,0.687
+2021,Gambia,Africa,0.49
+2021,Georgia,Asia,0.809
+2021,Germany,Europe,0.948
+2021,Ghana,Africa,0.6
+2021,Greece,Europe,0.887
+2021,Grenada,Latin America and the Caribbean,0.788
+2021,Guatemala,Latin America and the Caribbean,0.63
+2021,Guinea,Africa,0.467
+2021,Guinea-Bissau,Africa,0.482
+2021,Guyana,Latin America and the Caribbean,0.721
+2021,Haiti,Latin America and the Caribbean,0.551
+2021,Honduras,Latin America and the Caribbean,0.62
+2021,Hungary,Europe,0.846
+2021,Iceland,Europe,0.957
+2021,India,Asia,0.633
+2021,Indonesia,Asia,0.707
+2021,Iran (Islamic Republic of),Asia,0.776
+2021,Iraq,Asia,0.667
+2021,Ireland,Europe,0.946
+2021,Israel,Asia,0.911
+2021,Italy,Europe,0.899
+2021,Jamaica,Latin America and the Caribbean,0.704
+2021,Japan,Asia,0.92
+2021,Jordan,Asia,0.736
+2021,Kazakhstan,Asia,0.801
+2021,Kenya,Africa,0.596
+2021,Kiribati,Oceania,0.627
+2021,Kuwait,Asia,0.836
+2021,Kyrgyzstan,Asia,0.696
+2021,Lao People's Democratic Republic,Asia,0.615
+2021,Latvia,Europe,0.865
+2021,Lebanon,Asia,0.725
+2021,Lesotho,Africa,0.522
+2021,Liberia,Africa,0.484
+2021,Libya,Africa,0.746
+2021,Liechtenstein,Europe,0.936
+2021,Lithuania,Europe,0.875
+2021,Luxembourg,Europe,0.927
+2021,Madagascar,Africa,0.484
+2021,Malawi,Africa,0.509
+2021,Malaysia,Asia,0.798
+2021,Maldives,Asia,0.753
+2021,Mali,Africa,0.408
+2021,Malta,Europe,0.912
+2021,Marshall Islands,Oceania,0.729
+2021,Mauritania,Africa,0.538
+2021,Mauritius,Africa,0.79
+2021,Mexico,Latin America and the Caribbean,0.757
+2021,Micronesia (Federated States of),Oceania,0.634
+2021,Monaco,Europe,0.8785714285714286
+2021,Mongolia,Asia,0.73
+2021,Montenegro,Europe,0.84
+2021,Morocco,Africa,0.688
+2021,Mozambique,Africa,0.459
+2021,Myanmar,Asia,0.599
+2021,Namibia,Africa,0.616
+2021,Nauru,Oceania,0.693
+2021,Nepal,Asia,0.591
+2021,Netherlands,Europe,0.941
+2021,New Zealand,Oceania,0.936
+2021,Nicaragua,Latin America and the Caribbean,0.665
+2021,Niger,Africa,0.389
+2021,Nigeria,Africa,0.542
+2021,Norway,Europe,0.964
+2021,Oman,Asia,0.81
+2021,Pakistan,Asia,0.537
+2021,Palau,Oceania,0.802
+2021,Panama,Latin America and the Caribbean,0.813
+2021,Papua New Guinea,Oceania,0.564
+2021,Paraguay,Latin America and the Caribbean,0.73
+2021,Peru,Latin America and the Caribbean,0.755
+2021,Philippines,Asia,0.692
+2021,Poland,Europe,0.876
+2021,Portugal,Europe,0.865
+2021,Qatar,Asia,0.864
+2021,Republic of Korea,Asia,0.926
+2021,Republic of Moldova,Europe,0.767
+2021,Romania,Europe,0.825
+2021,Russian Federation,Europe,0.818
+2021,Rwanda,Africa,0.539
+2021,Saint Kitts and Nevis,Latin America and the Caribbean,0.832
+2021,Saint Lucia,Latin America and the Caribbean,0.717
+2021,Saint Vincent and the Grenadines,Latin America and the Caribbean,0.773
+2021,Samoa,Oceania,0.708
+2021,San Marino,Europe,0.853
+2021,Sao Tome and Principe,Africa,0.609
+2021,Saudi Arabia,Asia,0.867
+2021,Senegal,Africa,0.512
+2021,Serbia,Europe,0.804
+2021,Seychelles,Africa,0.795
+2021,Sierra Leone,Africa,0.456
+2021,Singapore,Asia,0.942
+2021,Slovakia,Europe,0.852
+2021,Slovenia,Europe,0.916
+2021,Solomon Islands,Oceania,0.564
+2021,Somalia,Africa,0.38
+2021,South Africa,Africa,0.721
+2021,South Sudan,Africa,0.381
+2021,Spain,Europe,0.904
+2021,Sri Lanka,Asia,0.783
+2021,State of Palestine,Asia,0.715
+2021,Sudan,Africa,0.516
+2021,Suriname,Latin America and the Caribbean,0.689
+2021,Swaziland,Africa,0.612
+2021,Sweden,Europe,0.949
+2021,Switzerland,Europe,0.965
+2021,Syrian Arab Republic,Asia,0.558
+2021,Tajikistan,Asia,0.677
+2021,Thailand,Asia,0.797
+2021,The former Yugoslav Republic of Macedonia,Europe,0.764
+2021,Timor-Leste,Asia,0.574
+2021,Togo,Africa,0.545
+2021,Tonga,Oceania,0.738
+2021,Trinidad and Tobago,Latin America and the Caribbean,0.804
+2021,Tunisia,Africa,0.729
+2021,Turkey,Asia,0.841
+2021,Turkmenistan,Asia,0.74
+2021,Tuvalu,Oceania,0.653
+2021,Uganda,Africa,0.545
+2021,Ukraine,Europe,0.755
+2021,United Arab Emirates,Asia,0.931
+2021,United Kingdom,Europe,0.931
+2021,United Republic of Tanzania,Africa,0.529
+2021,United States,Northern America,0.921
+2021,Uruguay,Latin America and the Caribbean,0.814
+2021,Uzbekistan,Asia,0.721
+2021,Vanuatu,Oceania,0.614
+2021,Venezuela (Bolivarian Republic of),Latin America and the Caribbean,0.69
+2021,Viet Nam,Asia,0.718
+2021,Yemen,Asia,0.425
+2021,Zambia,Africa,0.565
+2021,Zimbabwe,Africa,0.549
+2022,Afghanistan,Asia,0.462
+2022,Albania,Europe,0.789
+2022,Algeria,Africa,0.745
+2022,Andorra,Europe,0.884
+2022,Angola,Africa,0.591
+2022,Antigua and Barbuda,Latin America and the Caribbean,0.826
+2022,Argentina,Latin America and the Caribbean,0.849
+2022,Armenia,Asia,0.786
+2022,Australia,Oceania,0.946
+2022,Austria,Europe,0.926
+2022,Azerbaijan,Asia,0.76
+2022,Bahamas,Latin America and the Caribbean,0.82
+2022,Bahrain,Asia,0.888
+2022,Bangladesh,Asia,0.67
+2022,Barbados,Latin America and the Caribbean,0.809
+2022,Belarus,Europe,0.801
+2022,Belgium,Europe,0.942
+2022,Belize,Latin America and the Caribbean,0.7
+2022,Benin,Africa,0.504
+2022,Bhutan,Asia,0.681
+2022,Bolivia (Plurinational State of),Latin America and the Caribbean,0.698
+2022,Bosnia and Herzegovina,Europe,0.779
+2022,Botswana,Africa,0.708
+2022,Brazil,Latin America and the Caribbean,0.76
+2022,Brunei Darussalam,Asia,0.823
+2022,Bulgaria,Europe,0.799
+2022,Burkina Faso,Africa,0.438
+2022,Burundi,Africa,0.42
+2022,Cabo Verde,Africa,0.661
+2022,Cambodia,Asia,0.6
+2022,Cameroon,Africa,0.587
+2022,Canada,Northern America,0.935
+2022,Central African Republic,Africa,0.387
+2022,Chad,Africa,0.394
+2022,Chile,Latin America and the Caribbean,0.86
+2022,China,Asia,0.788
+2022,Colombia,Latin America and the Caribbean,0.758
+2022,Comoros,Africa,0.586
+2022,Congo,Africa,0.593
+2022,Costa Rica,Latin America and the Caribbean,0.806
+2022,Croatia,Europe,0.878
+2022,Cuba,Latin America and the Caribbean,0.764
+2022,Cyprus,Asia,0.907
+2022,Czechia,Europe,0.895
+2022,Côte d'Ivoire,Africa,0.534
+2022,Democratic People's Republic of Korea,Asia,0.7443191489361701
+2022,Democratic Republic of the Congo,Africa,0.481
+2022,Denmark,Europe,0.952
+2022,Djibouti,Africa,0.515
+2022,Dominica,Latin America and the Caribbean,0.74
+2022,Dominican Republic,Latin America and the Caribbean,0.766
+2022,Ecuador,Latin America and the Caribbean,0.765
+2022,Egypt,Africa,0.728
+2022,El Salvador,Latin America and the Caribbean,0.674
+2022,Equatorial Guinea,Africa,0.65
+2022,Eritrea,Africa,0.493
+2022,Estonia,Europe,0.899
+2022,Ethiopia,Africa,0.492
+2022,Fiji,Oceania,0.729
+2022,Finland,Europe,0.942
+2022,France,Europe,0.91
+2022,Gabon,Africa,0.693
+2022,Gambia,Africa,0.495
+2022,Georgia,Asia,0.814
+2022,Germany,Europe,0.95
+2022,Ghana,Africa,0.602
+2022,Greece,Europe,0.893
+2022,Grenada,Latin America and the Caribbean,0.793
+2022,Guatemala,Latin America and the Caribbean,0.629
+2022,Guinea,Africa,0.471
+2022,Guinea-Bissau,Africa,0.483
+2022,Guyana,Latin America and the Caribbean,0.742
+2022,Haiti,Latin America and the Caribbean,0.552
+2022,Honduras,Latin America and the Caribbean,0.624
+2022,Hungary,Europe,0.851
+2022,Iceland,Europe,0.959
+2022,India,Asia,0.644
+2022,Indonesia,Asia,0.713
+2022,Iran (Islamic Republic of),Asia,0.78
+2022,Iraq,Asia,0.673
+2022,Ireland,Europe,0.95
+2022,Israel,Asia,0.915
+2022,Italy,Europe,0.906
+2022,Jamaica,Latin America and the Caribbean,0.706
+2022,Japan,Asia,0.92
+2022,Jordan,Asia,0.736
+2022,Kazakhstan,Asia,0.802
+2022,Kenya,Africa,0.601
+2022,Kiribati,Oceania,0.628
+2022,Kuwait,Asia,0.847
+2022,Kyrgyzstan,Asia,0.701
+2022,Lao People's Democratic Republic,Asia,0.62
+2022,Latvia,Europe,0.879
+2022,Lebanon,Asia,0.723
+2022,Lesotho,Africa,0.521
+2022,Liberia,Africa,0.487
+2022,Libya,Africa,0.746
+2022,Liechtenstein,Europe,0.942
+2022,Lithuania,Europe,0.879
+2022,Luxembourg,Europe,0.927
+2022,Madagascar,Africa,0.487
+2022,Malawi,Africa,0.508
+2022,Malaysia,Asia,0.807
+2022,Maldives,Asia,0.762
+2022,Mali,Africa,0.41
+2022,Malta,Europe,0.915
+2022,Marshall Islands,Oceania,0.731
+2022,Mauritania,Africa,0.54
+2022,Mauritius,Africa,0.796
+2022,Mexico,Latin America and the Caribbean,0.781
+2022,Micronesia (Federated States of),Oceania,0.634
+2022,Monaco,Europe,0.8831190476190477
+2022,Mongolia,Asia,0.741
+2022,Montenegro,Europe,0.844
+2022,Morocco,Africa,0.698
+2022,Mozambique,Africa,0.461
+2022,Myanmar,Asia,0.608
+2022,Namibia,Africa,0.61
+2022,Nauru,Oceania,0.696
+2022,Nepal,Asia,0.601
+2022,Netherlands,Europe,0.946
+2022,New Zealand,Oceania,0.939
+2022,Nicaragua,Latin America and the Caribbean,0.669
+2022,Niger,Africa,0.394
+2022,Nigeria,Africa,0.548
+2022,Norway,Europe,0.966
+2022,Oman,Asia,0.819
+2022,Pakistan,Asia,0.54
+2022,Palau,Oceania,0.797
+2022,Panama,Latin America and the Caribbean,0.82
+2022,Papua New Guinea,Oceania,0.568
+2022,Paraguay,Latin America and the Caribbean,0.731
+2022,Peru,Latin America and the Caribbean,0.762
+2022,Philippines,Asia,0.71
+2022,Poland,Europe,0.881
+2022,Portugal,Europe,0.874
+2022,Qatar,Asia,0.875
+2022,Republic of Korea,Asia,0.929
+2022,Republic of Moldova,Europe,0.763
+2022,Romania,Europe,0.827
+2022,Russian Federation,Europe,0.821
+2022,Rwanda,Africa,0.548
+2022,Saint Kitts and Nevis,Latin America and the Caribbean,0.838
+2022,Saint Lucia,Latin America and the Caribbean,0.725
+2022,Saint Vincent and the Grenadines,Latin America and the Caribbean,0.772
+2022,Samoa,Oceania,0.702
+2022,San Marino,Europe,0.867
+2022,Sao Tome and Principe,Africa,0.613
+2022,Saudi Arabia,Asia,0.875
+2022,Senegal,Africa,0.517
+2022,Serbia,Europe,0.805
+2022,Seychelles,Africa,0.802
+2022,Sierra Leone,Africa,0.458
+2022,Singapore,Asia,0.949
+2022,Slovakia,Europe,0.855
+2022,Slovenia,Europe,0.926
+2022,Solomon Islands,Oceania,0.562
+2022,Somalia,Africa,0.38
+2022,South Africa,Africa,0.717
+2022,South Sudan,Africa,0.381
+2022,Spain,Europe,0.911
+2022,Sri Lanka,Asia,0.78
+2022,State of Palestine,Asia,0.716
+2022,Sudan,Africa,0.516
+2022,Suriname,Latin America and the Caribbean,0.69
+2022,Swaziland,Africa,0.61
+2022,Sweden,Europe,0.952
+2022,Switzerland,Europe,0.967
+2022,Syrian Arab Republic,Asia,0.557
+2022,Tajikistan,Asia,0.679
+2022,Thailand,Asia,0.803
+2022,The former Yugoslav Republic of Macedonia,Europe,0.765
+2022,Timor-Leste,Asia,0.566
+2022,Togo,Africa,0.547
+2022,Tonga,Oceania,0.739
+2022,Trinidad and Tobago,Latin America and the Caribbean,0.814
+2022,Tunisia,Africa,0.732
+2022,Turkey,Asia,0.855
+2022,Turkmenistan,Asia,0.744
+2022,Tuvalu,Oceania,0.653
+2022,Uganda,Africa,0.55
+2022,Ukraine,Europe,0.734
+2022,United Arab Emirates,Asia,0.937
+2022,United Kingdom,Europe,0.94
+2022,United Republic of Tanzania,Africa,0.532
+2022,United States,Northern America,0.927
+2022,Uruguay,Latin America and the Caribbean,0.83
+2022,Uzbekistan,Asia,0.727
+2022,Vanuatu,Oceania,0.614
+2022,Venezuela (Bolivarian Republic of),Latin America and the Caribbean,0.699
+2022,Viet Nam,Asia,0.726
+2022,Yemen,Asia,0.424
+2022,Zambia,Africa,0.569
+2022,Zimbabwe,Africa,0.55
