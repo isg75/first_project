@@ -1,0 +1,15 @@
+input_data:
+ df1: "../data/raw/renewables_data.csv"
+ df2: "../data/raw/gdp.csv"
+ df3: "../data/raw/pop.csv"
+ df4: "../data/raw/CAR_gdp_pop.csv"
+ file1: "../data/raw/energy_co2_data.csv"
+ file2: "../data/raw/e_co2_codebook.csv"
+ file3: "../data/raw/wregion_mapping.csv"
+ 
+
+output_data:
+  df1: "../data/clean/renew.csv"
+  df2: "../data/clean/gdp_pop.csv"
+  df3: "../data/clean/final_df.csv"
+  file1: "../data/clean/energy_co2_data_cleaned.csv"
