@@ -1,5 +1,6 @@
 input_data:
-  file: "../data/raw/raw_data_file.csv"
+  file: "../data/raw/amazon.csv"
 
 output_data:
-  file: "../data/clean/cleaned_data_file.csv"
+  file: "../data/clean/amazon_cleaned.csv"
+  file2: "../data/clean/amazon_cleaned2.csv"
