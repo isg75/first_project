@@ -1,77 +1,125 @@
-# Project overview
-...
+# Project name: Amazon Marketplace Decoding
 
-# Installation
+# Project Overview
+This project analyzes an Amazon product dataset (source: Kaggle) to understand how pricing, discounting, and market saturation influence customer satisfaction.
+The goal is to validate or refute three business‑driven hypotheses using exploratory data analysis, visualization, and statistical reasoning.
 
-1. **Clone the repository**:
+# Business Hypotheses
+Hypothesis 1 — Premium Pricing Signals Premium Quality
+Higher product prices naturally signal higher quality, leading to better user sentiment.
 
-```bash
-git clone https://github.com/YourUsername/repository_name.git
-```
+## This analysis explores:
 
-2. **Install UV**
+### Hypothesis 1 — 
+- How reviewer sentiment varies across price segments
 
-If you're a MacOS/Linux user type:
+- Whether premium products consistently receive higher rating
 
-```bash
-curl -LsSf https://astral.sh/uv/install.sh | sh
-```
+- How price influences perceived value and user experience?
 
-If you're a Windows user open an Anaconda Powershell Prompt and type :
+### Hypothesis 2 — 
+- Discounts Act as Emotional Anchors
+Large discounts create a psychological “deal effect,” increasing customer satisfaction and ratings.
 
-```bash
-powershell -ExecutionPolicy ByPass -c "irm https://astral.sh/uv/install.ps1 | iex"
-```
+This analysis investigates:
 
-3. **Create an environment**
+- Whether higher discount percentages correlate with higher ratings
 
-```bash
-uv venv 
-```
+- Whether discount‑driven purchases show inflated sentiment
 
-3. **Activate the environment**
+- How discount depth affects rating distribution
 
-If you're a MacOS/Linux user type (if you're using a bash shell):
+### Hypothesis 3 —
+- Underserved Niches Show High Review Volume but Low Satisfaction
+- Categories with few products but many reviews and low ratings indicate unmet customer needs.
 
-```bash
-source ./venv/bin/activate
-```
+## This analysis identifies:
 
-If you're a MacOS/Linux user type (if you're using a csh/tcsh shell):
+Categories with low product availability but high engagement
 
-```bash
-source ./venv/bin/activate.csh
-```
+Segments where customers express dissatisfaction despite high demand
 
-If you're a Windows user type:
+Potential opportunities for new product development
 
-```bash
-.\venv\Scripts\activate
-```
+# Repository Structure
+├── README.md                                   <- Project overview and business roadmap
+├── data/
+│   └── amazon.csv                              <- Raw source dataset from Kaggle
+├── notebooks/
+   └── eda_claire.ipynb                         <- Exploratory data analysis & custom plotting pipeline
+   └── explore_clean_data_zidene.ipynb          <- Exploratory data analysis & custom plotting pipeline
+   └── functions.py                             <- all functions used in the project
+├── slides/
+   └── project_slides url                       <- Project presentation slides 
 
-4. **Install dependencies**:
+└── figures/
+    ├── fig1_price_vs_rating.png                <- Price segmentation bar charts
+    ├── fig2_discount_trap.png                  <- Dual-axis discount volume/sentiment cliff
+    └── fig3_niche_quality_price.png            <- Opportunity scoring & niche candidate analysis
+    ├── fig4_categories_rating                  <- User ratings by prodcut category
+    └── fig5_rating_distribution_by_price.png   <- Evaluating rating with regards to product pricing
 
-```bash
-uv pip install -r requirements.txt
-```
+project_slides url: https://docs.google.com/presentation/d/1or2I0dxIeo96H9ww6bakcm8ZBFywKj_Gzh_ZptvTnnY/edit?slide=id.g3e4aa31e4e8_0_1#slide=id.g3e4aa31e4e8_0_1
+# Tools & Libraries
+pandas,matplotlib.pyplot, seaborn, numpy
 
-# Questions 
-...
+Jupyter Notebook
 
-# Dataset 
-...
+Kaggle dataset (Amazon product metadata + ratings)
 
-## Main dataset issues
+Git for version control
 
-- ...
-- ...
-- ...
+# Methodology
+- Data ingestion from Kaggle
 
-## Solutions for the dataset issues
-...
+- Cleaning & preprocessing
 
-# Conclussions
-...
+- Handling missing values
 
-# Next steps
-...
+- Creating price and rating segments
+
+- Normalizing discount rates
+
+- Exploratory Data Analysis
+
+- Sentiment distribution
+
+- Price vs rating relationships
+
+- Discount vs rating correlations
+
+- Hypothesis testing
+
+- Visual evidence
+
+- Statistical indicators
+
+# Insights & recommendations
+
+## Key Findings (Summary)
+### Hypothesis 1 — 
+Premium products show higher proportions of excellent ratings and fewer poor reviews, indicating that price positively influences perceived quality.
+
+### Hypothesis 2 — 
+Large discounts correlate with slightly higher ratings, but the effect is not uniform across categories. Emotional anchoring exists but is not the dominant driver.
+
+### Hypothesis 3 —
+Several categories show low product counts, high review volume, and low satisfaction, signaling underserved niches with strong market potential.
+
+# How to Run the Project
+Place raw data in data/raw/
+
+Run cleaning scripts or notebooks to generate data/cleaned/
+
+Open notebooks in /notebooks to reproduce analysis
+
+Import helper functions from src/functions.py
+
+Example:
+
+python
+from src.functions import segment_price, plot_rating_distribution
+
+# Data Source
+Dataset obtained from Kaggle.com  
+https://www.kaggle.com/datasets/talalhakem/amazon

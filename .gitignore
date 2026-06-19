@@ -6,3 +6,5 @@ notebooks/.env
 notebooks/.DS_Store
 .DS_Store
 *.in
+data/raw/amazon.csv
+data/clean/amazon_clean.csv
