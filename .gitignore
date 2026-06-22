@@ -1,6 +1,7 @@
 .ipynb_checkpoints/
 .venv/
 .env
+data/*/*.csv
 notebooks/.ipynb_checkpoints/
 notebooks/.env
 notebooks/.DS_Store

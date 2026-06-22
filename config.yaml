@@ -1,5 +1,12 @@
 input_data:
   file: "../data/raw/raw_data_file.csv"
+  file_alex: "../data/raw/WB_HCI_WIDEF.csv"
+  file_bf1: "../data/raw/WB_WDI_WIDEF.CSV"
+  file_bf2: "../data/raw/WB_HCI_WIDEF.CSV"
+  file_bf3: "../data/raw/WB_HCP_EMP_2WAP_A_WIDEF.CSV"
+
 
 output_data:
   file: "../data/clean/cleaned_data_file.csv"
+  file_alex: "../data/clean/cleaned_wb_hci_WIDEF.csv"
+
