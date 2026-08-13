@@ -1,6 +1,6 @@
-# �� Streaming Wars: Uncovering Content Strategies of Netflix and Prime Video
+#  Streaming Wars: Uncovering Content Strategies of Netflix and Prime Video
 
-## �� Business Problem
+##  Business Problem
 
 With fierce competition in the streaming industry, data-driven decisions are crucial. 
 Our team set out to uncover how content strategies differ between Netflix and Amazon Prime Video, focusing on content maturity, duration trends, and genre diversity.
@@ -13,7 +13,7 @@ We used data wrangling, EDA, and visual analysis to test and support these hypot
 
 ---
 
-## �� Dataset
+##  Dataset
 
 - **Source:** Kaggle – Netflix and Amazon Prime Video datasets
 - **Records:** Thousands of movies and TV shows
@@ -21,7 +21,7 @@ We used data wrangling, EDA, and visual analysis to test and support these hypot
 
 ---
 
-## �� Data Cleaning & Preparation
+##  Data Cleaning & Preparation
 
 Performed in Jupyter notebooks using Python (pandas):
 
@@ -33,7 +33,7 @@ Performed in Jupyter notebooks using Python (pandas):
 
 ---
 
-## �� Database Structure
+##  Database Structure
 
 Implemented with relational integrity across combined Netflix and Prime datasets.
 
@@ -48,7 +48,7 @@ Relational integrity ensured via foreign key constraints.
 
 ---
 
-## ��️ Technologies Used
+##  Technologies Used
 
 - Python (pandas, seaborn, matplotlib)
 - Jupyter Notebook
@@ -57,7 +57,7 @@ Relational integrity ensured via foreign key constraints.
 
 ---
 
-## �� Exploratory Data Analysis & Visuals
+##  Exploratory Data Analysis & Visuals
 
 EDA was conducted using bar charts, line plots, and percentage comparisons.
 
@@ -69,7 +69,7 @@ We produced 5 high-quality visualizations that revealed key content strategies b
 
 ---
 
-## �� Analytical Insights
+##  Analytical Insights
 
 Analysis performed via aggregations and filtering:
 
@@ -81,7 +81,7 @@ Analysis performed via aggregations and filtering:
 
 ---
 
-## �� Project Structure
+##  Project Structure
 
 ```
 project-root/
@@ -104,16 +104,16 @@ project-root/
 
 ---
 
-## ✅ Rubric Alignment
+##  Rubric Alignment
 
-- ✔️ Clear business problem + 2 hypotheses
-- ✔️ Full data cleaning and justification
-- ✔️ Functional relational structure with many-to-many handling
-- ✔️ 5+ business questions answered with visual insights
-- ✔️ 5+ visualizations with interpretation
-- ✔️ Well-structured Git repo with daily commits
-- ✔️ Comprehensive README for reproducibility
-- ✔️ Google Slides presentation included
+-  Clear business problem + 2 hypotheses
+-  Full data cleaning and justification
+-  Functional relational structure with many-to-many handling
+-  5+ business questions answered with visual insights
+-  5+ visualizations with interpretation
+-  Well-structured Git repo with daily commits
+-  Comprehensive README for reproducibility
+-  Google Slides presentation included
 
 ---
 
