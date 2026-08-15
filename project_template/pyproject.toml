@@ -1,0 +1,29 @@
+[project]
+name = "project-template"
+version = "0.1.0"
+description = "Reusable data analytics project template"
+readme = "README.md"
+
+authors = [
+    { name = "Jan Noel Vero", email = "jannoel.vero@gmail.com" }
+]
+
+requires-python = ">=3.9"
+
+dependencies = [
+    "pandas",
+    "numpy",
+    "matplotlib",
+    "seaborn",
+    "jupyter",
+    "ipykernel",
+    "sqlalchemy",
+    "pymysql"
+]
+
+[project.scripts]
+project-template = "project_template:main"
+
+[build-system]
+requires = ["uv_build>=0.12.2,<0.13.0"]
+build-backend = "uv_build"

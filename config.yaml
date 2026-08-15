@@ -1,5 +1,13 @@
 input_data:
-  file: "../data/raw/raw_data_file.csv"
+  airbnb:
+    file: "data/raw/airnb.csv"
+
+  desert:
+    file: "data/raw/airnb_desert.csv"
+
+  luxe:
+    file: "data/raw/airnb_luxe.csv"
 
 output_data:
-  file: "../data/clean/cleaned_data_file.csv"
+  cleaned:
+    file: "data/clean/airbnb_cleaned copy.csv"
