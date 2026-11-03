@@ -1,8 +1,68 @@
-.ipynb_checkpoints/
+
+# --------------------------------------------------
+# Python virtual environments
+# --------------------------------------------------
 .venv/
+.venv-old/
+venv/
+env/
+
+# --------------------------------------------------
+# Python caches and generated files
+# --------------------------------------------------
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.coverage
+htmlcov/
+*.egg-info/
+build/
+dist/
+
+# --------------------------------------------------
+# Jupyter
+# --------------------------------------------------
+.ipynb_checkpoints/
+
+# --------------------------------------------------
+# Environment variables and secrets
+# --------------------------------------------------
 .env
-notebooks/.ipynb_checkpoints/
-notebooks/.env
-notebooks/.DS_Store
+.env.*
+!.env.example
+
+# --------------------------------------------------
+# Anaconda / Conda
+# --------------------------------------------------
+.anaconda/
+.anaconda_projects/
+.conda/
+
+# --------------------------------------------------
+# Operating system files
+# --------------------------------------------------
 .DS_Store
-*.in
+Thumbs.db
+Desktop.ini
+
+# --------------------------------------------------
+# Editor-specific files
+# --------------------------------------------------
+.vscode/
+.idea/
+
+# --------------------------------------------------
+# Temporary files
+# --------------------------------------------------
+*.tmp
+*.bak
+*.swp
+*~
+
+# --------------------------------------------------
+# Project-specific exclusions
+# --------------------------------------------------
+# Add additional patterns here when necessary.
+# Do not exclude all CSV, SQL, notebook or presentation files.

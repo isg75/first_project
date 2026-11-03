@@ -1,77 +1,89 @@
-# Project overview
-...
+# Project Title
 
-# Installation
+*Replace this title with the name of your project.*
 
-1. **Clone the repository**:
+## 1. Project Overview
 
-```bash
-git clone https://github.com/YourUsername/repository_name.git
+Provide a brief description of your project.
+
+Explain:
+
+- What problem are you trying to solve?
+- What are the main objectives of your analysis?
+- What business context motivates the project?
+
+**Final Presentation:** Add a link to your final presentation here when it is available.
+
+## 2. Research Questions
+
+List the main questions your project aims to answer.
+
+1. ...
+2. ...
+3. ...
+
+## 3. Dataset Description
+
+Describe the datasets used in your project.
+
+Include:
+
+- Data sources and their origin.
+- Main variables and their meaning.
+- Dataset size and structure.
+- Any relevant limitations.
+
+### Main Data Quality Issues
+
+Describe the most important data quality problems identified during the initial exploration.
+
+### Data Cleaning and Preparation
+
+Summarize how you addressed these issues and prepared the data for analysis.
+
+## 4. Methodology
+
+Briefly explain your approach, including the main tools and techniques used for data processing, SQL analysis, and visualization.
+
+## 5. Key Findings
+
+Summarize the most relevant findings of your analysis.
+
+Support your conclusions with appropriate evidence and visualizations.
+
+## 6. Conclusions
+
+Explain how your findings address the original research questions.
+
+Highlight any relevant business implications.
+
+## 7. Next Steps
+
+Describe possible improvements, additional analyses, or future work.
+
+## 8. Repository Structure
+
+The project follows this directory structure:
+
+```text
+├── data/
+│   ├── raw/           # Original datasets
+│   └── clean/         # Processed datasets
+├── notebooks/         # Jupyter notebooks
+├── sql_scripts/       # SQL scripts
+├── figures/           # Charts and visualizations
+├── slides/            # Final presentation or link
+├── config.yaml        # Project file paths
+├── pyproject.toml     # Python dependencies
+└── uv.lock            # Locked dependency versions
 ```
 
-2. **Install UV**
+Each directory contains its own README with additional information about file organization and naming conventions.
 
-If you're a MacOS/Linux user type:
+## 9. Team Members
 
-```bash
-curl -LsSf https://astral.sh/uv/install.sh | sh
-```
-
-If you're a Windows user open an Anaconda Powershell Prompt and type :
-
-```bash
-powershell -ExecutionPolicy ByPass -c "irm https://astral.sh/uv/install.ps1 | iex"
-```
-
-3. **Create an environment**
-
-```bash
-uv venv 
-```
-
-3. **Activate the environment**
-
-If you're a MacOS/Linux user type (if you're using a bash shell):
-
-```bash
-source ./venv/bin/activate
-```
-
-If you're a MacOS/Linux user type (if you're using a csh/tcsh shell):
-
-```bash
-source ./venv/bin/activate.csh
-```
-
-If you're a Windows user type:
-
-```bash
-.\venv\Scripts\activate
-```
-
-4. **Install dependencies**:
-
-```bash
-uv pip install -r requirements.txt
-```
-
-# Questions 
-...
-
-# Dataset 
-...
-
-## Main dataset issues
-
-- ...
-- ...
-- ...
-
-## Solutions for the dataset issues
-...
-
-# Conclussions
-...
-
-# Next steps
-...
+| Name | Role | Main Contributions |
+|---|---|---|
+| ... | Project Manager | ... |
+| ... | Team Member | ... |
+| ... | Team Member | ... |

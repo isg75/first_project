@@ -1,3 +1,11 @@
+# Paths are relative to the notebooks/ working directory.
+#
+# Replace the example filenames with your actual dataset filenames.
+#
+# Add as many keys and entries as needed to manage the files used
+# throughout your project (input datasets, processed data, etc.).
+# Use descriptive key names to identify each file clearly.
+
 input_data:
   file: "../data/raw/raw_data_file.csv"
 
