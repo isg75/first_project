@@ -1,15 +1,14 @@
-CREATE DATABASE IF NOT EXISTS awards;
-Use awards;
+create database if not exists awards;
+use awards;
 CREATE TABLE IF NOT EXISTS `albums` (
-	`album_id` BIGINT NOT NULL AUTO_INCREMENT,
+	`album_id` BIGINT NOT NULL,
 	`album_name` VARCHAR(255) NOT NULL,
 	`release_year` BIGINT NOT NULL,
 	PRIMARY KEY(`album_id`)
 );
 
-
 CREATE TABLE IF NOT EXISTS `tracks` (
-	`track_id` VARCHAR(22) NOT NULL,
+	`track_id` VARCHAR(100) NOT NULL,
 	`track_name` VARCHAR(255) NOT NULL,
 	`track_popularity` BIGINT NOT NULL,
 	`album_id` BIGINT NOT NULL,
@@ -18,7 +17,7 @@ CREATE TABLE IF NOT EXISTS `tracks` (
 
 
 CREATE TABLE IF NOT EXISTS `genres` (
-	`genre_id` BIGINT NOT NULL AUTO_INCREMENT,
+	`genre_id` BIGINT NOT NULL,
 	`genre` VARCHAR(255) NOT NULL,
 	PRIMARY KEY(`genre_id`)
 );
@@ -26,14 +25,14 @@ CREATE TABLE IF NOT EXISTS `genres` (
 
 CREATE TABLE IF NOT EXISTS `artists` (
 	`artist_name` VARCHAR(100) NOT NULL,
-	`artist_popularity` TINYINT NOT NULL,
-	`artist_followers` INTEGER NOT NULL,
+	`artist_popularity` BIGINT NOT NULL,
+	`artist_followers` BIGINT NOT NULL,
 	PRIMARY KEY(`artist_name`)
 );
 
 
 CREATE TABLE IF NOT EXISTS `track_artist` (
-	`track_id` VARCHAR(22) NOT NULL,
+	`track_id` VARCHAR(100) NOT NULL,
 	`artist_name` VARCHAR(100) NOT NULL,
 	PRIMARY KEY(`track_id`, `artist_name`)
 );
