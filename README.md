@@ -112,10 +112,10 @@ We used pandas in two Jupyter notebooks to rank eligible entries for the 2026 Tr
 
 ### 2025 Releases (`awards_2025.ipynb`)
 
-1. **Rank artists by followers.** After loading the dataset including all the 2025 records (`last_year_tracks.csv`), we grouped the records by artist and kept the highest recorded Spotify follower count for each artist. We displayed the top 10 and printed the top three with their follower counts.
-2. **Rank tracks by popularity.** We grouped records by track name and artist, calculated the mean track popularity for each group, rounded the scores, and ranked them from highest to lowest. We displayed the top 10 and printed the top three.
-3. **Rank albums by average track popularity.** We grouped records by album name and artist, then used the average popularity of the tracks available for each album as its score. We rounded the scores, displayed the top 10, and printed the top three.
-4. **Compare artists within each genre.** We filtered the data separately for Pop, Hip-Hop, Rock, R&B, Electronic Music, and Country. Within each genre, we calculated and rounded each artist’s average track popularity and displayed the top 10 artists.
+1. **Rank artists by followers.** After loading the dataset including all the 2025 records (`last_year_tracks.csv`), we grouped the records by artist and kept the highest recorded Spotify follower count for each artist. We displayed the top 10 with their follower counts.
+2. **Rank tracks by popularity.** We grouped records by track name and artist, calculated the median track popularity for each group, rounded the scores, and ranked them from highest to lowest. We displayed the top 10.
+3. **Rank albums by average track popularity.** We grouped records by album name and artist, then used the median popularity of the tracks available for each album as its score. We rounded the scores, displayed the top 10.
+4. **Compare artists within each genre.** We filtered the data separately for Pop, Hip-Hop, Rock, R&B, Electronic Music, and Country. Within each genre, we calculated and rounded each artist’s median track popularity and displayed the top 10 artists.
 
 ### 10th Anniversary Awards (`awards_last_decade.ipynb`)
 
