@@ -140,9 +140,11 @@ We used MySQL to create and populate a relational database based on the structur
 
 ### Annual Awards — 2025 Releases
 
+### Annual Awards — 2025 Releases
+
 #### Artist of the Year
 
-| Rank | Artist | Spotify followers |
+| Rank | Finalist | Spotify followers |
 |---:|---|---:|
 | 1 | Taylor Swift | 145,542,136 |
 | 2 | Ed Sheeran | 122,802,777 |
@@ -150,60 +152,79 @@ We used MySQL to create and populate a relational database based on the structur
 
 #### Track of the Year
 
-| Track | Artist | Track popularity |
-|---|---|---:|
-| Golden | HUNTR/X | 99 |
-| Opalite | Taylor Swift | 97 |
-| Man I Need | Olivia Dean | 95 |
-| Elizabeth Taylor | Taylor Swift | 95 |
+| Position | Track | Artist | Track popularity |
+|---:|---|---|---:|
+| 1 | Golden | HUNTR/X | 99 |
+| 2 | Opalite | Taylor Swift | 97 |
+| 3 (tie) | Man I Need | Olivia Dean | 95 |
+| 3 (tie) | Elizabeth Taylor | Taylor Swift | 95 |
+
+Both tracks tied for third place are included.
 
 #### Album of the Year
 
-| Top-ranked release | Artist | Average track popularity |
-|---|---|---:|
-| Man I Need | Olivia Dean | 95 |
+| Rank | Release | Artist | Median track popularity |
+|---:|---|---|---:|
+| 1 | Man I Need | Olivia Dean | 95 |
+| 2 | KPop Demon Hunters (Soundtrack from the Netflix Film) | Saja Boys | 94 |
+| 3 | The Life of a Showgirl | Taylor Swift | 93 |
 
-The ranking includes multiple release types. Album eligibility for *Man I Need* still needs to be verified.
+The ranking groups releases by album title and artist. Release-type eligibility still needs to be checked before confirming the album finalists.
 
 #### 2025 Genre Awards
 
-The current notebook ranks artists by their average track popularity within each genre. The tables below show the leading artist in each category. Individual track winners still require a track-level ranking.
+These rankings compare artists using the median popularity of their eligible tracks, rounded to whole numbers. Individual track winners still require a track-level ranking.
 
 ##### Pop
 
-| Top-ranked artist | Average track popularity (rounded) |
-|---|---:|
-| HUNTR/X | 94 |
+| Position | Artist | Median track popularity |
+|---:|---|---:|
+| 1 | HUNTR/X | 92 |
+| 2 (tie) | BLACKPINK | 90 |
+| 2 (tie) | KATSEYE | 90 |
+| 2 (tie) | Olivia Dean | 90 |
+
+All three artists tied behind HUNTR/X are included.
 
 ##### Hip-Hop
 
-| Top-ranked artist | Average track popularity (rounded) |
-|---|---:|
-| Bad Bunny | 90 |
+| Rank | Artist | Median track popularity |
+|---:|---|---:|
+| 1 | Bad Bunny | 90 |
+| 2 | Drake | 84 |
+| 3 | Playboi Carti | 79 |
 
 ##### Rock
 
-| Top-ranked artist | Average track popularity (rounded) |
-|---|---:|
-| Tame Impala | 79 |
+| Rank | Artist | Median track popularity |
+|---:|---|---:|
+| 1 | Tame Impala | 80 |
+| 2 | Mariah the Scientist | 70 |
+| 3 | Royel Otis | 63 |
 
 ##### R&B
 
-| Top-ranked artist | Average track popularity (rounded) |
-|---|---:|
-| DJ Japa NK | 85 |
+| Rank | Artist | Median track popularity |
+|---:|---|---:|
+| 1 | DJ Japa NK | 85 |
+| 2 | Chris Brown | 79 |
+| 3 | Chris Grey | 76 |
 
 ##### Electronic Music
 
-| Top-ranked artist | Average track popularity (rounded) |
-|---|---:|
-| Disco Lines | 92 |
+| Rank | Artist | Median track popularity |
+|---:|---|---:|
+| 1 | Disco Lines | 92 |
+| 2 | Fuerza Regida | 87 |
+| 3 | David Guetta | 79 |
 
 ##### Country
 
-| Top-ranked artist | Average track popularity (rounded) |
-|---|---:|
-| Taylor Swift | 91 |
+| Position | Artist | Median track popularity |
+|---:|---|---:|
+| 1 | Taylor Swift | 93 |
+| 2 (tie) | Luke Combs | 76 |
+| 2 (tie) | Megan Moroney | 76 |
 
 ### 10th Anniversary Awards — 2015–2025 Releases
 
@@ -290,11 +311,24 @@ first_project/
 │       ├── last_decade_tracks.csv      # 2015–2025 releases
 │       └── other_2025.csv              # Genre mapping check for 2025 records with genre Other
 ├── notebooks/
-│   ├── data_cleaning.ipynb
-│   ├── awards_2025.ipynb
-│   └── awards_last_decade.ipynb
-├── sql_scripts/                        # Database creation, table population, analysis queries, and DrawDB diagram
-└── README.md
+│   ├── data_cleaning.ipynb             # General cleaning & datasets export
+│   ├── awards_2025.ipynb               # 2025 Awards EDA
+│   ├── awards_last_decade.ipynb        # 2015-2025 Awards EDA
+│   └── sql_database_preparation.ipynb  # SQL Database tables dataset export
+├── sql_scripts/
+│   ├── database_populate.sql           # SQL Database population
+│   ├── tracks_sql.csv                  # Tracks SQL table population
+│   ├── track_artist_sql.csv            # Track_artist SQL table population
+│   ├── genres_sql.csv                  # Genres SQL table population
+│   ├── create_database.sql             # Database creation
+│   ├── artist_sql.csv                  # Artist SQL table population
+│   ├── artist_genre_sql.csv            # Artist_genre SQL table population
+│   ├── album_sql.csv                   # Album SQL table population
+│   └── awards_drawdb.png               # DrawDB diagram
+├── uv.lock
+├── pyproject.toml
+├── config.yaml
+└── README.md                           # README file with project details
 ```
 
 ## How to Run the Project
