@@ -88,7 +88,7 @@ Note: Although the description of the dataset published on Kaggle, mentions the 
 We use release dates to determine award eligibility, genre labels to group tracks, and popularity scores and artist follower counts to rank entries. The 2026 annual awards focus on music released in 2025, while the 10th anniversary awards consider releases from 2015 through 2025, inclusive.
 
 ## Database Design
-We designed the database in DrawDB and exported the schema as a SQL script. Both the SQL script and the DrawDB diagram image are in the project folder (first_project/sql_scripts)
+We designed the database in DrawDB and exported the schema as a SQL script. Both the SQL script and the DrawDB diagram image are in the project folder (first_project/sql_scripts). More detailed information can be found in the dedicated SQL section below.
 
 ## Data Preparation
 We used `data_cleaning.ipynb` to combine the two source files, standardize their fields, and prepare the datasets for the annual and anniversary awards.
@@ -130,12 +130,13 @@ We used pandas in two Jupyter notebooks to rank eligible entries for the 2026 Tr
 7. **Calculate the artist score and rank the top 10.** We scaled follower counts to 0–100 using the highest count among artists in this ranking. We applied the same weighting (80% median track popularity and 20% scaled follower score) and then sorted artists by their combined score and displayed the top 10.
 
 ## SQL Analysis
-- Business questions answered with SQL.
-- Selected query results and what they show.
-- Link to the full SQL queries.
+We used MySQL to create and populate a relational database based on the structure defined in our Entity Relationship Diagram (ERD). The database was designed to organise the Spotify data into related tables, reducing data duplication and establishing relationships between tracks, albums, artists, and genres.
 
-## Key Findings
-## Key Findings
+1. **Design the database structure:** We created an ERD using DrawDB to define the database structure according to the source data and the project's requirements. This allowed us to identify the necessary tables, primary keys, foreign keys, and relationships before creating the database. Six tables were developed: albums, tracks, artists, genres, track_artist, and artist_genre. The two relationship tables use composite primary keys to manage the cardinality between tracks and artists, and artists and genres.
+2. **Create the database and tables.** Based on the ERD, we exported the SQL schema and used it to create a database named `awards`. We saved the creation script in create_database, which contains the SQL statements required to create the database and its six tables. We also established foreign key constraints to connect the related tables and used `ON UPDATE CASCADE` and `ON DELETE CASCADE` to maintain referential integrity when referenced records are updated or deleted.
+3. **Prepare the data for import.** Using Python, we generated separate CSV files for each database table, containing only the required columns. For tables requiring new content IDs that were not available in the original dataset, we added an incremental index generation step in Python to create unique IDs before importing the data, rather than relying on `SQL AUTO_INCREMENT`.
+4. **Populate the database.** We initially attempted to import the CSV files using the MySQL Table Data Import Wizard. However, the import process encountered issues with file encoding and special characters present in some of the records. To overcome this, we created a dedicated SQL script named database_populate, using `LOAD DATA LOCAL INFILE` to import the CSV files directly into their corresponding tables. We configured the imports to use utf8mb4 encoding, semicolons as field delimiters, double quotes as text enclosures, and to skip the header rows. We also followed the table dependency order to ensure that referenced records were available before populating tables containing foreign keys.
+5. **EDA and business analysis**. Although we created and populated the SQL database, all the findings required to answer the project's business questions were obtained directly through Python and pandas. Given the nature of this exploratory data analysis, there was no need to perform additional analysis using SQL.
 
 ### Annual Awards — 2025 Releases
 
@@ -297,11 +298,13 @@ first_project/
 ```
 
 ## How to Run the Project
-
 1. Clone the repository and open the `first_project/` folder.
 2. Install pandas and JupyterLab with `python -m pip install pandas jupyterlab`, then start JupyterLab with `jupyter lab`.
 3. Run all cells in `notebooks/data_cleaning.ipynb` to merge and clean the source data and generate the analysis CSVs.
 4. Run `notebooks/awards_2025.ipynb` for the annual award rankings and `notebooks/awards_last_decade.ipynb` for the anniversary rankings.
-5. In MySQL Workbench, run the database creation script from `sql_scripts/`.
-6. Run the table population scripts. Populate tables referenced by foreign keys before the tables that depend on them.
-7. Run the SQL analysis queries from `sql_scripts/`.
+
+## Database Setup and Workflow (MySQL Workbench)
+1. **MySQL Configuration:** Ensure that `LOCAL INFILE` is enabled in your MySQL server and permitted by your MySQL Workbench connection before importing the data.
+2. **Create the database:** Open MySQL Workbench and execute `sql_scripts/create_database.sql` to create the awards database and its tables.
+3. **Populate the database:** Execute `sql_scripts/database_populate.sql` to import the CSV files into their corresponding tables. The script uses relative paths to locate the CSV files in the `sql_scripts/` folder. Follow the order of the import statements in the script to ensure that table dependencies and foreign key constraints are respected.
+4. Check that the data has been successfully imported into all six tables using MySQL Workbench.
