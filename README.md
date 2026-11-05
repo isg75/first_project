@@ -325,6 +325,8 @@ first_project/
 │   ├── artist_genre_sql.csv            # Artist_genre SQL table population
 │   ├── album_sql.csv                   # Album SQL table population
 │   └── awards_drawdb.png               # DrawDB diagram
+├── slides/
+│   └── presentation.pptx               # SQL Database population
 ├── uv.lock
 ├── pyproject.toml
 ├── config.yaml
@@ -338,7 +340,7 @@ first_project/
 4. Run `notebooks/awards_2025.ipynb` for the annual award rankings and `notebooks/awards_last_decade.ipynb` for the anniversary rankings.
 
 ## Database Setup and Workflow (MySQL Workbench)
-1. **MySQL Configuration:** Ensure that `LOCAL INFILE` is enabled in your MySQL server and permitted by your MySQL Workbench connection before importing the data.
+1. **MySQL Configuration:** Ensure that `LOCAL INFILE` is enabled on your MySQL server and permitted by your MySQL Workbench connection before importing the data.
 2. **Create the database:** Open MySQL Workbench and execute `sql_scripts/create_database.sql` to create the awards database and its tables.
 3. **Populate the database:** Execute `sql_scripts/database_populate.sql` to import the CSV files into their corresponding tables. The script uses relative paths to locate the CSV files in the `sql_scripts/` folder. Follow the order of the import statements in the script to ensure that table dependencies and foreign key constraints are respected.
 4. Check that the data has been successfully imported into all six tables using MySQL Workbench.
