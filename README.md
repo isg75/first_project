@@ -55,160 +55,124 @@ If you're a Windows user type:
 uv pip install -r requirements.txt
 ```
 
-Business case
-(Recommended) Business Case: Artist &Repertoire and Music Portfolio Optimization Strategy
-Client / Role: Senior management at a global record label or music agency (A&R – Artist and Repertoire division).
+5. # Project Context
 
-Business Problem: The label seeks to understand which factors (e.g., artist follower counts, song popularity, presence of explicit content) drive sustained global success. Decision-makers require data-driven guidance to determine which types of artists and song formats are worth investing in moving forward.
+**Project:** Artist & music portfolio optimization strategy based on Spotify data
+
+**Client / Role:** Senior management at a global record label or music agency (A&R – Artist and Repertoire division).
+
+**Business Problem:** The label seeks to understand which factors (e.g., artist follower counts, song popularity, presence of explicit content) drive sustained global success. Decision-makers require data-driven guidance to determine which types of artists and song formats are worth investing in moving forward.
 Identifying the ideal qualities of the next superstar(s)
 
-* 3 Ideal Superstar Profiles
+**Outcome:** Proposal of 3 artist profiles / archetypes for future investments
 
-Hypotheses:
 
+6. # Questions 
+Does artist popularity correlate with track popularity?
+Does artist follower count relate to track popularity?
+Do singles outperform track on albums?
+Do certain genres outperform others?
+Are up-and-coming artist worth analyzing?
+Is there an optimal track length per genre?
+
+7. ## Hypotheses
 * Certain genres from past 10 years will be more popular than others and better for our artist profiles
 * Singles performance better than albums in the past 10 years (bar chart)
 * Artist with more followers have more popular tracks (scatter plot)
 * Track popularity and artist popularity are largely correlated (scatter plot)
 
 
+8. # Dataset 
+* spotify_data clean.csv
+* track_data_final.csv
 
-DATA CLEANING:
+9. ## Main dataset issues
+* Two CSV files that appeared to be duplicates
+* artist_genres missing from many artists
+* Many genres and subgenres
 
-* Are the Excels the same data? Or different data? 
-    * Columns, names, contents, and data types
-    * Merge tables
-* Clean up the data in the "cleaned" 
-    * isolate "years" from "album_release_date" → Right(...., 4)
-    * artist_genres
-        * try to enrich and cluster into high_level_genres
-        * Charles enriched ~2000 songs_id with artist_genre
-        * Gebra sorted roughly ~4000 with parsing
-        * Total should be roughly ~6000 songs with genres for analysis
-    * remove columns
-        * Explicit
-        * track number
+10. ## Solutions for the dataset issues
+* Comparative analysis between csv to determine unique data
+    * Shape verification
+    * Basic structure alignment (matching columns)
+    * Data type comparison
+    * Full content comparison (exact match check)
+    * Bidirectional containment check (df1 vs. df2)
+        * Result: spotify_data clean.csv is a subset of track_data_final.csv
 
+* Artist_genres
+    * Artist with genre data
+        * Isolate artists with genre data and review genre
+        * Classify into main_genres using key words
+    * Artists missing genre data
+        * Isolate artists with missing genre data
+        * Group artists to determine number of unique artists and songs per artist
+        * Enrich artist with 3 or more songs
+        * Create a separate dataframe with enriched data to enrich original dataset
 
-EDA:
+* Isolate "years" from "album_release_date" → Right(...., 4)
 
-    * Categorical
-        * album_type - DEEP DIVE to understand statistics and distribution of song-popularity
-            * Single
-            * Album
-            * Compilation
-        * artist_genre - use current data
-            * standard statistics, averages, describe
-            * song popularity
-        * Describe (Numerical)
-            * Duration - We'll focus on this once we define genres of artists
-            * Artist Popularity - We'll focus on this for touring together
-            * Year - 
+* Remove unnecessary columns
+    * Explicit
+    * track number
 
+11. # EDA for Dataset
+* Scatter plot
+    * artist_followers vs track_popularity
+    * artist_popularity vs track_popularity
 
-#Business case
-(Recommended) Business Case: Artist &Repertoire and Music Portfolio Optimization Strategy
-Client / Role: Senior management at a global record label or music agency (A&R – Artist and Repertoire division).
+* Line graph
+    * genre and average artist popularity vs years
+    * genre and song popularity vs years
 
-#Business Problem: 
-The label seeks to understand which factors (e.g., artist follower counts, song popularity, presence of explicit content) drive sustained global success. Decision-makers require data-driven guidance to determine which types of artists and song formats are worth investing in moving forward.
-Identifying the ideal qualities of the next superstar(s)
+* Tables
+    * track type comparision: album, singles and compilation
+    * track type comparison within genres: album, singles and compilation
 
-#OUTCOME
-3 Ideal Superstar Profiles
-
-
-DATA CLEANING:
-
-
-
-
-#EDA:
-
-    * Categorical
-        * album_type - DEEP DIVE to understand statistics and distribution of song-popularity
-            * Single
-            * Album
-            * Compilation
-        * artist_genre - use current data
-            * standard statistics, averages, describe
-            * song popularity
-        * Describe (Numerical)
-            * Duration - We'll focus on this once we define genres of artists
-            * Artist Popularity - We'll focus on this for touring together
-            * Year - 
+12. ## Conclusions from EDA
+    * Track popularity and artist popularity are largely correlated
+    * Track popularity and artist followers are not always correlated
+    * Albums on average support song popularity than singles
+    * Artist who release albums have more followers than artist with singles
+    * Generally, artist followers count grows rapidly when artist popularity is great than or equal to 40 and follower is between 300k and 500k 
+    * Pop followed by hip-hop/rap are the most "popular" genres
 
 
-
-#FOCUS TOMORROW AND DISCUSS TO REFINE
-
-#INSIGHTS FROM DAY 1
-
-* Artist with more followers have more popular tracks (scatter plot)
-* Track popularity and artist popularity are largely correlated (scatter plot)
-* Albums generally support song popularity than singles
-* Artist who release albums have more followers than artist with singles
-* Generally, at are will experience the fastest growth once popularity is >= 40 (roughly)
-* Pop followed by hip-hop/rap are the most "popular" genres
-
-
-#WORK TO BE DONE
-
-* DBDraw between:
-    * artist-genre dictionary
-    * cleaned spotify data (filtered for past 10 years)
-* We need to make a bridge table combining these two tables with our final results
-
-
-DEFINE OUR FUTURE SUPERSTAR ARCHETYPE
-
-* Artist popularity: 35 to 65
-* Top 3 genres
-* Singles vs albums per genre
-* Optimal track length
-* Similar artists to tour with
+13. # Project Recommendations
+* Based on the data, we chose the three most consistent genres for durable artists and generated sonic profiles with Suno per our clients request.
+    * Pop
+    * Indie / Alternative
+    * R&B / Soul
+* Artist #1: NOVA - Pop Powerhouse
+    * Genre: Pop
+    * Best Format: Album + Singles before Albums
+    * Hit length: 3 min 23 seconds
+    * Sound Signature: Soulful yet danceable. Embodies love, belonging, and courage. Exceptional as a solo act or with a full band.
+    * Sonic sample: https://suno.com/s/YUhA1dFDSDKPbcH5   
+* Artist #2: Ellis Vance - Indie singer/songwriter
+    * Genre: Indie / Alternative
+    * Best Format: Album
+    * Hit length: 3 min 36 seconds
+    * Sound Signature: Conversational vocals, gentle wavy guitars, warm bass, synths. Written like a diary with a catchy chorus. If it’s not stuck in your head, it’s not his song.
+    * Sonic sample: https://suno.com/s/OhPwVg9VbECSNcsh
+* Artist #3: Sable Bank
+    * Genre: R&B / Soul
+    * Best Format: Album
+    * Hit Length: 3 minutes 25 seconds
+    * Sound Signature: Soft vocals over deep bass  and hazy synths. Intimate verses open into lush harmonies. Edgy and mildly misbehaved.
+    * Sonic sample: https://suno.com/s/hfawD5JlxDbbIWXx
 
 
+14. # Next steps
 
-# Questions 
-Does artist popularity correlate with track popularity?
-Does artist follower count relate to track popularity?
-Do singles outperform album tracks?
-Do certain genres outperform others?
-Is there an optimal track length per genre?
+* Artist Profile Testing - Audio Features & Sonic Profiling
+    * Begin sampling AI created songs with groups to build “sonic profiles” and “build the next new artist”.
 
-# Proposal to answer questions
-* Certain genres from past 10 years will be more popular than others and better for our artist profiles -> Group by
-* Singles performance better than albums in the past 10 years -> bar chart
-* Artist with more followers have more popular tracks -> scatter plot
-* Track popularity and artist popularity are largely correlated -> scatter plot
+* Structural Data Enrichment (Unique IDs & subgenre hierarchy):
+    * Build a more sophisticated data structure to track artists with unique IDs and subgenres + MORE DATA.
 
-# Dataset 
-...
+* Predictive Modeling (Machine learning for track popularity forecasting).
+    * Develop machine learning models to forecast the potential popularity score of unreleased songs ( based on: track features, historical artist performance, and album release formats)
 
-## Main dataset issues
-* Two datasets that are likely duplicates
-* Certain columns unnecessary
-* Dates should be only years
-* 
-
-## Solutions for the dataset issues
-* Are the Excels the same data? Or different data? 
-    * Columns, names, contents, and data types
-    * Merge tables
-* Clean up the data in the "cleaned" 
-    * isolate "years" from "album_release_date" → Right(...., 4)
-    * artist_genres
-        * try to enrich and cluster into high_level_genres
-        * Charles enriched ~2000 songs_id with artist_genre
-        * Gebra sorted roughly ~4000 with parsing
-        * Total should be roughly ~6000 songs with genres for analysis
-    * remove columns
-        * Explicit
-        * track number
-
-# Conclussions
-...
-
-# Next steps
-...
+* External Data Integration (Social media early detection).
+    * Integrate social media metrics and external streaming signals (e.g., TikTok trends, Instagram engagement rates, Shazam charts) to identify fast-growing, up-and-coming artists before mainstream Spotify metrics reflect their growth.
