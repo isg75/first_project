@@ -4,5 +4,7 @@
 notebooks/.ipynb_checkpoints/
 notebooks/.env
 notebooks/.DS_Store
+data/raw/
+data/clean/
 .DS_Store
 *.in
